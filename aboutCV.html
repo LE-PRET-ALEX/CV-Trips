@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/aboutCV.css">
+    <title>CVTrip</title>
+</head>
+<body>
+    
+    <section class="top-section">
+
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="resources/videos/banner_bg_video.mp4" type="video/mp4">
+        </video>
+
+        <header>
+            <nav class="nav_bar">
+                <div class="header_logo">
+                    <img src="resources/logos/newlogonobg.png" alt="Logo CV Trips">
+                    <span>CV TRIPS</span>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
+                        <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
+                        <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
+                    </ul>
+                </div>
+
+                <div class="settings_bar">
+                    <div class="lang_picker">
+                        <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
+                    </div>
+                    <div class="account_search_submenu">
+                        <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+                        <input type="text" id="search_bar" placeholder=" Type search here ...">
+                        <i class="fa-solid fa-user" id="account_icon"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+    </section>
+
+
+    <section id="descricao">
+        <div class="s1-grid">
+            <div class="s1-text">
+                <h2 class="section-title">O Arquipélago de<br/>Cabo Verde</h2>
+                <div class="divider"></div>
+                <p>
+                Cabo Verde é um Estado insular situado no Oceano Atlântico, composto por dez ilhas
+                e vários ilhéus. Com uma área total de 4.033 km², o arquipélago divide-se em dois
+                grupos principais: <strong>Barlavento</strong> (Santo Antão, São Vicente, Santa Luzia,
+                São Nicolau, Sal e Boa Vista) e <strong>Sotavento</strong> (Maio, Santiago, Fogo e Brava).
+                </p>
+                <p>
+                Descoberto e colonizado por navegadores portugueses no século XV, o país tornou-se
+                independente em 1975 e transformou-se numa das democracias mais estáveis do continente
+                africano. A sua posição estratégica entre a Europa, África e as Américas contribuiu
+                historicamente para uma identidade única — marcada pela mestiçagem, pela resiliência
+                e pelo espírito da <em>morabeza</em>.
+                </p>
+                <p>
+                O clima é seco e árido, temperado pela influência marítima, com praias de areia branca
+                e fina, águas cristalinas e paisagens vulcânicas de beleza singular.
+                </p>
+                <div class="stat-row">
+                    <div class="stat">
+                        <div class="num">10</div>
+                        <div class="lbl">Ilhas</div>
+                    </div>
+                    <div class="stat">
+                        <div class="num">600K+</div>
+                        <div class="lbl">Habitantes</div>
+                    </div>
+                    <div class="stat">
+                        <div class="num">4.033</div>
+                        <div class="lbl">km²</div>
+                    </div>
+                    <div class="stat">
+                        <div class="num">1975</div>
+                        <div class="lbl">Independência</div>
+                    </div>
+                </div>
+            </div>
+            <div class="s1-img">
+                <img src="./resources/aboutCV/imageCV.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
+                <div class="img-tag">Arquipélago de Cabo Verde — Atlântico</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- S2: LOCALIZAÇÃO -->
+    <section id="localizacao">
+        <div class="s2-grid">
+        <div class="s2-info">
+            <h2 class="section-title">Localização</h2>
+            <div class="divider"></div>
+            <p>
+            Cabo Verde localiza-se no Oceano Atlântico Norte, a cerca de <strong>570 km</strong>
+            da costa ocidental africana, em frente ao Senegal e à Mauritânia. As ilhas distribuem-se
+            entre as latitudes 14° e 18° Norte e as longitudes 22° e 26° Oeste.
+            </p>
+            <p>
+            A capital, <strong>Praia</strong>, encontra-se na ilha de Santiago, no grupo de Sotavento.
+            São Vicente alberga a segunda maior cidade — <strong>Mindelo</strong> — considerada o polo
+            cultural do arquipélago.
+            </p>
+            <div class="info-list">
+            <div class="list"><strong>Continente:</strong> África</div>
+            <div class="list"><strong>Capital:</strong> Praia</div>
+            <div class="list"><strong>Idioma:</strong> Português / Crioulo</div>
+            <div class="list"><strong>Moeda:</strong> Escudo Cabo-verdiano</div>
+            <div class="list"><strong>Fuso:</strong> UTC-1</div>
+            <div class="list"><strong>Dist. a Portugal:</strong> ~2.700 km</div>
+            </div>
+        </div>
+        <div class="s2-map">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930523.3!2d-24.0!3d16.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939b8399b37d2dfd%3A0x46ac8a038df1f04!2sCabo%20Verde!5e0!3m2!1spt!2scv!4v1710000000000"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de Cabo Verde">
+            </iframe>
+        </div>
+        </div>
+    </section>
+
+    <!-- S3: ILHAS -->
+    <section id="ilhas">
+        <div class="ilhas-header">
+        <h2 class="section-title">As Ilhas de Cabo Verde</h2>
+        <div class="divider"></div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:#4a3520;max-width:560px;line-height:1.7;">
+            Cada ilha é um mundo próprio — clique para explorar a sua história, paisagem e carácter únicos.
+        </p>
+        </div>
+        <div class="ilhas-grid">
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Santo_Ant%C3%A3o_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/SantoAntao.jpg" alt="Santo Antão" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>Santo Antão</h3>
+            <span>Barlavento · 779 km²</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/Soncent.jpg" alt="São Vicente" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>São Vicente</h3>
+            <span>Barlavento · 227 km²</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Santa_Luzia_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80" alt="Santa Luzia" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>Santa Luzia</h3>
+            <span>Barlavento · Desabitada · 35 km²</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/S%C3%A3o_Nicolau_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/SaoNiclau.jpg" alt="São Nicolau" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>São Nicolau</h3>
+            <span>Barlavento · 388 km²</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Sal_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/Sal.jpg" alt="Sal" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>Sal</h3>
+            <span>Barlavento · 216 km²</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Boa_Vista_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/Bubista.jpg" alt="Boa Vista" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>Boa Vista</h3>
+            <span>Barlavento · 620 km²</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Maio_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/Maio.jpg" alt="Maio" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>Maio</h3>
+            <span>Sotavento · 269 km²</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="./santiago.html" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/Santiago.jpg" alt="Santiago" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>Santiago</h3>
+            <span>Sotavento · 991 km² · Capital</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Fogo_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/fogo.jpg" alt="Fogo" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>Fogo</h3>
+            <span>Sotavento · 476 km² · Vulcânica</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Brava_(Cabo_Verde)" target="_blank" rel="noopener">
+            <img src="./resources/aboutCV/image ilhas/Brava.jpg" alt="Brava" />
+            <div class="overlay"></div>
+            <div class="card-content">
+            <h3>Brava</h3>
+            <span>Sotavento · 64 km² · A mais pequena</span>
+            </div>
+            <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        </a>
+
+        </div>
+    </section>
+
+    <!-- S4: CULTURA -->
+    <section id="cultura">
+        <div class="cultura-header">
+        <h2 class="section-title">A Cultura Cabo-verdiana</h2>
+        <div class="divider"></div>
+        </div>
+        <div class="cultura-grid">
+        <div class="cultura-item">
+            <img src="./resources/aboutCV/cultura/dança.jpg" alt="Dança tradicional" />
+            <div class="cap">Dança & Tradição</div>
+        </div>
+        <div class="cultura-item">
+            <img src="./resources/aboutCV/cultura/download (2).jpg" alt="Artesanato cabo-verdiano" />
+            <div class="cap">Artesanato</div>
+        </div>
+        <div class="cultura-item">
+            <img src="./resources/aboutCV/cultura/catxupa.jpg" alt="Gastronomia" />
+            <div class="cap">Gastronomia</div>
+        </div>
+        <div class="cultura-item">
+            <img src="./resources/aboutCV/cultura/cidadevelha.jpg" alt="Arquitetura colonial" />
+            <div class="cap">Arquitetura colonial</div>
+        </div>
+        <div class="cultura-item">
+            <img src="./resources/aboutCV/cultura/carnavrau.jpg" alt="Festivais e carnaval" />
+            <div class="cap">Carnaval de Mindelo</div>
+        </div>
+        </div>
+
+        <div class="cultura-text-block">
+            <div class="ct">
+                <h4>Identidade Mestiça</h4>
+                <p>A cultura cabo-verdiana resulta da fusão entre as tradições africanas dos escravizados trazidos do continente e a herança portuguesa dos colonizadores. Desta síntese nasceu uma identidade única — o povo cabo-verdiano — e uma língua própria, o Crioulo, que hoje é símbolo de resistência e orgulho nacional.</p>
+            </div>
+            <div class="ct">
+                <h4>Gastronomia</h4>
+                <p>O prato nacional é a <em>cachupa</em>, um guisado de milho, feijão e legumes ao qual se acrescentam carnes ou peixe. O atum, a lagosta e o xerém (papas de milho) são também marcas da culinária local, fortemente influenciada pela geografia insular e pelos recursos do Atlântico.</p>
+            </div>
+            <div class="ct">
+                <h4>Festivais & Tradição</h4>
+                <p>O Carnaval de Mindelo, considerado um dos mais vibrantes do mundo lusófono, celebra-se com desfiles coloridos, sátira política e criatividade popular. A Festa da Baía das Gatas em São Vicente é outro ponto alto do calendário cultural, reunindo músicos e visitantes de todo o mundo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- S5: MÚSICA -->
+    <section id="musica">
+        <div class="musica-header">
+        <h2 class="section-title">A Música de Cabo Verde</h2>
+        <div class="divider"></div>
+        <p class="musica-intro">
+            A música é a alma de Cabo Verde. Nascida da saudade, do mar e da diáspora, atravessa fronteiras
+            e emociona o mundo inteiro. Da melancolia da <em>morna</em> ao ritmo festivo do <em>funaná</em>,
+            cada género é uma forma de contar a história de um povo.
+        </p>
+        </div>
+
+        <div class="musica-grid">
+
+            <div class="musica-card">
+                <img class="mc-img" src="./resources/aboutCV/cultura/Cesaria Evora.jpg" alt="Morna" />
+                <div class="mc-body">
+                <span class="mc-tag">Património UNESCO · 2019</span>
+                <h3>Morna</h3>
+                <p>Considerada a música da alma cabo-verdiana, a morna é um género lírico de ritmo lento que expressa a <em>sodade</em> — saudade crioula. Internacionalizada por Cesária Évora, a "Diva dos Pés Descalços", foi inscrita no Património Imaterial da Humanidade em 2019.</p>
+                </div>
+            </div>
+
+            <div class="musica-card">
+                <img class="mc-img" src="./resources/aboutCV/cultura/code di dona.jpg" alt="Funaná" />
+                <div class="mc-body">
+                <span class="mc-tag">Ritmo da Terra</span>
+                <h3>Funaná</h3>
+                <p>Nascido nas zonas rurais de Santiago, o funaná é um ritmo acelerado e dançante, executado com acordeão e <em>ferrinho</em>. Proibido durante o colonialismo por ser considerado "selvagem", tornou-se símbolo de resistência e libertação após a independência.</p>
+                </div>
+            </div>
+
+            <div class="musica-card">
+                <img class="mc-img" src="./resources/aboutCV/cultura/batabaque.jpg" alt="Coladeira e Batuko" />
+                <div class="mc-body">
+                <span class="mc-tag">Diversidade Musical</span>
+                <h3>Coladeira & Batuque</h3>
+                <p>A coladeira é um ritmo mais alegre e satírico que a morna, repleto de humor e crítica social. O batuque é uma das formas musicais mais antigas, de raiz africana, marcada por percussão intensa e dança ritual, preservada sobretudo em Santiago.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 About Cabo Verde -<span></span> Praia, Cabo Verde</p>
+    </footer>
+
+</body>
+</html>
