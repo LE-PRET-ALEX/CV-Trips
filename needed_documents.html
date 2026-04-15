@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="needed_documents.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
+    <title>Needed Documents</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+            <div class="header_logo">
+                <img src="resources/logos/newlogonobg.png" alt="Logo CV Trips">
+                <span>CV TRIPS</span>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
+                    <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
+                    <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
+                </ul>
+            </div>
+
+            <div class="settings_bar">
+                <div class="lang_picker">
+                    <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
+                </div>
+                <div class="account_search_submenu">
+                    <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+                    <input type="text" id="search_bar" placeholder=" Type search here ...">
+                    <i class="fa-solid fa-user" id="account_icon"></i>
+                </div>
+            </div>
+
+            <div class="account_submenu" id="account_submenu">
+                <div class="account_submenu_image">
+                    <img src="resources/icons/imagens_perfil/account_perfil_image.avif" alt="">
+                </div>
+                <div class="account_submenu_name">
+                    <h6>Pedro Fornaca</h6>
+                </div>
+                <button>See my planning</button>
+                <div class="logout_and_settings">
+                    <button>Logout</button>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="header_title">
+            <h1>Travel basics</h1>
+        </div>
+    </header>
+
+    <section class="visa_section">
+        <div class="visa_section_title">
+            <h2>VISA</h2>
+        </div>
+        <div class="visa_description">
+            <div class="visa_image">
+                <img src="resources/images/seguranca_fronteira.avif" alt="Imagem do controle de fronteira">
+            </div>
+            <div class="visa_paragraph">
+                <p>To enter Cabo Verde, some travelers are required to obtain either a physical visa or an e-Visa, depending on their nationality and the purpose of their visit. While many visitors can enjoy visa-free access for short stays, it is important to verify the specific entry requirements before planning your trip. The visa process is generally straightforward, with options to apply online for convenience or through official diplomatic channels. Ensuring you have the correct documentation in advance will help make your arrival smooth and stress-free, allowing you to fully enjoy everything Cabo Verde has to offer. </p>
+            </div>
+        </div>
+        <div class="check_your_country">
+            <h4>Search if you need a Visa ... </h4>
+            <div class="check_your_country_input_note">
+                <input type="text" placeholder="Search for a country ..." id="search_for_country_input">
+            </div>
+            <div class="visa_notes">
+                <div class="note">
+                    <div class="circle" id="circle_visa"></div>
+                </div>
+                <div class="note">
+                    <div class="circle" id="circle_e-visa"></div>
+                </div>
+                <div class="note">    
+                    <div class="circle" id="circle_visa_entry"></div>
+                </div>
+                <div class="note">    
+                    <div class="circle" id="circle_no_visa"></div>
+                </div>
+            </div>
+        </div>
+        <div class="types_of_visa">
+            <div class="types_of_visa_title">
+                <h2>Types of VISA</h2>
+            </div>
+            <div class="types_of_visa_description">
+                <p>Travelers entering Cabo Verde may need to obtain their visa through different formats, depending on their eligibility and preference. A traditional physical visa is issued by an embassy or consulate and is stamped directly into your passport before travel. Alternatively, many visitors can apply for an e-Visa, which is completed entirely online, offering a faster and more convenient process without the need to visit a diplomatic office. In some cases, travelers may also complete a pre-registration online instead of a full visa, depending on visa-exemption agreements. Choosing the appropriate option ensures a smoother entry process and helps you avoid delays upon arrival.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="traveller_guide_section">
+        <div class="traveller_guide_section_title">
+            <h2>Travellers' Guide</h2>
+        </div>
+        <div class="traveller_cards">
+            <div class="guide_card">
+                <div class="guide_card_title">
+                    <h4>VISA</h4>
+                </div>
+                <div class="guide_card_button">
+                    <button id="view_more_visa">view more</button>
+                </div>
+            </div>
+            <div class="guide_card">
+                <div class="guide_card_title">
+                    <h4>Prohibited items</h4>
+                </div>
+                <div class="guide_card_button">
+                    <button id="view_more_prohibited_items">view more</button>
+                </div>
+            </div>
+            <div class="guide_card">
+                <div class="guide_card_title">
+                    <h4>Tourists info centers</h4>
+                </div>
+                <div class="guide_card_button">
+                    <button id="view_more_info_centers">view more</button>
+                </div>
+            </div>
+            <div class="guide_card">
+                <div class="guide_card_title">
+                    <h4>Fly Itineraries</h4>
+                </div>
+                <div class="guide_card_button">
+                    <button id="view_more_itineraries">view more</button>
+                </div>
+            </div>
+            <div class="guide_card">
+                <div class="guide_card_title">
+                    <h4>Usefull info</h4>
+                </div>
+                <div class="guide_card_button">
+                    <button id="view_more_usefull_info">view more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <script src="needed_documents.js"></script>
+</body>
+</html>

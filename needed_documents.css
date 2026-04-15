@@ -1,0 +1,521 @@
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: beige;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+p, li, a {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+header {
+    width: 100%;
+    /*position: fixed;*/
+    height: 450px;
+   /* background-color: rgb(92, 80, 43);*/
+    background-image: url(resources/images/aeroporto_sal.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+header::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(32, 30, 30, 0.288);
+    inset: 0;
+    content: "";
+    z-index: 1;
+    height: 450px;
+}
+
+
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: transparent;
+    z-index: 6;
+}
+
+/* LOGO */
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    z-index: 6;
+}
+
+.header_logo span {
+    color: beige;
+    font-weight: bold;
+    z-index: 6;
+}
+
+.header_logo img {
+    height: 80px;
+    margin-right: 10px;
+    z-index: 6;
+}
+
+/* MENU */
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+}
+
+.menu ul li {
+    list-style: none;
+    z-index: 6;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: beige;
+    font-weight: 500;
+    z-index: 6;
+}
+
+/* UNDERLINE HOVER */
+
+.link-holder {
+    position: relative;
+    z-index: 6;
+}
+
+.link-holder::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: beige;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+    z-index: 6;
+}
+
+.link-holder:hover::after {
+    transform: scaleX(1);
+    z-index: 6;
+}
+
+#plan_trip {
+    rotate: -40deg;
+    z-index: 6;
+}
+
+/* SETTINGS */
+
+.settings_bar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    z-index: 6;
+}
+
+.settings_bar i {
+    color: beige;
+    font-size: 18px;
+    z-index: 6;
+}
+
+#flag_US {
+    width: 40px;
+    z-index: 6;
+}
+
+#search_bar {
+    height: 23.8px;
+    background-color: transparent;
+    border: transparent;
+    z-index: 6;
+}
+
+.account_search_submenu i {
+    position: relative;
+    right: 10px;
+    top: -2px;
+    font-size: 14px;
+    z-index: 6;
+}
+
+.account_search_submenu input {
+    position: relative;
+    top: -2px;
+    right: 15px;
+    color: beige;
+    z-index: 6;
+}
+
+
+
+.account_search_submenu input::placeholder {
+    color: beige;
+    z-index: 6;
+}
+
+#account_icon {
+    position: relative;
+    top: 3px;
+    color: beige;
+    font-size: 22px;
+    z-index: 6;
+    transition: all 0.45 ease;
+}
+
+#account_icon:hover {
+    cursor: pointer;
+    color: rgb(253, 253, 215);
+    transform: scale(1.2);
+}
+
+.account_submenu {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 6;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(181, 250, 227, 0.466);
+    padding: 12px;
+    border: 0.2px solid rgba(134, 235, 201, 0.466);
+    border-radius: 14.55px;
+    animation: slideDown 0.45s ease forwards;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.account_submenu button {
+    height: 33.65px;
+    width: 200px;
+    background-color: beige;
+    border: none;
+    border-radius: 9.22px;
+    color: rgb(77, 77, 95);
+    transition: transform 0.35s ease;
+}
+
+.account_submenu button:hover {
+    background-color: rgb(228, 228, 216);
+    cursor: pointer;
+    transform: scale(1.023);
+}
+
+.account_submenu_name {
+    margin-top: -6.75px;
+    display: flex;
+    justify-content: center;
+    height: 83.5px;
+    margin-bottom: 12.5px;
+}
+
+.account_submenu_name h6 {
+    font-size: 19.5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2.2px solid beige;
+}
+
+.account_submenu_image {
+    margin-bottom: -20px;
+}
+
+.account_submenu_image img {
+    height: 67.5px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.logout_and_settings {
+    margin-top: 9.75px;
+    display: flex;
+    gap: 6.55px;
+}
+
+.logout_and_settings > button {
+    width: 165px;
+}
+
+.logout_and_settings > i {
+    font-size: 22.75px;
+    position: relative;
+    top: 6.25px;
+    color: beige;
+    transform: all 3s ease-in-out;
+}
+
+.logout_and_settings > i:hover {
+    cursor: pointer;
+    -webkit-animation: rotate-scale-up 0.45s linear both;
+	        animation: rotate-scale-up 0.45s linear both;
+}
+
+@-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1.2) rotate(0);
+            transform: scale(1.2) rotate(0);
+  }
+  50% {
+    -webkit-transform: scale(1.2) rotate(180deg);
+            transform: scale(1.2) rotate(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1.2) rotate(360deg);
+            transform: scale(1.2) rotate(360deg);
+  }
+}
+/*@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}*/
+
+
+.header_title {
+    position: relative;
+    top: 215px;
+    left: 80px;
+    z-index: 6;
+}
+
+.header_title h1 {
+    color: beige;
+    font-size: 60px;
+    text-transform: uppercase;
+    z-index: 6;
+}
+
+.visa_section {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visa_section_title h2 {
+    color: rgb(46, 46, 46);
+    font-size: 32.5px;
+}
+
+.visa_description {
+    display: flex;
+    gap: 30px;
+    margin: 5px 15.5px;
+    width: 80%;
+}
+
+.visa_image img {
+    border-radius: 19px;
+    border: 2px solid rgb(167, 167, 167);
+    height: 100%;
+    width: auto;
+    box-shadow: 6px 6px 10px rgb(167, 167, 167);
+    box-shadow: 3px 3px 10px rgb(204, 204, 204);
+}
+
+.visa_paragraph p {
+    padding-top: 30px;
+    font-size: 15.5px;
+    color: rgb(46, 46, 46);
+    text-align: justify;
+}
+
+.check_your_country {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+.check_your_country h4 {
+    color: rgb(46, 46, 46);
+    font-size: 23.5px;
+    text-transform: capitalize;
+}
+
+.check_your_country_input_note {
+    display: flex;
+}
+
+.check_your_country_input_note input {
+    width: 420px;
+    height: 37.5px;
+    border: 1.42px solid rgb(46, 46, 46);
+    border-radius: 20px;
+    padding: 0 10px;
+    transition: all 0.25s ease-in;
+}
+
+.check_your_country_input_note input::placeholder {
+    color: rgb(70, 69, 69);
+}
+
+.check_your_country_input_note input:focus {
+    scale: 1.035;
+}
+
+.visa_notes {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.circle {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#circle_visa {
+    background-color: green;
+}
+
+#circle_e-visa {
+    background-color: blue;
+}
+
+#circle_visa_entry {
+    background-color: red;
+}
+
+#circle_no_visa {
+    background-color: yellow;
+}
+
+.types_of_visa {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: min-content;
+}
+
+.types_of_visa_title h2 {
+    color: rgb(46, 46, 46);
+    font-size: 32.5px;
+    text-transform: uppercase;    
+}
+
+.types_of_visa_description {
+    width: 90%;
+}
+
+.types_of_visa_description p {
+    position: relative;
+    bottom: 30px;
+    font-size: 15.5px;
+    color: rgb(46, 46, 46);
+    text-align: justify;
+    text-justify: 100;
+}
+
+
+/*  TOPICOS PARA TRAZER   */
+
+/* Pagina -> Foods (Pratos e restaurantes)
+   Pagina -> Needed Documents (Documentos necessarios)
+   Pagina -> Transportation (Transporte)
+   Relatorio *
+*/
+
+.traveller_guide_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.traveller_guide_section_title h2 {
+    text-transform: uppercase;
+    color: rgb(46, 46, 46);
+}
+
+.traveller_cards {
+    display: flex;
+    /*justify-content: space-between;*/
+    gap: 28px;
+    margin: 10px 42.5px;
+}
+
+.guide_card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 4.5px;
+    background-color: rgba(161, 255, 224, 0.815);
+    height: 255px;
+    width: 220px;
+    gap: 132px;
+    border-radius: 9.25px;
+    border: 0.3px solid aquamarine;
+    box-shadow: ;
+}
+
+.guide_card_title {
+    margin: 6px;
+}
+
+.guide_card_title h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.guide_card_button {
+    margin: 6px;
+}
+
+.guide_card_button button {
+    width: 100px;
+    height: 32px;
+    background-color: rgba(49, 49, 49, 0.979);
+    color: beige;
+    border-radius: 9.25px;
+    border: none;
+    transition: all 0.43s ease-in;
+}
+
+.guide_card_button button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
