@@ -1,0 +1,35 @@
+/* RESET PADRÃO */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Impede que o padding aumente a largura dos elementos */
+}
+
+html {
+    scroll-behavior: smooth; /* Deixa o deslizar da página suave ao clicar em links */
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased; /* Melhora a nitidez da fonte em Macs/iOS */
+    overflow-x: hidden; /* Evita barras de rolagem horizontais indesejadas */
+    background-color: beige; /* Define a cor base do site */
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%; /* Garante que as imagens não "vazem" da tela */
+}
+
+input, button, textarea, select {
+    font: inherit; /* Garante que formulários usem a Poppins que você definiu */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
