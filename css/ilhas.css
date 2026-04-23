@@ -242,75 +242,288 @@ header {
 
 
 
+/* ================================================
+   HISTÓRIA — SECÇÃO 2
+   ================================================ */
 #historia {
     height: 120vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #3a2b18;
+    align-items: stretch;
+    background: #1e1008;
     overflow: hidden;
 }
 
 #historia .s2-grid {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    height: 80%;
-    gap: 4rem;
-    align-items: center;
-    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+}
+
+.s2-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    gap: 0;
+}
+
+/* Card base */
+.s2-card {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 3.5rem;
+    gap: 1rem;
+}
+
+/* Card com imagem */
+.s2-img-card {
+    padding: 0;
+}
+
+.s2-img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.s2-img-card:hover img {
+    transform: scale(1.04);
+}
+
+.s2-img-label {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    background: #0a3d5f;
+    color: #f5e6c8;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+/* Card com texto — versão clara */
+.s2-text-card {
+    background: #f5f0eb;
+    color: #3a2b18;
+}
+
+/* Card com texto — versão escura */
+.s2-text-card.dark {
+    background: #0a3d5f;
+    color: #f5e6c8;
+}
+
+.s2-text-card.dark .s2-tag {
+    color: #c4622d;
+    border-color: #c4622d;
+}
+
+.s2-text-card.dark .s2-card-title {
+    color: #f5e6c8;
+}
+
+.s2-text-card.dark .s2-divider {
+    background: rgba(196, 98, 45, 0.5);
+}
+
+.s2-text-card.dark p {
+    color: rgba(245, 230, 200, 0.85);
+}
+
+/* Elementos internos dos cards de texto */
+.s2-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #c4622d;
+    border: 1px solid #c4622d;
+    display: inline-block;
+    padding: 0.25rem 0.7rem;
+    width: fit-content;
+}
+
+.s2-card-title {
+    font-size: clamp(1.4rem, 2.2vw, 2rem);
+    font-weight: 700;
+    color: #0a3d5f;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.s2-divider {
+    width: 3rem;
+    height: 2px;
+    background: #c4622d;
+    margin: 0.2rem 0;
+}
+
+.s2-text-card p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #3a2b18;
+    margin: 0;
+}
+
+
+
+/* ============================================
+    SEÇÃO PONTOS TURÍSTICOS - SECÇÃO 3
+============================================ */
+#pontos_turisticos {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background: #f5f0eb;
+}
+
+.s3-grid {
+    max-width: 1400px;
     margin: 0 auto;
 }
 
-.cima {
+/* Título da seção */
+.s3-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.s3-header h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    color: #0a3d5f;
+    margin-bottom: 0.5rem;
+}
+
+.s3-header .divider {
+    margin: 0.5rem auto;
+}
+
+.s3-header p {
+    color: #7a5f3a;
+    font-size: 1rem;
+}
+
+/* LINHA - cada linha é uma coluna vertical */
+.linha {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+/* CONTEUDO - cada card de atração */
+.conteudo {
+    flex: 1;
+    min-width: 300px;
+    max-width: 380px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column; /* imagem + info em coluna */
+}
+
+.conteudo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagem dentro do card */
+.conteudo .imagem {
     width: 100%;
-    height: 50%;
-    background-color: #f5f0eb;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
 }
 
-.cultura {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    background-color: #f5f0eb;
-}
-
-.gastronomia {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    background-color: #f5f0eb;
-}
-
-
-
-.baixo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+.conteudo .imagem img {
     width: 100%;
-    height: 50%;
-    background-color: antiquewhite;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
 }
 
-.musica {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    background-color: #f5f0eb;
+.conteudo:hover .imagem img {
+    transform: scale(1.05);
 }
 
-.sociedade {
+        /* Informação dentro do card */
+.conteudo .informacao {
+    padding: 1.25rem;
     display: flex;
-    width: 50%;
-    height: 100%;
-    background-color: #f5f0eb;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.conteudo .informacao .categoria {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c4622d;
+    background: #fdf0e6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.conteudo .informacao h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0a3d5f;
+    margin: 0;
+}
+
+.conteudo .informacao .rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #f5b042;
+    font-size: 0.85rem;
+}
+
+.conteudo .informacao .rating span {
+    color: #7a5f3a;
+    font-weight: 500;
+}
+
+.conteudo .informacao .descricao {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #5a4a32;
+   margin: 0.25rem 0;
+        }
+
+.conteudo .informacao .explorar {
+    margin-top: 0.5rem;
+        }
+
+.conteudo .informacao .explorar a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #c4622d;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: gap 0.3s ease;
+}
+
+.conteudo .informacao .explorar a:hover {
+    gap: 0.75rem;
+    color: #0a3d5f;
 }

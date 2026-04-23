@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/acomodation.css">
-    <title>CVTrip</title>
+    <title>Acomodations Page</title>
 </head>
 <body>
-    
+
     <main id="main">
         <section class="top-section">
             <video autoplay muted loop playsinline class="background-video">
@@ -40,47 +40,32 @@
             </header>
         </section>
 
-        
-        <section id="section2">  
+
+        <section id="section2">
             <div class="titulo">
-                <h2> SUGESTÕES ACOMODAÇÕES</h2>
+                <h2> Pontos Turísticos</h2>
             </div>
 
             <div class="paragrafo">
                 <div class="p">
                     <p>Descubra opções de hospedagem confortáveis e acolhedoras para tornar a sua viagem ainda mais especial.</p>
                 </div>
-                <div class="selecionar">
-                    <div><h2>Selecione Uma Ilha</h2></div>
-                    <div>
-                        <select name="ilhas" id="select-ilha">
-                            <option value="ilha">Santo Antão</option>
-                            <option value="ilha">São Vicente</option>
-                            <option value="ilha">São Nicolau</option>
-                            <option value="ilha">Sal</option>
-                            <option value="ilha">Boa Vista</option>
-                            <option value="ilha">Maio</option>
-                            <option value="ilha">Santiago</option>
-                            <option value="ilha">Fogo</option>
-                            <option value="ilha">Brava</option>
-                        </select>
-                    </div>
-                </div>
+                
             </div>
- 
+
             <!--CARROSSEL-->
             <div class="acomodation">
- 
+
                 <!-- BOTAO ESQUERDA -->
                 <div class="botao">
                     <button class="btn-nav" id="btn-prev"><i class="fa-solid fa-angle-left"></i></button>
                 </div>
-    
+
                 <div class="carousel-viewport">
-    
+
                 <!-- Faixa que desliza horizontalmente -->
                 <div class="carousel-track" id="carousel-track">
-    
+
                     <div class="item-acomodation">
                         <div class="imagem">
                             <img src="./resources/acomodation/hoteis/Santiago/vip-praia.jpg" alt="">
@@ -93,7 +78,7 @@
                                 <h2>Avaliação   : <strong>4 Estrelas</strong> <i class="fa-solid fa-star"></i></h2>
                         </div>
                     </div>
-    
+
                     <div class="item-acomodation">
                         <div class="imagem">
                             <img src="./resources/acomodation/hoteis/Santiago/oasis-praia.jpg" alt="">
@@ -106,7 +91,7 @@
                             <h2>Avaliação: <strong>4,4 Estrelas</strong> <i class="fa-solid fa-star"></i></h2>
                         </div>
                     </div>
-    
+
                     <div class="item-acomodation">
                         <div class="imagem">
                             <img src="./resources/acomodation/hoteis/Santiago/834474037.jpg" alt="">
@@ -119,7 +104,7 @@
                             <h2>Avaliação: <strong>5 Estrelas</strong> <i class="fa-solid fa-star"></i></h2>
                         </div>
                     </div>
-    
+
                     <div class="item-acomodation">
                         <div class="imagem">
                             <img src="./resources/acomodation/hoteis/Soncent/ouril.jpg" alt="">
@@ -132,7 +117,7 @@
                             <h2>Avaliação: <strong>...</strong> <i class="fa-solid fa-star"></i></h2>
                         </div>
                     </div>
-    
+
                     <div class="item-acomodation">
                         <div class="imagem">
                             <img src="./resources/acomodation/hoteis/Soncent/4points.jpg" alt="">
@@ -227,12 +212,12 @@
 
                 </div>
             </div>
-    
+
                 <!-- BOTAO DIREITA -->
             <div class="botao">
                 <button class="btn-nav" id="btn-next"><i class="fa-solid fa-angle-right"></i></button>
             </div>
- 
+
             </div><!-- /acomodation -->
         </section>
 
@@ -415,31 +400,31 @@
         const track    = document.getElementById('carousel-track');
         const btnPrev  = document.getElementById('btn-prev');
         const btnNext  = document.getElementById('btn-next');
-    
+
         const CARD_WIDTH = 260;   /* largura do card em px  */
         const GAP        = 24;    /* gap entre cards em px  */
         const STEP       = CARD_WIDTH + GAP;
-    
+
         let currentIndex = 0;
-    
+
         function getMaxIndex() {
             const cards    = track.querySelectorAll('.item-acomodation').length;
             const viewport = track.parentElement.clientWidth;
             const visible  = Math.floor(viewport / STEP);
             return Math.max(0, cards - visible);
         }
-    
+
         function slide() {
             track.style.transform = `translateX(-${currentIndex * STEP}px)`;
         }
-    
+
         btnNext.addEventListener('click', () => {
             if (currentIndex < getMaxIndex()) {
                 currentIndex++;
                 slide();
             }
         });
-    
+
         btnPrev.addEventListener('click', () => {
             if (currentIndex > 0) {
                 currentIndex--;
