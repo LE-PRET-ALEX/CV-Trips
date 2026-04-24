@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plan_trip.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
+    <title>Plan Trip</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+            <div class="header_logo">
+                <img src="resources/logos/newlogonobg.png" alt="Logo CV Trips">
+                <span>CV TRIPS</span>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
+                    <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
+                    <li class="link-holder"><a href="#"><i id="plan_trip_link" class="fa-solid fa-plane"></i> plan trip</a></li>
+                </ul>
+            </div>
+
+            <div class="settings_bar">
+                <div class="lang_picker">
+                    <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
+                </div>
+                <div class="account_search_submenu">
+                    <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+                    <input type="text" id="search_bar" placeholder=" Type search here ...">
+                    <i class="fa-solid fa-user" id="account_icon"></i>
+                </div>
+            </div>
+            <div class="account_submenu" id="account_submenu">
+                <div class="account_submenu_image">
+                    <img src="resources/icons/imagens_perfil/account_perfil_image.avif" alt="">
+                </div>
+                <div class="account_submenu_name">
+                    <h6>Pedro Fornaca</h6>
+                </div>
+                <button>See my planning</button>
+                <div class="logout_and_settings">
+                    <button>Logout</button>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="plan_trip" id="plan_trip">
+        <div class="plan_trip_card">
+            <div class="plan_trip_card_left_side">
+                <h2>plan my trip</h2>
+                <img src="resources/images/plan_trip_img.jpg" alt="">
+            </div>
+            <div class="plan_trip_card_right_side">
+                <h2>detail info</h2>
+                <div class="plan_trip_form">
+                    <form action="">
+                        <div class="div_inputs">
+                            <label for="input_dia_chegada">Arriving ...</label>
+                            <input type="date" name="dia_chegada" id="input_dia_chegada" placeholder="Arriving ...">
+                        </div>
+                        <div class="div_inputs">
+                            <label for="input_dia_partida">Leaving ...</label>
+                            <input type="date" name="dia_partida" id="input_dia_partida" placeholder="Leaving ...">
+                        </div>
+                        <div class="div_inputs">
+                            <label for="input_primeira_ilha">First island ...</label>
+                            <input type="text" name="primeira_ilha" id="input_primeira_ilha" placeholder="Write here ...">
+                        </div>
+
+                        <!--   INPUT EM QUE O USUARIO ESCOLHE AS ILHAS ATRAVES DE CHECKBOX  -->
+                        <h6 id="show_islands_list_link">select islands to visit +</h6>
+                        <div class="islands_list" id="islands_list">
+                            <div class="island_div">
+                                <label for="santo_antao_island">Santo Antao</label>
+                                <input type="checkbox" name="santo_antao_island" id="santo_antao_island">
+                            </div>
+                            <div class="island_div">
+                                <label for="sao_vicente_island">Sao Vicente</label>
+                                <input type="checkbox" name="sao_vicente_island" id="sao_vicente_island">
+                            </div>
+                            <div class="island_div">
+                                <label name="sao_nicolau_island" for="sao_nicolau_island">Sao Nicolau</label>
+                                <input type="checkbox" name="sao_nicolau_island" id="sao_nicolau_island">
+                            </div>
+                            <div class="island_div">
+                                <label for="sal_island">Sal</label>
+                                <input type="checkbox" name="sal_island" id="sal_island">
+                            </div>
+                            <div class="island_div">
+                                <label for="boa_vista_island">Boa Vista</label>
+                                <input type="checkbox" name="boa_vista_island" id="boa_vista_island">
+                            </div>
+                            <div class="island_div">
+                                <label for="maio_island">Maio</label>
+                                <input type="checkbox" name="maio_island" id="maio_island">
+                            </div>
+                            <div class="island_div">
+                                <label for="santiago_island">Santiago</label>
+                                <input type="checkbox" name="santiago_island" id="santiago_island">
+                            </div>
+                            <div class="island_div">
+                                <label for="fogo_island">Fogo</label>
+                                <input type="checkbox" name="fogo_island" id="fogo_island">
+                            </div>
+                            <div class="island_div">
+                                <label for="brava_island">brava</label>
+                                <input type="checkbox" name="brava_island" id="brava_island">
+                            </div>
+                            <button id="select_islands_button" type="button">Select</button>
+                        </div>
+                        <div class="defined_islands_list_div" id="defined_islands_list_div">
+                            <h6>Lista de ilhas escolhidas</h6>
+                            <textarea name="defined_islands_list" id="selected_islands_textarea"></textarea>
+                        </div>
+                        <div class="generate_trip_div">
+                            <button id="generate_trip_button" type="button">generate trip</button>
+                        </div>   
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="plan_trip.js"></script>
+</body>
+</html>
