@@ -186,23 +186,11 @@ header {
 #section1 .s1-img img {
     width: 100%;
     height: 480px;
-    object-fit: cover;
     border-radius: 2px;
-    box-shadow: 20px 20px 0 #faf8f3; /*aa*/
     display: block;
 }
     
-#section1 .s1-img .img-tag {
-    position: absolute;
-    bottom: -1.5rem;
-    left: -1.5rem;
-    background: #0a3d5f;
-    color: #f5e6c8;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    padding: 0.6rem 1.2rem;
-    
-}
+
     
 .stat-row {
     display: flex;
@@ -248,7 +236,7 @@ header {
 #historia {
     height: 120vh;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     background: #1e1008;
     overflow: hidden;
 }
@@ -268,7 +256,6 @@ header {
     gap: 0;
 }
 
-/* Card base */
 .s2-card {
     width: 50%;
     height: 100%;
@@ -281,7 +268,6 @@ header {
     gap: 1rem;
 }
 
-/* Card com imagem */
 .s2-img-card {
     padding: 0;
 }
@@ -310,13 +296,11 @@ header {
     padding: 0.5rem 1rem;
 }
 
-/* Card com texto — versão clara */
 .s2-text-card {
     background: #f5f0eb;
     color: #3a2b18;
 }
 
-/* Card com texto — versão escura */
 .s2-text-card.dark {
     background: #0a3d5f;
     color: #f5e6c8;
@@ -339,7 +323,6 @@ header {
     color: rgba(245, 230, 200, 0.85);
 }
 
-/* Elementos internos dos cards de texto */
 .s2-tag {
     font-size: 0.72rem;
     font-weight: 700;
@@ -353,6 +336,7 @@ header {
 }
 
 .s2-card-title {
+    text-align: center;
     font-size: clamp(1.4rem, 2.2vw, 2rem);
     font-weight: 700;
     color: #0a3d5f;
@@ -361,10 +345,10 @@ header {
 }
 
 .s2-divider {
-    width: 3rem;
+    width: 100%;
+    border-bottom: 4px solid #c4622d;
     height: 2px;
     background: #c4622d;
-    margin: 0.2rem 0;
 }
 
 .s2-text-card p {
@@ -375,9 +359,8 @@ header {
 }
 
 
-
 /* ============================================
-    SEÇÃO PONTOS TURÍSTICOS - SECÇÃO 3
+    SECCAO PONTOS TURISTICO - SECCAO 3
 ============================================ */
 #pontos_turisticos {
     min-height: 100vh;
@@ -390,14 +373,13 @@ header {
     margin: 0 auto;
 }
 
-/* Título da seção */
 .s3-header {
     text-align: center;
     margin-bottom: 3rem;
 }
 
 .s3-header h2 {
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: 4rem;
     font-weight: 700;
     color: #0a3d5f;
     margin-bottom: 0.5rem;
@@ -412,7 +394,6 @@ header {
     font-size: 1rem;
 }
 
-/* LINHA - cada linha é uma coluna vertical */
 .linha {
     display: flex;
     flex-direction: row;    
@@ -422,7 +403,6 @@ header {
     flex-wrap: wrap;
 }
 
-/* CONTEUDO - cada card de atração */
 .conteudo {
     flex: 1;
     min-width: 300px;
@@ -431,14 +411,8 @@ header {
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
-    flex-direction: column; /* imagem + info em coluna */
-}
-
-.conteudo:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+    flex-direction: column; 
 }
 
 /* Imagem dentro do card */
@@ -452,33 +426,15 @@ header {
 .conteudo .imagem img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
 }
 
-.conteudo:hover .imagem img {
-    transform: scale(1.05);
-}
 
-        /* Informação dentro do card */
+
 .conteudo .informacao {
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-}
-
-.conteudo .informacao .categoria {
-    display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #c4622d;
-    background: #fdf0e6;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    width: fit-content;
 }
 
 .conteudo .informacao h3 {
@@ -505,12 +461,12 @@ header {
     font-size: 0.85rem;
     line-height: 1.5;
     color: #5a4a32;
-   margin: 0.25rem 0;
-        }
+    margin: 0.25rem 0;
+}
 
 .conteudo .informacao .explorar {
     margin-top: 0.5rem;
-        }
+}
 
 .conteudo .informacao .explorar a {
     display: inline-flex;
@@ -521,9 +477,4 @@ header {
     font-weight: 600;
     text-decoration: none;
     transition: gap 0.3s ease;
-}
-
-.conteudo .informacao .explorar a:hover {
-    gap: 0.75rem;
-    color: #0a3d5f;
 }

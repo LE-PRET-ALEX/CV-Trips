@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/acomodation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Acomodations Page</title>
 </head>
 <body>
@@ -67,6 +71,7 @@
                 <div class="carousel-track" id="carousel-track">
 
                     <div class="item-acomodation">
+                        <a href="https://www.booking.com/hotel/cv/vip-praia.pt-pt.html?aid=311098&label=vip-praia-qnGWzJIG3JjZwMe6Zi_CwQS383069634710%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18772735944%3Alp9230695%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0l-9IW33KjYg&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=113655301_265015225_2_1_0&checkin=2026-05-15&checkout=2026-05-16&dest_id=-1313468&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=113655301_265015225_2_1_0&hpos=1&matching_block_id=113655301_265015225_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=113655301_265015225_2_1_0__1846300&srepoch=1778072996&srpvid=a1985c8c96f8081d&type=total&ucfs=1&" target="_blank" rel="noopener"></a>
                         <div class="imagem">
                             <img src="./resources/acomodation/hoteis/Santiago/vip-praia.jpg" alt="">
                         </div>
@@ -221,19 +226,14 @@
             </div><!-- /acomodation -->
         </section>
 
-
-        <section id="section1">
-            <div class="s1">
-                <div class="TITULO">
-                <H2>FILTRO DE ACOMODAÇÕES</H2>
-                </div>
-
-                <div class="conteudo">
-                    <div class="conteudo_em_linha">
-                            <!-- LINHA: Disponibilidade -->
-                        <div class="linha">
+        <section id="section3">
+            <div class="esq">
+                
+                    <div class="tit"><h1>Filtro de Acomodacoes</h1></div>
+                    <div class="gg">
+                        <div class="ggp">
                             <div class="linha-titulo"><h2>Disponibilidade</h2></div>
-                            <div class="linha-corpo datas">
+                            <div class="linha-corpo-datas">
                                 <div class="datacampo">
                                     <span>Check-in</span>
                                     <input type="date" id="checkin" />
@@ -244,59 +244,49 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- LINHA: Ilhas -->
-                        <div class="linha">
+                        <div class="ggh">
                             <div class="linha-titulo"><h2>Ilhas</h2></div>
                                 <div class="linha-corpo">
-                                    <div class="chips">
-                                        <span class="chip" data-g="ilha">S. Antão</span>
-                                        <span class="chip" data-g="ilha">S. Vicente</span>
-                                        <span class="chip" data-g="ilha">S. Nicolau</span>
-                                        <span class="chip" data-g="ilha">Sal</span>
-                                        <span class="chip" data-g="ilha">Boa Vista</span>
-                                        <span class="chip" data-g="ilha">Maio</span>
-                                        <span class="chip" data-g="ilha">Santiago</span>
-                                        <span class="chip" data-g="ilha">Fogo</span>
-                                        <span class="chip" data-g="ilha">Brava</span>
-                                    </div>
+                                    <select name="ilha" id="ilha">
+                                        <option value="ilha">S.Antão</option>
+                                        <option value="ilha">S.Vicente</option>
+                                        <option value="ilha">S. Nicolau</option>
+                                        <option value="ilha">Sal</option>
+                                        <option value="ilha">Boa Vista</option>
+                                        <option value="ilha">Maio</option>
+                                        <option value="ilha">Santiago</option>
+                                        <option value="ilha">Fogo</option>
+                                        <option value="ilha">Brava</option>
+                                    </select>
                                 </div>
                         </div>
-
-                        <!-- LINHA: Tipo de Alojamento -->
-                        <div class="linha">
+                        <div class="ggh">
                             <div class="linha-titulo"><h2>Tipo de Alojamento</h2></div>
                                 <div class="linha-corpo">
-                                    <div class="chips">
-                                        <span class="chip" data-g="tipo">Resort</span>
-                                        <span class="chip" data-g="tipo">Boutique Hotel</span>
-                                        <span class="chip" data-g="tipo">Eco-lodge</span>
-                                        <span class="chip" data-g="tipo">Pensão / Pousada</span>
-                                        <span class="chip" data-g="tipo">Casa de férias</span>
-                                        <span class="chip" data-g="tipo">Apartamento</span>
-                                    </div>
+                                    <select name="alojamento" id="alojamento">
+                                        <option value="alojamento1">Resort</option>
+                                        <option value="alojamento2">Hotel</option>
+                                        <option value="alojamento3">Pensão / Pousada</option>
+                                        <option value="alojamento4">Casa de férias</option>
+                                        <option value="alojamento5">Apartamento</option>
+                                    </select>
                                 </div>
                         </div>
                     </div>
-
-
-                    <div class="conteudo_em_linha">
-                            <!-- LINHA: Tipo de Viagem -->
-                        <div class="linha">
+                    <div class="gg">
+                        <div class="ggh">
                             <div class="linha-titulo"><h2>Tipo de Viagem</h2></div>
                                 <div class="linha-corpo">
-                                    <div class="chips">
-                                        <span class="chip" data-g="viagem">Casal</span>
-                                        <span class="chip" data-g="viagem">Família</span>
-                                        <span class="chip" data-g="viagem">Grupo</span>
-                                        <span class="chip" data-g="viagem">Negócios</span>
-                                        <span class="chip" data-g="viagem">Solo</span>
-                                    </div>
+                                    <select name="tio_viagem" id="tipo_viagem">
+                                        <option value="tipo">Casal</option>
+                                        <option value="tipo">Famíllia</option>
+                                        <option value="tipo">Grupo</option>
+                                        <option value="tipo">Negócios</option>
+                                        <option value="tipo">Solo</option>
+                                    </select>
                                 </div>
                         </div>
-
-                        <!-- LINHA: Preço por Noite -->
-                        <div class="linha">
+                        <div class="ggh">
                             <div class="linha-titulo"><h2>Preço por Noite</h2></div>
                                 <div class="linha-corpo">
                                     <div class="preco-linha">
@@ -310,88 +300,85 @@
                                     </div>
                                 </div>
                         </div>
-
-                        <!-- LINHA: Categoria -->
-                        <div class="linha">
+                        <div class="ggh">
                             <div class="linha-titulo"><h2>Categoria</h2></div>
                                 <div class="linha-corpo">
-                                    <div class="chips">
-                                        <span class="chip estrela-btn" data-v="1">★ 1</span>
-                                        <span class="chip estrela-btn" data-v="2">★★ 2</span>
-                                        <span class="chip estrela-btn" data-v="3">★★★ 3</span>
-                                        <span class="chip estrela-btn" data-v="4">★★★★ 4</span>
-                                        <span class="chip estrela-btn" data-v="5">★★★★★ 5</span>
-                                        <span class="chip estrela-btn" data-v="0">Sem cat.</span>
-                                    </div>
+                                    <select id="categoria">
+                                        <option value="1" class="estrela">★</option>
+                                        <option value="2" class="estrela">★★</option>
+                                        <option value="3" class="estrela">★★★</option>
+                                        <option value="4" class="estrela">★★★★</option>
+                                        <option value="5" class="estrela">★★★★★</option>
+                                    </select>
                                 </div>
                         </div>
                     </div>
-
-                    <div class="conteudo_em_linha">
-
-                        <div class="linha-left">
-                            <!--REGIME ALIMENTAR-->
-                            <div class="linha-baixo">
-                                <div class="linha-titulo"><h2>Regime Alimentar</h2></div>
-                                <div class="linha-corpo">
-                                    <select id="regime" class="select-filtro">
-                                        <option value="">Qualquer regime</option>
-                                        <option value="so">Só alojamento</option>
-                                        <option value="mp">Meia-pensão</option>
-                                        <option value="pc">Pensão completa</option>
-                                        <option value="ai">All-inclusive</option>
-                                    </select>
-                                </div>
+                    <div class="gg">
+                        <div class="gghl">
+                            <div class="linha-titulo"><h2>Regime Alimentar</h2></div>
+                            <div class="linha-corpo">
+                                <select id="regime" class="select-filtro">
+                                    <option value="">Qualquer regime</option>
+                                    <option value="so">Só alojamento</option>
+                                    <option value="mp">Meia-pensão</option>
+                                    <option value="pc">Pensão completa</option>
+                                    <option value="ai">All-inclusive</option>
+                                </select>
                             </div>
-
-                            <div class="linha-baixo">
-                                <!--ORDENAR POR-->
-                                <div class="linha-titulo"><h2>Ordenar Por</h2></div>
-                                <div class="linha-corpo">
-                                    <select id="ordenar" class="select-filtro">
+                        </div>
+                        <div class="ggh">
+                            <div class="linha-titulo"><h2>Ordenar Por</h2></div>
+                            <div class="linha-corpo">
+                                <select id="ordenar" class="select-filtro">
                                     <option value="rec">Recomendados</option>
-                                    <option value="preco-asc">Preço: menor primeiro</option>
-                                    <option value="preco-desc">Preço: maior primeiro</option>
+                                    <option value="preco-asc">Preço: menor</option>
+                                    <option value="preco-desc">Preço: maior</option>
                                     <option value="stars">Melhor avaliação</option>
                                     <option value="novo">Mais recentes</option>
-                                    </select>
-                                </div>
+                                </select>
                             </div>
                         </div>
-
-                        <div class="linha-right">
-                            <!-- LINHA: Comodidades (ocupa 2 colunas) -->
-                            <div class="linha-titulo"><h2>Comodidades</h2></div>
-                            <div class="linha-corpo">
-                                <div class="comodidades">
-                                    <label class="comodidade"><input type="checkbox" /> Piscina</label>
-                                    <label class="comodidade"><input type="checkbox" checked /> WiFi gratuito</label>
-                                    <label class="comodidade"><input type="checkbox" /> Ar condicionado</label>
-                                    <label class="comodidade"><input type="checkbox" /> Pequeno-almoço</label>
-                                    <label class="comodidade"><input type="checkbox" /> Estacionamento</label>                                <label class="comodidade"><input type="checkbox" /> Vista mar</label>
-                                    <label class="comodidade"><input type="checkbox" /> Spa</label>
-                                    <label class="comodidade"><input type="checkbox" /> Pet-friendly</label>
-                                    <label class="comodidade"><input type="checkbox" /> Ginásio</label>
-                                    <label class="comodidade"><input type="checkbox" /> Restaurante</label>
-                                    <label class="comodidade"><input type="checkbox" /> Transfer aeroporto</label>
-                                    <label class="comodidade"><input type="checkbox" /> Praia privada</label>
-                                </div>
+                </div>
+                <div class="gg">
+                    <div class="gghl">
+                        <div class="linha-titulo"><h2>Comodidades</h2></div>
+                        <div class="linha-corpo">                        
+                            <div class="separar">
+                                <label class="comodidade"><input type="checkbox" /> Piscina</label>
+                                <label class="comodidade"><input type="checkbox" checked /> WiFi gratuito</label>
+                                <label class="comodidade"><input type="checkbox" /> Praia privada</label>
+                            </div>
+                            <div class="separar">
+                                <label class="comodidade"><input type="checkbox" /> Pequeno-almoço</label>
+                                <label class="comodidade"><input type="checkbox" /> Estacionamento</label>                                
+                               <label class="comodidade"><input type="checkbox" /> Vista mar</label>
+                            </div>
+                            <div class="separar">
+                                <label class="comodidade"><input type="checkbox" /> Ginásio</label>
+                                <label class="comodidade"><input type="checkbox" /> Restaurante</label>
+                                <label class="comodidade"><input type="checkbox" /> Transfer aeroporto</label>
                             </div>
                         </div>
-
                     </div>
                 </div>
+                <div class="filtro">
+                    <button id="enviar_filtro" type="submit">Filtrar</button>
+                </div>
             </div>
-        </section>
-
-        <section id="section3">
-
+            <div class="dir">
+                <div class="result">
+                    Resultado
+                </div>
+                <div class="op">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1346419.2681288025!2d-23.973741187082798!3d15.98131883760907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2scv!4v1778071295658!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2026 About Cabo Verde -<span></span> Praia, Cabo Verde</p>
+
     </footer>
 
 
