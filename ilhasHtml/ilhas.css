@@ -1,0 +1,480 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; /* scroll suave entre secções */
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+}
+
+.top-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;         
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Vídeo de fundo */
+.background-video {
+    position: absolute;
+    inset: 0;               
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.top-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+header {
+    position: relative;
+    z-index: 10;             
+    width: 100%;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 3rem;
+    background: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.header_logo img {
+    height: 42px;
+    width: auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2.2rem;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: opacity 0.2s;
+}
+
+.menu ul li a:hover {
+    opacity: 0.7;
+}
+
+.settings_bar {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.lang_picker img {
+    height: 24px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.account_search_submenu {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: #fff;
+}
+
+.account_search_submenu i {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.account_search_submenu i:hover {
+    opacity: 0.7;
+}
+
+#search_bar {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 0.3rem 0.9rem;
+    color: #fff;
+    font-size: 0.85rem;
+    outline: none;
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+#search_bar:focus, #search_bar.active {
+    width: 180px;
+    opacity: 1;
+}
+
+#search_bar::placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+
+/* ================================================
+   MAIN 
+   ================================================ */
+#main {
+    width: 100%;
+}
+
+/*==============ILHA DE SANTIAGO=========================*/
+
+#section1 {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f5f0eb;
+    overflow: hidden;
+}
+    
+#section1 .s1-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+    
+#section1 .s1-text p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #3a2b18;
+    margin-bottom: 1.2rem;
+}
+
+#section1 .s1-img {
+    position: relative;
+}
+    
+#section1 .s1-img img {
+    width: 100%;
+    height: 480px;
+    border-radius: 2px;
+    display: block;
+}
+    
+
+    
+.stat-row {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+    
+.stat {
+    border-left: 2px solid #c4622d;
+    padding-left: 0.8rem;
+}
+    
+.stat .num {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0a3d5f;
+    line-height: 1;
+}
+
+.stat .lbl {
+    font-size: 0.75rem;
+    color: #7a5f3a;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 0.2rem;
+}
+
+.section-title {
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 1.6rem;
+    color: #0a3d5f;
+}
+
+
+
+
+
+/* ================================================
+   HISTÓRIA — SECÇÃO 2
+   ================================================ */
+#historia {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    background: #1e1008;
+    overflow: hidden;
+}
+
+#historia .s2-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.s2-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    gap: 0;
+}
+
+.s2-card {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 3.5rem;
+    gap: 1rem;
+}
+
+.s2-img-card {
+    padding: 0;
+}
+
+.s2-img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.s2-img-card:hover img {
+    transform: scale(1.04);
+}
+
+.s2-img-label {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    background: #0a3d5f;
+    color: #f5e6c8;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.s2-text-card {
+    background: #f5f0eb;
+    color: #3a2b18;
+}
+
+.s2-text-card.dark {
+    background: #0a3d5f;
+    color: #f5e6c8;
+}
+
+.s2-text-card.dark .s2-tag {
+    color: #c4622d;
+    border-color: #c4622d;
+}
+
+.s2-text-card.dark .s2-card-title {
+    color: #f5e6c8;
+}
+
+.s2-text-card.dark .s2-divider {
+    background: rgba(196, 98, 45, 0.5);
+}
+
+.s2-text-card.dark p {
+    color: rgba(245, 230, 200, 0.85);
+}
+
+.s2-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #c4622d;
+    border: 1px solid #c4622d;
+    display: inline-block;
+    padding: 0.25rem 0.7rem;
+    width: fit-content;
+}
+
+.s2-card-title {
+    text-align: center;
+    font-size: clamp(1.4rem, 2.2vw, 2rem);
+    font-weight: 700;
+    color: #0a3d5f;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.s2-divider {
+    width: 100%;
+    border-bottom: 4px solid #c4622d;
+    height: 2px;
+    background: #c4622d;
+}
+
+.s2-text-card p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #3a2b18;
+    margin: 0;
+}
+
+
+/* ============================================
+    SECCAO PONTOS TURISTICO - SECCAO 3
+============================================ */
+#pontos_turisticos {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background: #f5f0eb;
+}
+
+.s3-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.s3-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.s3-header h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #0a3d5f;
+    margin-bottom: 0.5rem;
+}
+
+.s3-header .divider {
+    margin: 0.5rem auto;
+}
+
+.s3-header p {
+    color: #7a5f3a;
+    font-size: 1rem;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.conteudo {
+    flex: 1;
+    min-width: 300px;
+    max-width: 380px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Imagem dentro do card */
+.conteudo .imagem {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.conteudo .imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.conteudo .informacao {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.conteudo .informacao h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0a3d5f;
+    margin: 0;
+}
+
+.conteudo .informacao .rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #f5b042;
+    font-size: 0.85rem;
+}
+
+.conteudo .informacao .rating span {
+    color: #7a5f3a;
+    font-weight: 500;
+}
+
+.conteudo .informacao .descricao {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #5a4a32;
+    margin: 0.25rem 0;
+}
+
+.conteudo .informacao .explorar {
+    margin-top: 0.5rem;
+}
+
+.conteudo .informacao .explorar a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #c4622d;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: gap 0.3s ease;
+}

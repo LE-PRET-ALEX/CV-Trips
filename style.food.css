@@ -1,0 +1,473 @@
+*{
+    font-family: 'Poppins';
+}
+
+
+/* ========================= */
+/* SECTION COM VIDEO */
+/* ========================= */
+
+.top-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* VIDEO */
+.background-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+/* OVERLAY ESCURO */
+.top-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+} 
+
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+header {
+    width: 100%;
+    /*position: fixed;*/
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: transparent;
+}
+
+/* LOGO */
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo span {
+    color: white;
+    font-weight: bold;
+}
+
+.header_logo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+/* MENU */
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+/* UNDERLINE HOVER */
+
+.link-holder {
+    position: relative;
+}
+
+.link-holder::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.link-holder:hover::after {
+    transform: scaleX(1);
+}
+
+#plan_trip {
+    rotate: -40deg;
+}
+
+/* SETTINGS */
+
+.settings_bar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.settings_bar i {
+    color: white;
+    font-size: 18px;
+}
+
+#flag_US {
+    width: 40px;
+}
+
+#search_bar {
+    height: 23.8px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.account_search_submenu i {
+    position: relative;
+    right: 10px;
+    top: -2px;
+    font-size: 14px;
+}
+
+.account_search_submenu input {
+    position: relative;
+    top: -2px;
+    right: 15px;
+    color: beige;
+}
+
+
+.account_search_submenu input::placeholder {
+    color: beige;
+}
+
+#account_icon {
+    position: relative;
+    top: 3px;
+    color: beige;
+    font-size: 22px;
+}
+
+/* ========================= */
+/* HERO */
+/* ========================= */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/*====================
+===== RESTO DO SITE===
+======================*/
+
+.content {
+      margin: 0;
+      background: beige;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+    }
+
+.title-food{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #104c74;
+    margin-bottom: 15px;
+}
+
+.text{
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: row;
+    color:rgb(116, 56, 16);
+}
+
+
+/*==========GALERIA=================*/
+
+    .galeria {
+      position: relative;
+      width: 600px;
+      height: 350px;
+      overflow: hidden;
+      border-radius: 40px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .galeria img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .galeria img.ativa {
+      opacity: 1;
+    }
+
+    .about {
+    display: flex;
+    width: 100%;
+    min-height: 350px;
+    margin: 0;
+    align-items: center; 
+    background-color:#104c74;
+}
+
+.about-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #e2edf5;
+    margin-bottom: 15px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 40px;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.6;
+    color: #e2edf5  ;
+}
+
+
+/*==================CARROSEL===================*/
+
+
+.acomodation {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1.5rem;
+    flex-shrink: 0;
+}
+
+#select-ilha {
+    width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1.5px solid #c9d6df;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  color: #1a1a2e;
+  background-color: #f0f4f8;
+  outline: none;
+}
+ 
+/* Botões esquerda / direita */
+.botao {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.btn-nav {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #1a1a2e;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #1a1a2e;
+    transition: background 0.2s, color 0.2s, transform 0.15s;
+    line-height: 1;
+}
+
+.btn-nav i {
+    color: #f5e6c8;
+}
+ 
+.btn-nav:hover {
+    background: #1a1a2e;
+    color: #fff;
+    transform: scale(1.08);
+}
+ 
+/* Viewport — esconde os cards fora do campo */
+.carousel-viewport {
+    flex: 1;
+    height: 75%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+ 
+/* Faixa deslizante */
+.carousel-track {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    height: 100%;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+}
+ 
+/* Card individual */
+.item-acomodation {
+    flex-shrink: 0;
+    width: 260px;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+    transition: transform 0.25s, box-shadow 0.25s;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*Formataco da imagem*/
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.item-acomodation:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+}
+ 
+.item-acomodation > div:first-child,
+.item-acomodation .imagem {
+    background: #c9d6df;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #556;
+    font-size: 0.85rem;
+}
+ 
+.item-acomodation > div:last-child,
+.item-acomodation .info {
+    height: 40%;
+    width: 100%;
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #fff;
+}
+ 
+.item-acomodation h1 { font-size: 0.80rem; font-weight: 500; color: #333; }
+.item-acomodation h3 { font-size: 0.75rem; font-weight: 400; color: #666; }
+ 
+
+
+
+
+/* ====================================
+   FOOTER
+   ==================================== */
+
+.footer {
+    background: #743810;
+    color: white;
+    padding-left: 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
+
+.footer-heading {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+

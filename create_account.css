@@ -1,0 +1,168 @@
+body {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: beige;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.content {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content h1 {
+   font-size: 42px;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+
+.register_card {
+   margin-top: 60px;
+   display: flex;
+   width: auto;
+   border: 1.15px solid #104c74c4;
+   border-radius: 12.25px;
+   gap: 13.5px;
+   box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+
+.register_image {
+   height: auto;
+   width: 380px;
+   background-image: url(resources/images/katchupa.jpg);
+   background-position: center;
+   border-radius: 12.25px 0 0 12.25px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.register_form_area {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 343px;
+   padding-right: 6px;
+   padding-bottom: 12.25px;
+}
+
+
+.register_form_area_title {
+   padding-top: 17.5px;
+   height: 46px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.register_form_area_title h4 {
+   font-size: 26px;
+   text-transform: uppercase;
+   color: #0c3a58;
+}
+
+
+.register_form form {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 4.8px;
+}
+
+
+.register_form form label {
+   padding-left: 7.2px;
+   font-size: 14.7px;
+   color: rgba(59, 59, 59, 0.925);
+}
+
+
+.form_username_section, .form_password_section {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+
+.form_password_section a {
+   font-size: 12px;
+   text-align: end;
+   padding-right: 5px;
+   margin-top: 5px;
+   text-decoration: none;
+}
+
+.form_password_section a:hover {
+    text-decoration: underline;
+}
+
+.register_form form input {
+   padding: 6px;
+   border: 1px solid #104c74;
+   border-radius: 12px;
+   height: 23.5px;
+   color: rgba(59, 59, 59, 0.925);
+}
+
+.register_form form i {
+    position: relative;
+    bottom: 29.5px;
+    left: 298.5px;
+    font-size: 13.88px;
+    color: #104c74;
+}
+
+.register_form form input:focus {
+   scale: 1.0075;
+}
+
+.register_form_buttons {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 5.25px;
+}
+
+
+.register_form_buttons button {
+   height: 33.75px;
+   background-color: #1e628f;
+   color: beige;
+   border: 1px solid #0c3e5ff5;
+   border-radius: 14.5px;
+   text-transform: capitalize;
+   font-size: 15px;
+}
+
+
+.register_form_buttons button:hover {
+   background-color: #104c74;
+   transform: scale(1.009);
+   cursor: pointer;
+}
+
+
+.register_form_buttons a {
+   text-align: center;
+   font-size: 12.75px;
+   padding-right: 5px;
+   text-decoration: none;
+}
+
+.register_form_buttons a:hover {
+    text-decoration: underline;
+}
+
+
+/*castanho: #743810*/
