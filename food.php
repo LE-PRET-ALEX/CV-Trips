@@ -1,56 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
+<?php
+    include 'header.php';
+?>
     <link rel="stylesheet" href="style.food.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>Foods</title>
-</head>
 
 <body>
     <section class="top-section">
 
         <video autoplay muted loop playsinline class="background-video">
-            <source src="resources-JA/videos/food-banner..mp4" type="video/mp4">
-        </video>
-
-        <header>
-            <nav class="nav_bar">
-                <div class="header_logo">
-                    <img src="./resources/logos/newlogonobg.png" alt="Logo CV Trips">
-                    <span>CV TRIPS</span>
-                </div>
-
-                <div class="menu">
-                    <ul>
-                        <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a>
-                        </li>
-                        <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                        <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan
-                                trip</a></li>
-                    </ul>
-                </div>
-
-                <div class="settings_bar">
-                    <div class="lang_picker">
-                        <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
-                    </div>
-                    <div class="account_search_submenu">
-                        <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
-                        <input type="text" id="search_bar" placeholder=" Type search here ...">
-                        <i class="fa-solid fa-user" id="account_icon"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+            <source src="resources/videos/food-banner..mp4" type="video/mp4">
+</video>
 
         <div class="hero">
             <div class="hero-content">
@@ -62,7 +21,8 @@
 
     </section>
 
-    <section class="main">
+  <section class="main">
+    <div class="main-content">
         <h1 class="title-food">FOODS OF CABO VERDE</h1>
         <div class="text">
             <p>Traditional Cape Verdean dishes reflect the country’s history, geography, and cultural influences,
@@ -70,15 +30,15 @@
                 the islands are surrounded by the Atlantic Ocean, seafood plays a central role, but the food is also
                 shaped by periods of drought, leading to creative use of simple, locally available ingredients.</p>
         </div>
+    </div>  
 
-        <div class="content">
             <div class="galeria">
-                <img src="/resources-JA/images/donei.jpg" class="ativa">
-                <img src="/resources-JA/images/imagem2.jpg">
-                <img src="/resources-JA/images/cuscus.jpg">
-                <img src="/resources-JA/images/ressois.jpg">
+                <img src="/resources/images/donei.jpg" class="ativa">
+                <img src="/resources/images/imagem2.jpg">
+                <img src="/resources/images/cuscus.jpg">
+                <img src="/resources/images/ressois.jpg">
             </div>
-        </div>
+     
     </section>
 
     <section class="about">
@@ -95,7 +55,6 @@
 
         </div>
     </section>
-
 
     <section>
         <div class="restaurants">
@@ -116,10 +75,10 @@
     
                     <div class="item-acomodation">
                         <div class="imagem">
-                            <img src="./resources-JA/images/img-res-sal.jpg" alt="">
+                            <img src="/resources/images/img-res-sal.jpg" alt="">
                         </div>
                         <div class="info">
-                                <h2></h2>
+                                <h2>Marea Italian Restauran</h2>
                                 <h2>Sal</h2>
                                 <h3>Praia Santa Maria</h3>
                         </div>
@@ -127,10 +86,10 @@
     
                     <div class="item-acomodation">
                         <div class="imagem">
-                            <img src="/resources-JA/images/img-res-sal2.jpg" alt="">
+                            <img src="/resources/images/img-res-sal2.jpg" alt="">
                         </div>
                         <div class="info">
-                            <h2></h2>
+                            <h2>Soul Kitchen Restaurant</h2>
                             <h2>Sal</h2>
                             <h3>Rua das Salinas</h3>
                         </div>
@@ -138,7 +97,7 @@
     
                     <div class="item-acomodation">
                         <div class="imagem">
-                            <img src="/resources-JA/images/img-res-st.jpg" alt="">
+                            <img src="/resources/images/img-res-st.jpg" alt="">
                         </div>
                         <div class="info">
                             <h2>Linha d' agua</h2>
@@ -149,10 +108,10 @@
     
                     <div class="item-acomodation">
                         <div class="imagem">
-                            <img src="/resources-JA/images/img-res-st2.jpg" alt="">
+                            <img src="/resources/images/img-res-st2.jpg" alt="">
                         </div>
                         <div class="info">
-                            <h1>O Poeta</h1>
+                            <h2>O Poeta</h2>
                             <h2>Santiago</h2>
                             <h3>Achada Santo Antonio</h3>
                         </div>
@@ -160,10 +119,10 @@
     
                     <div class="item-acomodation">
                         <div class="imagem">
-                            <img src="/resources-JA/images/img-res-sv.jpg" alt="">
+                            <img src="/resources/images/img-res-sv.jpg" alt="">
                         </div>
                         <div class="info">
-                            <h1>Nautilus</h1>
+                            <h2>Nautilus</h2>
                             <h2>São  Vicente</h2>
                             <h3>Avenida Marginal</h3>
                         </div>
@@ -171,7 +130,7 @@
 
                     <div class="item-acomodation">
                         <div class="imagem">
-                            <img src="/resources-JA/images/img-res-sv2.jpg" alt="">
+                            <img src="/resources/images/img-res-sv2.jpg" alt="">
                         </div>
                         <div class="info">
                             <h1>Le Metalo</h1>
@@ -259,50 +218,6 @@
     <script src="./script-food.js"></script>
 
 </body>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h3 class="footer-title">CV TRIPS</h3>
-                    <p class="footer-text">Your trusted partner for authentic Cape Verdean experiences. Discover the
-                        real beauty of our islands.</p>
-                </div>
-
-                <div class="footer-col">
-                    <h4 class="footer-heading">Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#destinations">Destinations</a></li>
-                        <li><a href="#about">Map</a></li>
-                        <li><a href="#faq">Plan Trip</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4 class="footer-heading">Contact Us</h4>
-                    <div class="footer-contact">
-                        <p> info@cvtrips.com</p>
-                        <p> +238 123 456 789</p>
-                        <p> Mindelo, Sao Vicente, Cabo Verde</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>© 2026 CV-Trips. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="#" aria-label="Instagram"></a>
-                    <a href="#" aria-label="Facebook"></a>
-                    <a href="#" aria-label="LinkedIn"></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-</body>
-
-
-
-</html>
+<?php
+    include 'footer.php';
+?>

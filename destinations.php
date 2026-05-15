@@ -417,4 +417,7 @@
 
     <script src="destinations.js"></script>
 </body>
-</html>
+
+<?php
+    include 'footer.php';
+?>

@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/acomodation.css">
-    <title>Acomodations Page</title>
-</head>
+<?php
+    include 'header.php';
+?>
+    <link rel="stylesheet" href="/css/accomodation.css">
+
 <body>
 
     <main id="main">
@@ -13,31 +10,6 @@
             <video autoplay muted loop playsinline class="background-video">
                 <source src="resources/videos/banner_bg_video.mp4" type="video/mp4">
             </video>
-            <header>
-                <nav class="nav_bar">
-                    <div class="header_logo">
-                        <img src="resources/logos/newlogonobg.png" alt="Logo CV Trips">
-                        <span>CV TRIPS</span>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                            <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
-                        </ul>
-                    </div>
-                    <div class="settings_bar">
-                        <div class="lang_picker">
-                            <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
-                        </div>
-                        <div class="account_search_submenu">
-                            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
-                            <input type="text" id="search_bar" placeholder=" Type search here ...">
-                            <i class="fa-solid fa-user" id="account_icon"></i>
-                        </div>
-                    </div>
-                </nav>
-            </header>
         </section>
 
 
@@ -388,50 +360,10 @@
 
         </section>
     </main>
-
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 About Cabo Verde -<span></span> Praia, Cabo Verde</p>
-    </footer>
-
-
-
-    <script>
-        const track    = document.getElementById('carousel-track');
-        const btnPrev  = document.getElementById('btn-prev');
-        const btnNext  = document.getElementById('btn-next');
-
-        const CARD_WIDTH = 260;   /* largura do card em px  */
-        const GAP        = 24;    /* gap entre cards em px  */
-        const STEP       = CARD_WIDTH + GAP;
-
-        let currentIndex = 0;
-
-        function getMaxIndex() {
-            const cards    = track.querySelectorAll('.item-acomodation').length;
-            const viewport = track.parentElement.clientWidth;
-            const visible  = Math.floor(viewport / STEP);
-            return Math.max(0, cards - visible);
-        }
-
-        function slide() {
-            track.style.transform = `translateX(-${currentIndex * STEP}px)`;
-        }
-
-        btnNext.addEventListener('click', () => {
-            if (currentIndex < getMaxIndex()) {
-                currentIndex++;
-                slide();
-            }
-        });
-
-        btnPrev.addEventListener('click', () => {
-            if (currentIndex > 0) {
-                currentIndex--;
-                slide();
-            }
-        });
-    </script>
-
 </body>
-</html>
+
+<script src="/accomodation.js"></script>
+
+<?php
+    include 'footer.php';
+?>

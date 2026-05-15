@@ -1,7 +1,8 @@
+
 body {
     margin: 0;
     padding: 5px;
-    background-color: rgb(107, 95, 58);
+    background-color: beige;
     /*width: 3000px;*/
 }
 
@@ -22,7 +23,7 @@ header {
     width: 100%;
     /*position: fixed;*/
     height: 100px;
-   /* background-color: rgb(92, 80, 43);*/
+    background-color: #743810;
     /*background-image: url(resources/images/destinations_banner.webp);*/
 }
 
@@ -175,7 +176,7 @@ header {
 }
 
 .island {
-    background-color: rgb(92, 80, 43);
+    background-color: #0c3a58;
     height: auto;
     width: 580px;
     display: flex;
@@ -189,6 +190,7 @@ header {
 }
 
 .island_title {
+    background-color: #743810;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +242,7 @@ header {
 
 .tourism {
     margin-top: 40px;
-    border-top: 3px solid beige;
+    border-top: 3px solid #743810;
    /* background-color: rgb(92, 80, 43);*/
 }
 
@@ -252,7 +254,7 @@ header {
 
 .tourism_section_title h2 {
     font-size: 30px;
-    color: beige;
+    color: #743810;
     text-transform: uppercase;
 }
 
@@ -279,7 +281,7 @@ header {
 }
 
 .tourism_description_paragraph p {
-    color: beige;
+    color: #743810;
     text-align: justify;
 }
 
@@ -290,7 +292,7 @@ header {
 
 .types_of_tourism_title h2 {
     font-size: 30px;
-    color: beige;
+    color: #743810;
     text-transform: uppercase;
 }
 
@@ -300,7 +302,7 @@ header {
 
 .types_of_tourism_intro p {
     text-align: justify;
-    color: beige;
+    color: #743810;
     font-size: 16px;
 }
 
@@ -309,11 +311,11 @@ header {
     flex-direction: column;
     gap: 12.7px;
     list-style-type: circle;
-    color: rgb(201, 201, 196);
+    color: #743810;
 }
 
 .types_of_tourism_list ul li a {
-    color: beige;
+    color: #743810;
     text-decoration: none;
 }
 
@@ -331,7 +333,7 @@ header {
 .tourism_card {
     /*border: 1.1px solid black;*/
     border-radius: 9.4px;
-    background-color: rgb(92, 80, 43);
+    background-color: #743810;
 }
 
 .tourism_card:hover {

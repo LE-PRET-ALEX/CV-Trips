@@ -1,43 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/ilhas.css">
-    <title>CVTrip</title>
-</head>
+<?php
+    include 'header.php';
+?>
+    
+<link rel="stylesheet" href="./css/ilhas.css">
 <body>
     
     <main id="main">
         <section class="top-section">
             <video autoplay muted loop playsinline class="background-video">
-                <source src="resources/videos/banner_bg_video.mp4" type="video/mp4">
+                <source src="/resources/videos/12121108_3840_2160_30fps.mp4" type="video/mp4">
             </video>
-            <header>
-                <nav class="nav_bar">
-                    <div class="header_logo">
-                        <img src="resources/logos/newlogonobg.png" alt="Logo CV Trips">
-                        <span>CV TRIPS</span>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                            <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
-                        </ul>
-                    </div>
-                    <div class="settings_bar">
-                        <div class="lang_picker">
-                            <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
-                        </div>
-                        <div class="account_search_submenu">
-                            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
-                            <input type="text" id="search_bar" placeholder=" Type search here ...">
-                            <i class="fa-solid fa-user" id="account_icon"></i>
-                        </div>
-                    </div>
-                </nav>
-            </header>
         </section>
 
         
@@ -45,7 +17,7 @@
 
             <div class="s1-grid">
                 <div class="s1-text">
-                    <h2 class="section-title">Cabo Verde<br/>Santo Antão Island</h2>
+                    <h2 class="section-title">Cabo Verde<br/>Sal Island</h2>
                 <div class="divider"></div>
                     <p>
                     Cabo Verde é um Estado insular situado no Oceano Atlântico, composto por dez ilhas
@@ -84,8 +56,8 @@
                     </div>
                 </div>
                 <div class="s1-img">
-                    <img src="./resources/ilhas-imagens/SantoAntao/santoantao-imagem.png" alt="Arquipélago de Cabo Verde vista aérea" />
-                    <div class="img-tag">Cabo Verde — Ilha de Santo Antão</div>
+                    <img src="./resources/ilhas-imagens/Sal/sal-imagem.png" alt="Arquipélago de Cabo Verde vista aérea" />
+                    <div class="img-tag">Cabo Verde — Ilha de Sal</div>
                 </div>
                 </div>
             </div>
@@ -278,21 +250,17 @@
             </div>
         </section>
 
-
-        
-
         <section id="lazer">
             <div class="s4-grid">
 
             </div>
         </section>
     </main>
+</body>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 About Cabo Verde -<span></span> Praia, Cabo Verde</p>
-    </footer>
-
+<?php
+    include 'footer.php'
+?>
 
 
     <script>
@@ -331,6 +299,3 @@
             }
         });
     </script>
-
-</body>
-</html>

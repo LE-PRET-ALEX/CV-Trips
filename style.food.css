@@ -38,7 +38,6 @@
 
 header {
     width: 100%;
-    /*position: fixed;*/
 }
 
 .nav_bar {
@@ -150,7 +149,6 @@ header {
     color: beige;
 }
 
-
 .account_search_submenu input::placeholder {
     color: beige;
 }
@@ -196,21 +194,11 @@ header {
     font-weight: bold;
 }
 
-/*====================
-===== RESTO DO SITE===
-======================*/
+/* ========================= */
+/* RESTO DO SITE */
+/* ========================= */
 
-.content {
-      margin: 0;
-      background: beige;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      height: 70vh;
-    }
-
-.title-food{
+.title-food {
     padding-top: 20px;
     padding-left: 20px;
     font-size: 40px;
@@ -219,51 +207,101 @@ header {
     margin-bottom: 15px;
 }
 
-.text{
+.text {
+    flex: 1;
+    padding: 40px;
+    font-size: 19px;
     display: flex;
-    padding-left: 90px;
-    padding-right: 90px;
+    flex-direction: column;
     justify-content: center;
     text-align: justify;
-    flex-direction: row;
-    color:rgb(116, 56, 16);
+    line-height: 1.6;
+    color: #e2edf5;
 }
 
+/* ========================= */
+/* GALERIA */
+/* ========================= */
 
-/*==========GALERIA=================*/
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 45%;
+    max-height: 400px;
+    padding: 15px;
+    flex-shrink: 0;
+    align-self: center;
+}
 
-    .galeria {
-      position: relative;
-      width: 600px;
-      height: 350px;
-      overflow: hidden;
-      border-radius: 40px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    }
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
 
-    .galeria img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      position: absolute;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-    }
+.galeria img:hover {
+    transform: scale(1.03);
+    opacity: 0.85;
+}
 
-    .galeria img.ativa {
-      opacity: 1;
-    }
+/* ========================= */
+/* MAIN */
+/* ========================= */
 
-    .about {
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 450px;
+    align-items: stretch;
+    background-color: #104c74;
+    padding: 40px;
+    gap: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-food {
+    font-size: 36px;
+    font-weight: 700;
+    color: #e2edf5;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #c9d6df;
+    text-align: left;
+}
+
+/* ========================= */
+/* ABOUT */
+/* ========================= */
+
+.about {
     display: flex;
     width: 100%;
     min-height: 350px;
     margin: 0;
     align-items: center; 
-    background-color:#104c74;
+    background-color: #104c74;
 }
 
-.about-title{
+.about-title {
     font-size: 40px;
     font-weight: 700;
     color: #e2edf5;
@@ -279,11 +317,22 @@ header {
     justify-content: center;
     text-align: justify;
     line-height: 1.6;
-    color: #e2edf5  ;
+    color: #e2edf5;
 }
 
+/* ========================= */
+/* CARROSSEL */
+/* ========================= */
 
-/*==================CARROSEL===================*/
+.restaurants {
+    padding: 30px 40px 10px 40px;
+}
+
+.restaurants h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #104c74;
+}
 
 
 .acomodation {
@@ -300,23 +349,22 @@ header {
 
 #select-ilha {
     width: 100%;
-  padding: 0.5rem 0.75rem;
-  border: 1.5px solid #c9d6df;
-  border-radius: 10px;
-  font-size: 0.85rem;
-  color: #1a1a2e;
-  background-color: #f0f4f8;
-  outline: none;
+    padding: 0.5rem 0.75rem;
+    border: 1.5px solid #c9d6df;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    color: #1a1a2e;
+    background-color: #f0f4f8;
+    outline: none;
 }
- 
-/* Botões esquerda / direita */
+
 .botao {
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
- 
+
 .btn-nav {
     width: 50px;
     height: 50px;
@@ -336,14 +384,13 @@ header {
 .btn-nav i {
     color: #f5e6c8;
 }
- 
+
 .btn-nav:hover {
     background: #1a1a2e;
     color: #fff;
     transform: scale(1.08);
 }
- 
-/* Viewport — esconde os cards fora do campo */
+
 .carousel-viewport {
     flex: 1;
     height: 75%;
@@ -351,8 +398,7 @@ header {
     display: flex;
     align-items: center;
 }
- 
-/* Faixa deslizante */
+
 .carousel-track {
     display: flex;
     flex-direction: row;
@@ -361,8 +407,7 @@ header {
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     will-change: transform;
 }
- 
-/* Card individual */
+
 .item-acomodation {
     flex-shrink: 0;
     width: 260px;
@@ -375,21 +420,17 @@ header {
     flex-direction: column;
 }
 
-
-
-
-/*Formataco da imagem*/
 .imagem img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
- 
+
 .item-acomodation:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 36px rgba(0,0,0,0.18);
 }
- 
+
 .item-acomodation > div:first-child,
 .item-acomodation .imagem {
     background: #c9d6df;
@@ -400,7 +441,7 @@ header {
     color: #556;
     font-size: 0.85rem;
 }
- 
+
 .item-acomodation > div:last-child,
 .item-acomodation .info {
     height: 40%;
@@ -411,14 +452,9 @@ header {
     gap: 0.5rem;
     background: #fff;
 }
- 
+
 .item-acomodation h1 { font-size: 0.80rem; font-weight: 500; color: #333; }
 .item-acomodation h3 { font-size: 0.75rem; font-weight: 400; color: #666; }
- 
-
-
-
-
 /* ====================================
    FOOTER
    ==================================== */
