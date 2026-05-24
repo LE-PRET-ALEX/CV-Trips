@@ -1,4 +1,4 @@
-const track    = document.getElementById('carousel-track');
+        const track = document.getElementById('carousel-track');
         const btnPrev  = document.getElementById('btn-prev');
         const btnNext  = document.getElementById('btn-next');
 

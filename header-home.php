@@ -181,7 +181,7 @@
         <div class="hero-content">
             <h1><?php echo $hero_title ?? 'welcome to cabo verde'; ?></h1>
             <p><?php echo $hero_subtitle ?? 'the paradisiac country in the atlantic'; ?></p>
-            <a href="<?php echo $hero_link ?? '/ilhas.php'; ?>" class="btn"><?php echo $hero_btn ?? 'Explore'; ?></a>
+            <a href="<?php echo $hero_link ?? '/aboutCV.php'; ?>" class="btn"><?php echo $hero_btn ?? 'Explore'; ?></a>
         </div>
     </div>
 </section>

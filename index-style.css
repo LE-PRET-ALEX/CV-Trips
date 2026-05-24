@@ -385,7 +385,7 @@ FAQ
 
 .cta-content {
     position: relative;
-    z-index: 10;
+    z-index: 1;
     text-align: center;
     width: 800px;
     height: 300px;
@@ -486,6 +486,18 @@ DIALOGO
     border-radius: 5px;
     cursor: pointer;
 }
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #f0e3d0;
+}
+::-webkit-scrollbar-thumb {
+    background: #104c74;
+    border-radius: 10px;
+}
+
 
 /* ====================================
    FOOTER

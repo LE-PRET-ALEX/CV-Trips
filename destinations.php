@@ -1,423 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra as melhores ilhas de Cabo Verde para turismo, aventura e cultura">
     <link rel="stylesheet" href="destinations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
-    <title>Destinations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous" defer></script>
+    <title>CV Trips - Destinos em Cabo Verde</title>
 </head>
 <body>
-    <header>
-        <nav class="nav_bar">
-            <div class="header_logo">
-                <img src="resources/logos/newlogonobg.png" alt="Logo CV Trips">
-                <span>CV TRIPS</span>
-            </div>
+    <?php
+        include 'header.php';
+    ?>
 
-            <div class="menu">
-                <ul>
-                    <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                    <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                    <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
-                </ul>
-            </div>
-
-            <div class="settings_bar">
-                <div class="lang_picker">
-                    <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
-                </div>
-                <div class="account_search_submenu">
-                    <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
-                    <input type="text" id="search_bar" placeholder=" Type search here ...">
-                    <i class="fa-solid fa-user" id="account_icon"></i>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <section class="destinations">
-        <div class="islands">
-            <div class="island">
-                <div class="island_title">
-                    <h4>Santo Antao</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/santo_antao_banner.jpg" alt="Ilha de Santo Antao">
-                </div>
-                <div class="island_description">
-                    <p>Conhecida pelas suas montanhas e trilhas impressionantes, é o destino ideal para amantes de natureza e caminhadas.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Sao Vicente</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/sao_vicente_banner.jpg" alt="Ilha de Sao Vicente">
-                </div>
-                <div class="island_description">
-                    <p>Famosa pela cidade do Mindelo, música e vida cultural vibrante, com belas praias como a Laginha</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Sao Nicolau</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/sao_nicolau_banner.jpg" alt="Ilha de Sao Nicolau">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha tranquila com paisagens montanhosas, perfeita para quem procura sossego e autenticidade.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Sal</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/sal_banner.webp" alt="Ilha do Sal">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha tranquila com ar leve, praias maravilhosas, um sentimento de descontracao que relaxa qualquer ser humano.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Boa Vista</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/boa_vista_banner.jpg" alt="Ilha da Boa Vista">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha tranquila com paisagens claras, morabeza espetacular, muita cultura, gastronomia espetacular e uma biodiversidade absurda.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Maio</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/maio_banner.jpg" alt="Ilha do Maio">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha com um refúgio tranquilo e pouco explorado, reconhecido pela UNESCO como Reserva Mundial da Biosfera.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>santiago</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/santiago_banner.avif" alt="Ilha de Santiago">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha com ar de cidade grande, sendo a maior do pais, atividade economica frenetica, movimentacao dia inteiro e muita cultura.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Fogo</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/fogo_banner.jpg" alt="Ilha do Fogo">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha montanhosa, repleta de paisagens explendidas e com o famoso vulcao que centraliza a ilha.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Brava</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/brava_banner.jpeg" alt="Ilha da Brava">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha com tranquilidade extrema, pessoas educadas, gastronomia deliciosa e muita cultura.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-
-            <!--    DUPLICADO DE ILHAS PARA DEIXAR CAROUSEL MAIS SUAVE  -->
+    <main>
+        <!-- CAROUSEL SECTION -->
+        <section class="carousel-section">
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" aria-label="Anterior">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
                 
-            <div class="island">
-                <div class="island_title">
-                    <h4>Santo Antao</h4>
+                <div class="carousel-wrapper">
+                    <div class="carousel-track">
+                        <!-- As ilhas serão inseridas via JavaScript -->
+                    </div>
                 </div>
-                <div class="island_img">
-                    <img src="resources/images/santo_antao_banner.jpg" alt="Ilha de Santo Antao">
-                </div>
-                <div class="island_description">
-                    <p>Conhecida pelas suas montanhas e trilhas impressionantes, é o destino ideal para amantes de natureza e caminhadas.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
+                
+                <button class="carousel-btn next-btn" aria-label="Próximo">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
             </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Sao Vicente</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/sao_vicente_banner.jpg" alt="Ilha de Sao Vicente">
-                </div>
-                <div class="island_description">
-                    <p>Famosa pela cidade do Mindelo, música e vida cultural vibrante, com belas praias como a Laginha</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
+            
+            <div class="carousel-indicators">
+                <!-- Indicadores serão gerados dinamicamente -->
             </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Sao Nicolau</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/sao_nicolau_banner.jpg" alt="Ilha de Sao Nicolau">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha tranquila com paisagens montanhosas, perfeita para quem procura sossego e autenticidade.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Sal</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/sal_banner.webp" alt="Ilha do Sal">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha tranquila com ar leve, praias maravilhosas, um sentimento de descontracao que relaxa qualquer ser humano.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Boa Vista</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/boa_vista_banner.jpg" alt="Ilha da Boa Vista">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha tranquila com paisagens claras, morabeza espetacular, muita cultura, gastronomia espetacular e uma biodiversidade absurda.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Maio</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/maio_banner.jpg" alt="Ilha do Maio">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha com um refúgio tranquilo e pouco explorado, reconhecido pela UNESCO como Reserva Mundial da Biosfera.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>santiago</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/santiago_banner.avif" alt="Ilha de Santiago">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha com ar de cidade grande, sendo a maior do pais, atividade economica frenetica, movimentacao dia inteiro e muita cultura.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Fogo</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/fogo_banner.jpg" alt="Ilha do Fogo">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha montanhosa, repleta de paisagens explendidas e com o famoso vulcao que centraliza a ilha.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <div class="island">
-                <div class="island_title">
-                    <h4>Brava</h4>
-                </div>
-                <div class="island_img">
-                    <img src="resources/images/brava_banner.jpeg" alt="Ilha da Brava">
-                </div>
-                <div class="island_description">
-                    <p>Uma ilha com tranquilidade extrema, pessoas educadas, gastronomia deliciosa e muita cultura.</p>
-                </div>
-                <div class="island_links">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="tourism">
-        <div class="tourism_section_title">
-            <h2>Tourism in Cabo Verde</h2>
-        </div>
-        <div class="tourism_description">
-            <div class="tourism_description_img">
-                <img src="resources/images/tourism_description_img.jpg" alt="Tipos de turismo">
+        <!-- TOURISM SECTION -->
+        <section class="tourism">
+            <div class="tourism_section_title">
+                <h2>Turismo em Cabo Verde</h2>
             </div>
-            <div class="tourism_description_paragraph">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt odit, perferendis recusandae, accusamus consequuntur nemo impedit reiciendis totam cumque obcaecati, a rem ducimus laboriosam alias consectetur atque deleniti molestiae! Odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quas illo dolore accusantium dicta exercitationem, similique impedit tempore vitae deserunt, quidem aut ratione! Accusamus iste corporis illo sunt similique consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptate quam officia ea, velit voluptas dignissimos, id fugit soluta eveniet aliquid dolorem nemo rem iste quibusdam vitae. Quod, alias perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nemo error quae, voluptatum quas amet mollitia harum delectus ex officiis, aliquid architecto repellat dignissimos omnis. Voluptatum vitae soluta cupiditate nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut quidem exercitationem corrupti laboriosam dolores eligendi veritatis animi nobis, ex itaque, odit harum omnis laborum ea ipsum repellat eum architecto.</p>
-            </div>
-        </div>
-        <div class="tourism">
-            <div class="types_of_tourism_title">
-                <h2>Types of Tourism</h2>
-            </div>
-            <div class="types_of_tourism_intro">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque quis accusamus. Qui corporis cupiditate illo nam sint voluptates expedita sit aspernatur enim quia inventore, adipisci optio? Consectetur, repudiandae nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse minus magnam incidunt quo sapiente ratione odio fuga quisquam. Sapiente quis molestias beatae excepturi, repellat natus reiciendis quisquam non aperiam perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ducimus optio sequi ex ab libero amet omnis impedit deleniti porro? Quibusdam iure, ipsum nam ratione corrupti maxime eveniet exercitationem id!</p>
-            </div>
-            <div class="types_of_tourism_list">
-                <ul type="none">
-                    <li><a href="#">Nature/Adventure Tourism</a></li>
-                    <li><a href="#">Sea Tourism</a></li>
-                    <li><a href="#">Cultural/History Tourism</a></li>
-                    <li><a href="#">Sustainable Tourism</a></li>
-                </ul>
-            </div>
-            <div class="types_of_tourism_conclusion">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quidem consequatur nisi animi, debitis maiores magni doloribus nihil laboriosam, rerum eum quae, iste explicabo et repellendus cumque corporis dolorum corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ratione quos placeat accusamus ipsum, cupiditate nulla nobis beatae repellat eius maxime minus. Delectus ab ipsum provident quo nam, repellat alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nemo dolores culpa debitis id unde quo, animi porro omnis perspiciatis fugit aperiam quisquam repellendus. Cumque, aliquam? Magni hic non quam.</p>
-            </div>
-            <section class="types_of_tourism">
-                <div class="tourism_card">
-                    <div class="tourism_card_title">
-                        <h4>nature/Adventure Tourism</h4>
-                    </div>
-                    <div class="tourism_card_description">
-                        <div class="tourism_card_paragraph">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi molestiae obcaecati consequuntur nesciunt modi mollitia aspernatur dolore sapiente eaque sunt, minima odit tempore totam, porro alias accusantium, rerum iure. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius libero, eligendi adipisci optio accusantium commodi odit ab amet facilis ipsa cupiditate. Ipsum aperiam velit omnis maxime, ratione maiores possimus libero!</p>
-                        </div>
-                        <div class="tourism_card_img">
-                            <img src="" alt="Turismo de natureza">
-                        </div>
-                    </div>
-                    <div class="tourism_card_suggestions">
-                        <ul type="none">
-                            <li>Ilha 1</li>
-                            <li>Ilha 2</li>
-                        </ul>
-                    </div>
+            
+            <div class="tourism_description">
+                <div class="tourism_description_img">
+                    <img src="resources/images/tourism_description_img.jpg" alt="Turismo em Cabo Verde">
                 </div>
-                <div class="tourism_card">
-                    <div class="tourism_card_title">
-                        <h4>sea Tourism</h4>
-                    </div>
-                    <div class="tourism_card_description">
-                        <div class="tourism_card_paragraph">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi molestiae obcaecati consequuntur nesciunt modi mollitia aspernatur dolore sapiente eaque sunt, minima odit tempore totam, porro alias accusantium, rerum iure. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius libero, eligendi adipisci optio accusantium commodi odit ab amet facilis ipsa cupiditate. Ipsum aperiam velit omnis maxime, ratione maiores possimus libero!</p>
-                        </div>
-                        <div class="tourism_card_img">
-                            <img src="" alt="Turismo de natureza">
-                        </div>
-                    </div>
-                    <div class="tourism_card_suggestions">
-                        <ul type="none">
-                            <li>Ilha 1</li>
-                            <li>Ilha 2</li>
-                        </ul>
-                    </div>
+                <div class="tourism_description_paragraph">
+                    <p>Cabo Verde é um arquipélago de beleza única, onde cada ilha oferece uma experiência distinta. Das montanhas verdejantes de Santo Antão às praias desertas da Boa Vista, passando pela vibrante cultura do Mindelo, o país combina natureza, música e hospitalidade para criar memórias inesquecíveis.</p>
                 </div>
-                <div class="tourism_card">
-                    <div class="tourism_card_title">
-                        <h4>cultural/history Tourism</h4>
-                    </div>
-                    <div class="tourism_card_description">
-                        <div class="tourism_card_paragraph">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi molestiae obcaecati consequuntur nesciunt modi mollitia aspernatur dolore sapiente eaque sunt, minima odit tempore totam, porro alias accusantium, rerum iure. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius libero, eligendi adipisci optio accusantium commodi odit ab amet facilis ipsa cupiditate. Ipsum aperiam velit omnis maxime, ratione maiores possimus libero!</p>
-                        </div>
-                        <div class="tourism_card_img">
-                            <img src="" alt="Turismo de natureza">
-                        </div>
-                    </div>
-                    <div class="tourism_card_suggestions">
-                        <ul type="none">
-                            <li>Ilha 1</li>
-                            <li>Ilha 2</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tourism_card">
-                    <div class="tourism_card_title">
-                        <h4>sustainable Tourism</h4>
-                    </div>
-                    <div class="tourism_card_description">
-                        <div class="tourism_card_paragraph">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi molestiae obcaecati consequuntur nesciunt modi mollitia aspernatur dolore sapiente eaque sunt, minima odit tempore totam, porro alias accusantium, rerum iure. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius libero, eligendi adipisci optio accusantium commodi odit ab amet facilis ipsa cupiditate. Ipsum aperiam velit omnis maxime, ratione maiores possimus libero!</p>
-                        </div>
-                        <div class="tourism_card_img">
-                            <img src="" alt="Turismo de natureza">
-                        </div>
-                    </div>
-                    <div class="tourism_card_suggestions">
-                        <ul type="none">
-                            <li>Ilha 1</li>
-                            <li>Ilha 2</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </section>
+            </div>
 
-    <div class="interactive_map">
-        <span>Aqui fica o mapa interativo</span>
-    </div>
+            <div class="types_of_tourism">
+                <div class="types_of_tourism_title">
+                    <h2>Tipos de Turismo</h2>
+                </div>
+                
+                <div class="types_of_tourism_intro">
+                    <p>Cabo Verde oferece experiências diversificadas que atendem a todos os perfis de viajantes. Seja você um aventureiro em busca de trilhas desafiadoras, um amante do mar em busca de praias paradisíacas, ou alguém interessado na rica história e cultura crioula, encontrará algo especial em cada ilha.</p>
+                </div>
+                
+                <div class="types_of_tourism_tabs">
+                    <button class="tab-btn active" data-tab="nature">🌿 Natureza/Aventura</button>
+                    <button class="tab-btn" data-tab="sea">🌊 Turismo de Mar</button>
+                    <button class="tab-btn" data-tab="culture">🏛️ Cultura/História</button>
+                    <button class="tab-btn" data-tab="sustainable">♻️ Turismo Sustentável</button>
+                </div>
+                
+                <div class="types_of_tourism_content">
+                    <div class="tab-content active" id="nature">
+                        <div class="tab-text">
+                            <h3>Turismo de Natureza e Aventura</h3>
+                            <p>Explore trilhas desafiadoras em Santo Antão, escaladas no vulcão do Fogo, caminhadas pela paisagem lunar do Sal, e observação de aves em ilhas menos exploradas. Cabo Verde oferece cenários únicos para os amantes de aventura e contato com a natureza preservada.</p>
+                            <div class="recommended-islands">
+                                <span class="badge">🏔️ Santo Antão</span>
+                                <span class="badge">🌋 Fogo</span>
+                                <span class="badge">🏜️ Sal</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="sea">
+                        <h3>Turismo de Mar</h3>
+                        <p>Desfrute de praias paradisíacas na Boa Vista, surf no Sal, mergulho em São Vicente, observação de tartarugas marinhas em todo o arquipélago, e passeios de barco entre as ilhas. O mar de Cabo Verde é um convite à aventura e ao relaxamento.</p>
+                        <div class="recommended-islands">
+                            <span class="badge">🏖️ Boa Vista</span>
+                            <span class="badge">🏄‍♂️ Sal</span>
+                            <span class="badge">🐢 Maio</span>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="culture">
+                        <h3>Turismo Cultural e Histórico</h3>
+                        <p>Conheça a história da escravidão na Cidade Velha (Patrimônio Mundial da UNESCO), a vibrante cena musical da Mindelo, as festas tradicionais, o artesanato local e a rica gastronomia crioula que conta a história do povo cabo-verdiano.</p>
+                        <div class="recommended-islands">
+                            <span class="badge">🏛️ Santiago</span>
+                            <span class="badge">🎵 São Vicente</span>
+                            <span class="badge">🍲 São Nicolau</span>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="sustainable">
+                        <h3>Turismo Sustentável</h3>
+                        <p>Participe de projetos de conservação ambiental, hospede-se em eco-lodges, apoie comunidades locais, e contribua para o desenvolvimento sustentável do arquipélago. Viaje de forma responsável e deixe um impacto positivo.</p>
+                        <div class="recommended-islands">
+                            <span class="badge">♻️ Maio</span>
+                            <span class="badge">🌱 Brava</span>
+                            <span class="badge">🤝 Santo Antão</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <script src="destinations.js"></script>
+        <!-- MAP SECTION -->
+        <div class="interactive_map">
+            <div class="map-placeholder">
+                <i class="fa-solid fa-map"></i>
+                <span>Mapa Interativo - Em breve</span>
+                <p>Explore todas as ilhas de Cabo Verde num mapa interativo</p>
+            </div>
+        </div>
+    </main>
+
+    <?php include 'footer.php'; ?>
+
+    <script src="destinations.js" defer></script>
 </body>
-
-<?php
-    include 'footer.php';
-?>
+</html>

@@ -1,7 +1,7 @@
 <?php
     include 'header.php';
 ?>
-    <link rel="stylesheet" href="/css/accomodation.css">
+<link rel="stylesheet" href="/css/accomodation.css">
 
 <body>
 

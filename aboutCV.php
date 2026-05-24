@@ -1,48 +1,41 @@
 <?php 
-$title = "About Cabo Verde - CV TRIPS";
-$css = "aboutCV.css";
-$video = "resources/videos/banner_bg_video.mp4";
-$hero_title = "Cabo Verde";
-$hero_subtitle = "10 ilhas, um só coração";
-$hero_link = "#descricao";
-$hero_btn = "Descobrir";
-
-include 'header-home.php'; 
+    include 'header.php'; 
 ?>
-
+<htnl>
 <!-- CONTEÚDO PRINCIPAL (igual ao seu, sem repetir header/vídeo) -->
 <main id="main-content">
+    <link rel="stylesheet" href="/css/aboutCV.css">
     <!-- S1: DESCRIÇÃO -->
     <section id="descricao">
         <div class="s1-grid">
             <div class="s1-text">
-                <h2 class="section-title">O Arquipélago de<br/>Cabo Verde</h2>
+                <h2 class="section-title">The Cape Verde<br/>Archipelago</h2>
                 <div class="divider"></div>
                 <p>
-                    Cabo Verde é um Estado insular situado no Oceano Atlântico, composto por dez ilhas
-                    e vários ilhéus. Com uma área total de 4.033 km², o arquipélago divide-se em dois
-                    grupos principais: <strong>Barlavento</strong> (Santo Antão, São Vicente, Santa Luzia,
-                    São Nicolau, Sal e Boa Vista) e <strong>Sotavento</strong> (Maio, Santiago, Fogo e Brava).
+                    Cape Verde is an island State located in the Atlantic Ocean, composed of ten islands and several islets. 
+                    With a total area of 4,033 km², the archipelago is divided into two main groups: 
+                    <strong>Barlavento</strong> (Santo Antão, São Vicente, Santa Luzia,
+                    São Nicolau, Sal e Boa Vista) and <strong>Sotavento</strong> (Maio, Santiago, Fogo e Brava).
                 </p>
                 <p>
-                    Descoberto e colonizado por navegadores portugueses no século XV, o país tornou-se
-                    independente em 1975 e transformou-se numa das democracias mais estáveis do continente
-                    africano. A sua posição estratégica entre a Europa, África e as Américas contribuiu
-                    historicamente para uma identidade única — marcada pela mestiçagem, pela resiliência
-                    e pelo espírito da <em>morabeza</em>.
+                    Discovered and colonized by Portuguese navigators in the 15th century, 
+                    the country became independent in 1975 and transformed into one of the most stable 
+                    democracies on the African continent. Its strategic position between Europe, Africa
+                    and the Americas historically contributed to a unique identity, marked by miscegenation, 
+                    resilience and the spirit of <em>morabeza</em>.
                 </p>
                 <p>
-                    O clima é seco e árido, temperado pela influência marítima, com praias de areia branca
-                    e fina, águas cristalinas e paisagens vulcânicas de beleza singular.
+                  The climate is dry and arid, tempered by maritime influence, with beaches of fine white sand, 
+                  crystal-clear waters and volcanic landscapes of unique beauty.
                 </p>
                 <div class="stat-row">
                     <div class="stat">
                         <div class="num">10</div>
-                        <div class="lbl">Ilhas</div>
+                        <div class="lbl">Islands</div>
                     </div>
                     <div class="stat">
                         <div class="num">600K+</div>
-                        <div class="lbl">Habitantes</div>
+                        <div class="lbl">inhabitants</div>
                     </div>
                     <div class="stat">
                         <div class="num">4.033</div>
@@ -50,13 +43,13 @@ include 'header-home.php';
                     </div>
                     <div class="stat">
                         <div class="num">1975</div>
-                        <div class="lbl">Independência</div>
+                        <div class="lbl">Independence</div>
                     </div>
                 </div>
             </div>
             <div class="s1-img">
                 <img src="./resources/aboutCV/imageCV.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
-                <div class="img-tag">Arquipélago de Cabo Verde — Atlântico</div>
+                <div class="img-tag">The Cape Verde Archipelago — Atlântic</div>
             </div>
         </div>
     </section>
@@ -65,24 +58,24 @@ include 'header-home.php';
     <section id="localizacao">
         <div class="s2-grid">
             <div class="s2-info">
-                <h2 class="section-title">Localização</h2>
+                <h2 class="section-title">Locations</h2>
                 <div class="divider"></div>
                 <p>
-                    Cabo Verde localiza-se no Oceano Atlântico Norte, a cerca de <strong>570 km</strong>
-                    da costa ocidental africana, em frente ao Senegal e à Mauritânia. As ilhas distribuem-se
-                    entre as latitudes 14° e 18° Norte e as longitudes 22° e 26° Oeste.
+                    Cape Verde is located in the North Atlantic Ocean, about <strong>570 km</strong>
+                    off the West African coast, opposite Senegal and Mauritania. The islands are 
+                    distributed between latitudes 14° and 18° North and longitudes 22° and 26° West.
                 </p>
                 <p>
-                    A capital, <strong>Praia</strong>, encontra-se na ilha de Santiago, no grupo de Sotavento.
-                    São Vicente alberga a segunda maior cidade — <strong>Mindelo</strong> — considerada o polo
-                    cultural do arquipélago.
+                    The capital, <strong>Praia</strong>,located on the island of Santiago, in the Sotavento group. 
+                    São Vicente is home to the second-largest city <strong>Mindelo</strong> considered the cultural 
+                    hub of the archipelago.
                 </p>
                 <div class="info-list">
-                    <div class="list"><strong>Continente:</strong> África</div>
+                    <div class="list"><strong>Continent:</strong> África</div>
                     <div class="list"><strong>Capital:</strong> Praia</div>
-                    <div class="list"><strong>Idioma:</strong> Português / Crioulo</div>
-                    <div class="list"><strong>Moeda:</strong> Escudo Cabo-verdiano</div>
-                    <div class="list"><strong>Fuso:</strong> UTC-1</div>
+                    <div class="list"><strong>Language:</strong> Português / Crioulo</div>
+                    <div class="list"><strong>Currency:</strong> Escudo Cabo-verdiano</div>
+                    <div class="list"><strong>Time zone:</strong> UTC-1</div>
                     <div class="list"><strong>Dist. a Portugal:</strong> ~2.700 km</div>
                 </div>
             </div>
@@ -101,14 +94,14 @@ include 'header-home.php';
     <!-- S3: ILHAS -->
     <section id="ilhas">
         <div class="ilhas-header">
-            <h2 class="section-title">As Ilhas de Cabo Verde</h2>
+            <h2 class="section-title">Cape Verde's Islands</h2>
             <div class="divider"></div>
             <p class="ilhas-subtitle">
-                Cada ilha é um mundo próprio — clique para explorar a sua história, paisagem e carácter únicos.
+                Which island owns a world inside, click to discover.
             </p>
         </div>
         <div class="ilhas-grid">
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Santo_Ant%C3%A3o_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/SantoAntao.jpg" alt="Santo Antão" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -118,7 +111,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/Soncent.jpg" alt="São Vicente" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -128,7 +121,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Santa_Luzia_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80" alt="Santa Luzia" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -138,7 +131,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/S%C3%A3o_Nicolau_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/SaoNiclau.jpg" alt="São Nicolau" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -148,7 +141,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Sal_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/Sal.jpg" alt="Sal" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -158,7 +151,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Boa_Vista_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/Bubista.jpg" alt="Boa Vista" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -168,7 +161,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Maio_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/Maio.jpg" alt="Maio" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -178,7 +171,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="./santiago.html" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/Santiago.jpg" alt="Santiago" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -188,7 +181,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Fogo_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/fogo.jpg" alt="Fogo" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -198,7 +191,7 @@ include 'header-home.php';
                 <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="https://pt.wikipedia.org/wiki/Brava_(Cabo_Verde)" target="_blank" rel="noopener">
+            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
                 <img src="./resources/aboutCV/image ilhas/Brava.jpg" alt="Brava" />
                 <div class="overlay"></div>
                 <div class="card-content">
@@ -213,7 +206,7 @@ include 'header-home.php';
     <!-- S4: CULTURA -->
     <section id="cultura">
         <div class="cultura-header">
-            <h2 class="section-title">A Cultura Cabo-verdiana</h2>
+            <h2 class="section-title">Cape Verde's Culture</h2>
             <div class="divider"></div>
         </div>
         <div class="cultura-grid">
@@ -241,16 +234,16 @@ include 'header-home.php';
 
         <div class="cultura-text-block">
             <div class="ct">
-                <h4>Identidade Mestiça</h4>
-                <p>A cultura cabo-verdiana resulta da fusão entre as tradições africanas dos escravizados trazidos do continente e a herança portuguesa dos colonizadores. Desta síntese nasceu uma identidade única — o povo cabo-verdiano — e uma língua própria, o Crioulo, que hoje é símbolo de resistência e orgulho nacional.</p>
+                <h4>Mestizo Identity</h4>
+                <p>Cape Verdean culture results from the fusion between the African traditions of the enslaved people brought from the continent and the Portuguese heritage of the colonizers. From this synthesis, a unique identity was born, the Cape Verdean people, and their own language, Creole, which today is a symbol of resistance and national pride.</p>
             </div>
             <div class="ct">
-                <h4>Gastronomia</h4>
-                <p>O prato nacional é a <em>cachupa</em>, um guisado de milho, feijão e legumes ao qual se acrescentam carnes ou peixe. O atum, a lagosta e o xerém (papas de milho) são também marcas da culinária local, fortemente influenciada pela geografia insular e pelos recursos do Atlântico.</p>
+                <h4>Gastronomy</h4>
+                <p>The national dish is cachupa, a stew of corn, beans, and vegetables to which meat or fish are added. Tuna, lobster, and xerém (corn porridge) are also hallmarks of the local cuisine, heavily influenced by the island geography and the resources of the Atlantic.</p>
             </div>
             <div class="ct">
-                <h4>Festivais & Tradição</h4>
-                <p>O Carnaval de Mindelo, considerado um dos mais vibrantes do mundo lusófono, celebra-se com desfiles coloridos, sátira política e criatividade popular. A Festa da Baía das Gatas em São Vicente é outro ponto alto do calendário cultural, reunindo músicos e visitantes de todo o mundo.</p>
+                <h4>Festivals & Tradition</h4>
+                <p>The Mindelo Carnival, considered one of the most vibrant in the Lusophone world, is celebrated with colorful parades, political satire, and popular creativity. The Baía das Gatas Festival in São Vicente is another high point of the cultural calendar, bringing together musicians and visitors from all over the world.</p>
             </div>
         </div>
     </section>
@@ -258,12 +251,12 @@ include 'header-home.php';
     <!-- S5: MÚSICA -->
     <section id="musica">
         <div class="musica-header">
-            <h2 class="section-title">A Música de Cabo Verde</h2>
+            <h2 class="section-title">Cape Verde's Music</h2>
             <div class="divider"></div>
             <p class="musica-intro">
-                A música é a alma de Cabo Verde. Nascida da saudade, do mar e da diáspora, atravessa fronteiras
-                e emociona o mundo inteiro. Da melancolia da <em>morna</em> ao ritmo festivo do <em>funaná</em>,
-                cada género é uma forma de contar a história de um povo.
+                Music is the soul of Cape Verde. Born from saudade, the sea, and the diaspora,
+                it crosses borders and moves the entire world. From the melancholy of <em> morna</em> 
+                to the festive rhythm of <em>funaná</em> each genre is a way of telling the story of a people.
             </p>
         </div>
 
@@ -271,31 +264,31 @@ include 'header-home.php';
             <div class="musica-card">
                 <img class="mc-img" src="./resources/aboutCV/cultura/Cesaria Evora.jpg" alt="Morna" />
                 <div class="mc-body">
-                    <span class="mc-tag">Património UNESCO · 2019</span>
+                    <span class="mc-tag">UNESCO Heritage · 2019</span>
                     <h3>Morna</h3>
-                    <p>Considerada a música da alma cabo-verdiana, a morna é um género lírico de ritmo lento que expressa a <em>sodade</em> — saudade crioula. Internacionalizada por Cesária Évora, a "Diva dos Pés Descalços", foi inscrita no Património Imaterial da Humanidade em 2019.</p>
+                    <p>Considered the music of the Cape Verdean soul, morna is a slow-tempo lyrical genre that expresse <em>sodade</em> Creole nostalgia. Brought to the international stage by Cesária Évora, the "Barefoot Diva", it was inscribed on the Intangible Cultural Heritage list in 2019.</p>
                 </div>
             </div>
 
             <div class="musica-card">
                 <img class="mc-img" src="./resources/aboutCV/cultura/code di dona.jpg" alt="Funaná" />
                 <div class="mc-body">
-                    <span class="mc-tag">Ritmo da Terra</span>
+                    <span class="mc-tag">Rhythm</span>
                     <h3>Funaná</h3>
-                    <p>Nascido nas zonas rurais de Santiago, o funaná é um ritmo acelerado e dançante, executado com acordeão e <em>ferrinho</em>. Proibido durante o colonialismo por ser considerado "selvagem", tornou-se símbolo de resistência e libertação após a independência.</p>
+                    <p>Born in the rural areas of Santiago, funaná is a fast-paced, danceable rhythm performed with an accordion and a <em>ferrinho</em>.Banned during colonialism for being considered "wild", it became a symbol of resistance and liberation after independence</p>
                 </div>
             </div>
 
             <div class="musica-card">
                 <img class="mc-img" src="./resources/aboutCV/cultura/batabaque.jpg" alt="Coladeira e Batuko" />
                 <div class="mc-body">
-                    <span class="mc-tag">Diversidade Musical</span>
+                    <span class="mc-tag">Musical Diversity</span>
                     <h3>Coladeira & Batuque</h3>
-                    <p>A coladeira é um ritmo mais alegre e satírico que a morna, repleto de humor e crítica social. O batuque é uma das formas musicais mais antigas, de raiz africana, marcada por percussão intensa e dança ritual, preservada sobretudo em Santiago.</p>
+                    <p>Coladeira is a more cheerful and satirical rhythm than morna, full of humor and social commentary. Batuque is one of the oldest musical forms, with African roots, characterized by intense percussion and ritual dance, preserved mainly in Santiago.</p>
                 </div>
             </div>
         </div>
     </section>
 </main>
-
+</html>
 <?php include 'footer.php'; ?>

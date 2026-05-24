@@ -50,7 +50,7 @@
                     <i class="fa-solid fa-gear"></i>
                 </div>
             </div>
-        </nav>
+        </nav>  
     </header>
     <section class="plan_trip" id="plan_trip">
         <div class="plan_trip_card">

@@ -1,7 +1,7 @@
 *{
     font-family: 'Poppins';
 }
-
+/* 
 /* ---------- RESET & BASE ---------- */
 *, *::before, *::after {
     margin: 0;
@@ -12,7 +12,7 @@
 html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory; /* scroll suave entre secções */
-}
+} */
 
 body {
     background-color: beige;

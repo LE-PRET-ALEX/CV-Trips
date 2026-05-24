@@ -18,7 +18,7 @@ include 'header-home.php';
                     </li>
                     <li class="utility">
                         <i class="fa-solid fa-bus"></i>
-                        <a href="#">Transportation</a>
+                        <a href="transportations.php">Transportation</a>
                     </li>
                     <li class="utility">
                         <i class="fa-solid fa-bed"></i>
@@ -80,7 +80,7 @@ include 'header-home.php';
                     <h2 class="cta-title">Ready to Trip?</h2>
                     <p class="cta-text">Book your dream vacation to Cape Verde today and experience paradise like never
                         before</p>
-                    <button class="btn-book" href="plan_trip.html">Book Now</button>
+                    <a class="btn-book" href="plan_trip.php">Book Now</a>
                 </div>
             </section>
 

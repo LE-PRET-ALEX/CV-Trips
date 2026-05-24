@@ -18,6 +18,7 @@
 <style>
 header {
         width: 100%;
+        background-color: #743810;
         /*position: fixed;*/
         }
 

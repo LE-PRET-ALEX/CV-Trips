@@ -141,11 +141,9 @@
             </div>
         </div>
     </section>
-
-
-    
-    <script src="needed_documents.js"></script>
 </body>
+
+<script src="needed_documents.js"></script>
 
 <?php
     include 'footer.php';
