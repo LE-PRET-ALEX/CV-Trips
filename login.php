@@ -20,7 +20,7 @@
            </div>
            <div class="login_form_area">
                <div class="login_form_area_title">
-                   <h4>LOGIN</h4>
+                   <h4>Login</h4>
                </div>
                <div class="login_form">
                    <form action="">
@@ -33,14 +33,13 @@
                            <label for="password_input">Password</label>
                            <input type="password" name="password" id="password_input" placeholder="e.g.  pass12$$">
                            <i class="fa-solid fa-lock"></i>
-                           <a href="#">Forgot password?</a>
                        </div>
                    </form>
                </div>
                <div class="login_form_buttons">
                    <button id="login_button">Login</button>
-                   <button id="create_account_button">Create account</button>
-                   <a href="#">Continue without log</a>
+                   <button id="create_account_button" href="create_account.php">Create account</button>
+                   <a href="index.php">Continue without log</a>
                </div>
            </div>
        </div>

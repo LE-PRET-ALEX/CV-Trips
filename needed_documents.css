@@ -22,7 +22,7 @@ header {
     /*position: fixed;*/
     height: 450px;
    /* background-color: rgb(92, 80, 43);*/
-    background-image: url(resources/images/aeroporto_sal.jpg);
+    background-image: url(resources/images/aeroport.webp);
     background-size: cover;
     background-position: center;
     z-index: 6;

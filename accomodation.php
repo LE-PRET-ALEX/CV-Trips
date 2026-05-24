@@ -1,3 +1,4 @@
+<<<<<<< HEAD:acomodation.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +11,13 @@
         rel="stylesheet">
     <title>Acomodations Page</title>
 </head>
+=======
+<?php
+    include 'header.php';
+?>
+<link rel="stylesheet" href="/css/accomodation.css">
+
+>>>>>>> tests:accomodation.php
 <body>
 
     <main id="main">
@@ -17,31 +25,6 @@
             <video autoplay muted loop playsinline class="background-video">
                 <source src="resources/videos/banner_bg_video.mp4" type="video/mp4">
             </video>
-            <header>
-                <nav class="nav_bar">
-                    <div class="header_logo">
-                        <img src="resources/logos/newlogonobg.png" alt="Logo CV Trips">
-                        <span>CV TRIPS</span>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                            <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
-                        </ul>
-                    </div>
-                    <div class="settings_bar">
-                        <div class="lang_picker">
-                            <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
-                        </div>
-                        <div class="account_search_submenu">
-                            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
-                            <input type="text" id="search_bar" placeholder=" Type search here ...">
-                            <i class="fa-solid fa-user" id="account_icon"></i>
-                        </div>
-                    </div>
-                </nav>
-            </header>
         </section>
 
 
@@ -375,6 +358,7 @@
             </div>
         </section>
     </main>
+<<<<<<< HEAD:acomodation.html
 
     <!-- FOOTER -->
     <footer>
@@ -420,5 +404,12 @@
         });
     </script>
 
+=======
+>>>>>>> tests:accomodation.php
 </body>
-</html>
+
+<script src="/accomodation.js"></script>
+
+<?php
+    include 'footer.php';
+?>
