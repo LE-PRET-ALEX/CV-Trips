@@ -1,0 +1,779 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 'montserrat', Arial, sans-serif;
+}
+
+
+
+
+body {
+    /* font-family: 'Segoe UI', sans-serif; */
+    overflow-x: hidden;
+}
+
+
+
+.top-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;         
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Vídeo de fundo */
+.background-video {
+    position: absolute;
+    inset: 0;               
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.top-section::after {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+header {
+    position: relative;
+    z-index: 10;             
+    width: 100%;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 3rem;
+    background: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.header_logo img {
+    height: 42px;
+    width: auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2.2rem;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    opacity: 0.7;
+}
+
+.settings_bar {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.lang_picker img {
+    height: 24px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.account_search_submenu {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: #fff;
+}
+
+.account_search_submenu i {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.account_search_submenu i:hover {
+    opacity: 0.7;
+}
+
+#search_bar {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 0.3rem 0.9rem;
+    color: #fff;
+    font-size: 0.85rem;
+    outline: none;
+    width: 0;
+    opacity: 0;
+}
+
+#search_bar:focus, #search_bar.active {
+    width: 180px;
+    opacity: 1;
+}
+
+#search_bar::placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+
+/* ================================================
+   MAIN 
+   ================================================ */
+#main {
+    width: 100%;
+}
+
+/*==============ILHA DE SANTIAGO=========================*/
+
+#section1 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f5f0eb;
+    overflow: hidden;
+}
+    
+#section1 .s1-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+    
+#section1 .s1-text p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #3a2b18;
+    margin-bottom: 1.2rem;
+}
+
+#section1 .s1-img {
+    position: relative;
+}
+    
+#section1 .s1-img img {
+    width: 100%;
+    height: 480px;
+    border-radius: 2px;
+    display: block;
+}
+
+    
+.stat-row {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+    
+.stat {
+    border-left: 2px solid #c4622d;
+    padding-left: 0.8rem;
+}
+    
+.stat .num {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0a3d5f;
+    line-height: 10px;
+}
+
+.stat .lbl {
+    font-size: 0.75rem;
+    color: #7a5f3a;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 0.2rem;
+}
+
+.section-title {
+    font-size: 4rem;
+    line-height: 1.15;
+    margin-bottom: 1.6rem;
+    color: #0a3d5f;
+}
+
+
+
+
+/* ======================================
+    SECTION 5 - GALERIA
+=====================================*/
+
+
+.section2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #3a2b18;
+    overflow: hidden;
+}
+ 
+.title-s2 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2b18;
+}
+ 
+.title-s2 h2 {
+    font-size: 3.4rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #fff;
+    text-align: center;
+}
+
+.gastronomia {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #3a2b18;
+}
+ 
+/* Botao esquerda / direita */
+.butoes {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2b18;
+    transition: transform 2.2s ease;
+}
+
+.btn {
+    display: flex;
+    padding: 10px;
+    height: 10%;
+    align-items: center;
+    cursor: pointer;
+    border: 2px #333;
+} 
+
+button {
+    width: 100px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.butoes button:hover {
+    transform: scale(1.1);
+    color: #c9d6df;
+}
+ 
+/* Viewport — esconde os cards fora do campo */
+.carrosel-viewport {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #3a2b18;
+    overflow: hidden;
+
+}
+ 
+/* Faixa deslizante */
+.carrosel_deslizar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    height: 97%;
+    max-width: max-content;
+    background-color: #3a2b18;
+    padding: 0 20px; 
+}
+ 
+/* Card individual */
+.item-gastronomia {
+    height: 100%;
+    flex: 0 0 300px;
+    background: #3a2b18;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+    transition: transform 0.25s, box-shadow 0.25s;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
+
+/*Formatacao da imagem*/
+.imagem-gastronomia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.item-gastronomia:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+}
+ 
+.imagem-gastronomia {
+    height: 100%;
+    width: 100%;
+    background: #c9d6df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #556;
+    font-size: 0.85rem;
+    object-fit: cover;
+}
+
+
+
+/* ============================================
+    SECCAO PONTOS TURISTICO - SECCAO 3
+============================================ */
+#pontos_turisticos {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background: #f5f0eb;
+}
+
+.s3-grid {
+    max-width: 1400px;
+    margin: 0 ;
+}
+
+.s3-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.s3-header h2 {
+    font-size: 4rem;
+    color: #0a3d5f;
+    margin-bottom: 0.5rem;
+}
+
+.s3-header .divider {
+    margin: 0.5rem auto;
+}
+
+.s3-header p {
+    color: #7a5f3a;
+    font-size: 1rem;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.conteudo {
+    flex: 1;
+    min-width: 300px;
+    max-width: 380px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    transition: box-shadow 1s ease, transform 1s ease;
+}
+
+.conteudo:hover{
+    transform: scale(1.090);
+    box-shadow: 0 9px 24px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Imagem dentro do card */
+.conteudo .imagem {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 1s ease;
+}
+
+.conteudo .imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo img:hover{
+    transform: scale(1.0);
+}
+
+.conteudo .informacao {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.conteudo .informacao h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0a3d5f;
+    margin: 0;
+}
+
+.conteudo .rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #f5b042;
+    font-size: 0.85rem;
+}
+
+.conteudo .rating span {
+    color: #7a5f3a;
+    font-weight: 500;
+}
+
+.conteudo .descricao {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #5a4a32;
+    margin: 0.25rem 0;
+}
+
+.conteudo .explorar {
+    margin-top: 0.5rem;
+}
+
+
+/* Botões esquerda / direita */
+.botao {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    gap: 20px;
+    align-self: start;
+    justify-content: center;
+    background-color: #fff;
+}
+ 
+.btn-nav {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #1a1a2e;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #1a1a2e;
+    line-height: 10px;
+}
+
+.btn-nav i {
+    color: #f5e6c8;
+}
+ 
+.btn-nav:hover {
+    background: #1a1a2e;
+    color: #fff;
+    transform: scale(1.08);
+}
+ 
+/* Viewport — esconde os cards fora do campo */
+.carousel-viewport {
+    height: 90%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(29, 78, 242, 0.738);
+
+}
+ 
+/* Card individual */
+.item-acomodation {
+    height: 97%;
+    width: 260px;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Formatacao da imagem*/
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+/*Ao passar o mouse amentar escala(destacar-se dos outros)*/
+.item-acomodation:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+}
+
+
+.item-acomodation .imagem {
+    background: #c9d6df;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #556;
+    font-size: 0.85rem;
+}
+ 
+.item-acomodation .info {
+    height: 40%;
+    width: 100%;
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #fff;
+}
+ 
+/*Fomataco Titulo*/
+.item-acomodation h1 { 
+    font-size: 0.80rem; 
+    font-weight: 500; 
+    color: #333; 
+}
+
+.item-acomodation h3 { 
+    font-size: 0.75rem; 
+    font-weight: 400; 
+    color: #666; 
+}
+
+
+
+ */
+
+/* S4 - GRID */
+
+.s4-grid {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f5f0eb;
+    overflow: hidden;   
+}
+
+.s4-content {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    background: #f5f0eb;
+    justify-content: center;
+}
+
+.s4-content p {
+    font-size: larger;
+    color: #1a1208;
+}
+
+.s4-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #0a3d5f;
+}
+
+
+
+
+/* ======================================
+    SECTION 5 - GALERIA
+=====================================*/
+
+
+.section5 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #3a2b18;
+    overflow: hidden;
+}
+ 
+.title-s5 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2b18;
+}
+ 
+.title-s5 h2 {
+    font-size: 3.4rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #fff;
+    text-align: center;
+}
+
+.galeria {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #3a2b18;
+}
+ 
+/* Botao esquerda / direita */
+.butoes {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2b18;
+    transition: transform 2.2s ease;
+}
+
+.btn {
+    display: flex;
+    padding: 10px;
+    height: 10%;
+    align-items: center;
+    cursor: pointer;
+    border: 2px #333;
+} 
+
+button {
+    width: 100px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.butoes button:hover {
+    transform: scale(1.1);
+    color: #c9d6df;
+}
+ 
+/* Viewport — esconde os cards fora do campo */
+.carrosel-viewport {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #3a2b18;
+    overflow: hidden;
+
+}
+ 
+/* Faixa deslizante */
+.carrosel_deslizar_galeria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    height: 97%;
+    max-width: max-content;
+    background-color: #3a2b18;
+    padding: 0 20px; 
+}
+ 
+/* Card individual */
+.item-galeria {
+    height: 100%;
+    flex: 0 0 300px;
+    background: #3a2b18;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+    transition: transform 0.25s, box-shadow 0.25s;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
+
+/*Formatacao da imagem*/
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.item-galeria:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+}
+ 
+.imagem {
+    height: 100%;
+    width: 100%;
+    background: #c9d6df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #556;
+    font-size: 0.85rem;
+    object-fit: cover;
+}
+ 

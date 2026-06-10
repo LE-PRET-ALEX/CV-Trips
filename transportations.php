@@ -85,5 +85,5 @@
 </body>
 
 <?php
-    include 'footer.php';d
+    include 'footer.php';
 ?>

@@ -1,17 +1,13 @@
 /* ---------- RESET & BASE ---------- */
-*, *::before, *::after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory; /* scroll suave entre secções */
-}
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
@@ -132,17 +128,8 @@ header {
     outline: none;
     width: 0;
     opacity: 0;
-    transition: width 0.3s ease, opacity 0.3s ease;
 }
 
-#search_bar:focus, #search_bar.active {
-    width: 180px;
-    opacity: 1;
-}
-
-#search_bar::placeholder {
-    color: rgba(255,255,255,0.6);
-}
 
 
 /* ================================================
@@ -153,23 +140,38 @@ header {
 }
 
 /* ================================================
-   SECTION — Filtros de Pesquisa
+   FUNDO
    ================================================ */
 
+.fundo {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/1200x/c6/77/62/c67762cd5a342d441589fa0ccda18d53.jpg);
+    background-size: cover;
+}
 
+.fundo h1 {
+    color: #1a1a2e98;
+    font-size: 2.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 
 
 /* ================================================
    SECTION 2 — Carrossel de Acomodações
    ================================================ */
-#section2 {
+.section2 {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #0a3d5f;
+    background: #fff;
     overflow: hidden;
 }
  
@@ -179,138 +181,91 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
-    background-color: #0a3d5f;
+    background-color: #fff;
 }
  
-.titulo h2 {
-    font-size: 2rem;
+.titulo h1 {
+    font-size: 3.4rem;
     font-weight: 800;
     letter-spacing: 0.12em;
-    color: #f5e6c8;
+    color: #0a3d5f;
     text-align: center;
 }
 
-.paragrafo {
-    background-color: #0a3d5f;
-    width: 80%;
-    height: 80%;
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;    
-}
-
-.paragrafo p {
-    color: #f5e6c8;
-    font-size: 1rem;
-    text-align: justify;
-} 
-
-.p {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    width: 100%;
-    height: 100%;
-}
-
-.selecionar {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    height: 100%;
-    align-items: center;
-    justify-content: baseline;
-    gap: 10px;
-}
-
-.selecionar h2 {
-    color: #f5e6c8;
-    font-size: 1.2rem;
-}
- 
 .acomodation {
     width: 100%;
-    height: 80vh;
+    height: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    padding: 0 1.5rem;
-    flex-shrink: 0;
-}
-
-#select-ilha {
-    width: 100%;
-  padding: 0.5rem 0.75rem;
-  border: 1.5px solid #c9d6df;
-  border-radius: 10px;
-  font-size: 0.85rem;
-  color: #1a1a2e;
-  background-color: #f0f4f8;
-  outline: none;
+    gap: 2rem;
+    background-color: #fff;
 }
  
-/* Botões esquerda / direita */
+/* Botao esquerda / direita */
 .botao {
-    flex-shrink: 0;
     display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    gap: 20px;
     align-items: center;
     justify-content: center;
-}
- 
-.btn-nav {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #1a1a2e;
-    background: transparent;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.4rem;
-    color: #1a1a2e;
-    transition: background 0.2s, color 0.2s, transform 0.15s;
-    line-height: 1;
+    background-color: #fff;
+    transition: transform 2.2s ease;
 }
 
-.btn-nav i {
-    color: #f5e6c8;
+.btn-nav {
+    display: flex;
+    padding: 10px;
+    height: 10%;
+    align-items: center;
+    cursor: pointer;
+    border: 2px #333;
+} 
+
+button {
+    width: 100px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
 }
- 
-.btn-nav:hover {
-    background: #1a1a2e;
-    color: #fff;
-    transform: scale(1.08);
+
+.botao button:hover {
+    transform: scale(1.1);
+    color: #c9d6df;
 }
  
 /* Viewport — esconde os cards fora do campo */
-.carousel-viewport {
-    flex: 1;
-    height: 75%;
-    overflow: hidden;
+.carrosel-viewport {
+    width: 100%;
+    height: 100%;
     display: flex;
+    border-radius: 15px;
     align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+
 }
  
 /* Faixa deslizante */
-.carousel-track {
+.carrosel_deslizar {
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
-    height: 100%;
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    will-change: transform;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    height: 97%;
+    max-width: max-content;
+    background-color: #fff;
+    padding: 0 20px; 
 }
  
 /* Card individual */
 .item-acomodation {
-    flex-shrink: 0;
-    width: 260px;
+    height: 100%;
+    flex: 0 0 300px;
     background: #fff;
     border-radius: 14px;
     overflow: hidden;
@@ -318,8 +273,8 @@ header {
     transition: transform 0.25s, box-shadow 0.25s;
     display: flex;
     flex-direction: column;
+    object-fit: cover;
 }
-
 
 /*Formatacao da imagem*/
 .imagem img {
@@ -333,10 +288,10 @@ header {
     box-shadow: 0 12px 36px rgba(0,0,0,0.18);
 }
  
-.item-acomodation > div:first-child,
-.item-acomodation .imagem {
+.imagem {
+    height: 60%;
+    width: 100%;
     background: #c9d6df;
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -344,21 +299,23 @@ header {
     font-size: 0.85rem;
 }
  
-.item-acomodation > div:last-child,
-.item-acomodation .info {
+.info {
     height: 40%;
     width: 100%;
-    padding: 1rem 1.2rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    padding: 15px;
     background: #fff;
 }
  
 .item-acomodation h1 { 
-    font-size: 0.80rem; 
-    font-weight: 500; 
+    font-size: 1.1rem; 
     color: #333; 
+}
+
+.item-acomodation h2 {
+    font-size: 1.2rem;
 }
 
 .item-acomodation h3 { 
@@ -366,15 +323,19 @@ header {
     font-weight: 400; 
     color: #666; 
 }
+
+
  
 
+
+
 /* ================================================
-   SECTION 3 — FILTROS (Melhorado)
+   SECTION 3 — FILTROS 
    ================================================ */
 
 #section3 {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: row;
     background: #fff;
@@ -385,9 +346,9 @@ header {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     height: 100%;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .dir {
@@ -396,7 +357,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     height: 100%;
 }
 
@@ -412,92 +373,131 @@ header {
     color: #0a3d5f;
 }
 
-
-
 .gg {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #fff;
     gap: 10px;
     width: 100%;
     height: 20%;
+    overflow: hidden;
 }
 
-.gghl {
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px;
-    width: 100%;
-    height: 20%;
-    background-color: #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    overflow: hidden;
-    transition: box-shadow 0.2s ease;
-}
 
 .filtro {
     display: flex;
     width: 100%;
     height: 6%;
+    gap: 10px;
     align-items: center;
     justify-content: center;
 }
 
-.filtro button {
+.linha-corpo_preco {
     display: flex;
-    width: 100%;
-    height: 100%;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-style: italic;
+    width: 100%;
+    height: 100px;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 1rem 1.2rem;
+}
+
+.preco {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.preco input {
+    border-radius: 15px;
+    border: 2px solid #0a3d5f;
+    cursor: pointer;
+    text-align: center;
+    height: 20px;
+}
+
+
+.filtro {
+    display: flex;
+    gap: 20px;
+}
+
+.filtro button {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
     text-decoration: #dce3ec;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    border: 2px #0a3d5f;
     border-radius: 20px;
+    transition: transform 1.5s ease;
+}
+
+.enviar_filtro{
+    background-color: #c9d6df;
+    transition: bacground-color 1.5s ease, transform 1.5s ease;
+}
+
+.enviar_filtro:hover{
+    cursor: pointer;
+    scale: calc(1.1);
+    background-color: #d7ebf9;
+}
+
+.limpar_filtro {
+    background-color: #d8ceb8;
+    transition: bacground-color 0.5s ease, transform 0.5s ease;
+}
+
+.limpar_filtro:hover{
+    cursor: pointer;
+    scale: calc(1.1);
+    background-color: #d7ebf9;
 }
 
 
 .ggh {
     display: flex;
     flex-direction: column;
-    border-radius: 16px;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
     height: auto;
     background-color: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     overflow: hidden;
-    transition: box-shadow 0.2s ease;
-}
-
-.ggh:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .gghl {
     display: flex;
     flex-direction: column;
-    border-radius: 16px;
-    gap: 0;
     width: 100%;
     height: auto;
     background-color: #fff;
-    box-shadow: 0 4px 12px rgba(49, 132, 255, 0.05);
     overflow: hidden;
-    margin-top: 0;
 }
 
 /* TÍTULO DO CARD */
+
+
 .linha-titulo {
     color: #0a3d5f;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    height: auto;
-    padding: 1rem 1.2rem 0.5rem 1.2rem;
+    justify-content: baseline;
+    width: 90%;
+    height: 20px;
     background-color: #fff;
+    padding-top: -10px;
 }
 
 .linha-titulo h2 {
@@ -506,6 +506,7 @@ header {
     margin: 0;
     letter-spacing: -0.2px;
 }
+
 
 .linha-corpo-datas {
     display: flex;
@@ -561,6 +562,10 @@ header {
     box-shadow: 0 0 0 2px rgba(10, 61, 95, 0.1);
 }
 
+.datacampo input:hover {
+    cursor: pointer;
+}
+
 .linha-corpo {
     display: flex;
     flex-direction: column;
@@ -585,63 +590,6 @@ header {
     justify-content: center;
     background-color: #ffffff;
     border: 1px solid #dce3ec;
-    transition: 0.2s;
-}
-
-.linha-corpo select:hover,
-.linha-corpo select:focus {
-    border-color: #0a3d5f;
-}
-
-.preco-linha {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.preco-linha span {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #0a3d5f;
-    white-space: nowrap;
-}
-
-.preco-linha input[type="range"] {
-    flex: 1;
-    min-width: 80px;
-    height: 4px;
-    border-radius: 5px;
-    background: #dce3ec;
-}
-
-.preco-linha input[type="range"]:focus {
-    outline: none;
-}
-
-.preco-linha input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: #0a3d5f;
-    cursor: pointer;
-    border: none;
-}
-
-.preco-val {
-    font-weight: 700;
-    color: #f5a623;
-}
-
-#categoria {
-    font-family: 'Raleway', sans-serif;
-}
-
-#categoria option.estrela,
-#categoria option {
-    font-size: 0.9rem;
 }
 
 .gghl .linha-titulo {
@@ -657,13 +605,11 @@ header {
     padding: 0.6rem 0.8rem;
     border-radius: 12px;
     border: 1px solid #dce3ec;
-    font-family: 'Raleway', sans-serif;
     font-size: 0.85rem;
     background: #fff;
     cursor: pointer;
 }
 
-/* COMODIDADES - CHECKBOX EM GRID */
 .separar {
     display: flex;
     flex-direction: row;
@@ -674,7 +620,7 @@ header {
     margin-bottom: 0.75rem;
 }
 
-.comodidade {
+#comodidade {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -685,18 +631,18 @@ header {
     min-width: 110px;
 }
 
-.comodidade input {
+#comodidade input {
     width: 16px;
     height: 16px;
     cursor: pointer;
     accent-color: #0a3d5f;
 }
 
-/* AJUSTE PARA O LADO DIREITO (MAPA) */
-.dir .result {
+.resultado {
     border-radius: 20px;
-    background-color: #2c3e50;
+    background-color: #c9d6df;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 96%;
@@ -724,41 +670,70 @@ header {
 }
 
 
-/* ================================================
-   FOOTER
-   ================================================ */
-.footer {
-    width: 100%;
-    min-height: 60px;
-    background: #0d0d1a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255,255,255,0.5);
-    font-size: 0.85rem;
+select:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    border-color: #0a3d5f;
+    box-shadow: 0 0 0 2px rgba(10, 61, 95, 0.1);
+}
+
+input:hover {
+    cursor: pointer;
 }
 
 
+.section3 select {
+    height: 20px;
+}
 
-/* ================================================
-   RESPONSIVIDADE
-   ================================================ */
-@media (max-width: 768px) {
-    .nav_bar {
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1rem 1.5rem;
-    }
 
-    .menu ul {
-        gap: 1.2rem;
-    }
+/* ====================================
+   FOOTER
+   ==================================== */
 
-    .acomodation {
-        grid-template-columns: 1fr;
-    }
+.footer {
+    background: #743810;
+    color: white;
+    padding-left: 20px;
+}
 
-    #section2 {
-        padding: 3rem 1.5rem;
-    }
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
+
+.footer-heading {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.8);
 }
