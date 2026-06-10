@@ -419,10 +419,10 @@ header {
 
 .generate_trip_div button {
     height: 28.5px;
-    background-color: rgba(84, 233, 233, 0.918);
+    background-color: #0a3d5f;
     border-radius: 7.25px;
     padding: 3.5px;
-    color: black;
+    color: rgb(219, 219, 219);
     margin-top: 10px;
     width: 200px;
     transition: all 0.35s ease-in-out;
@@ -431,7 +431,7 @@ header {
 }
 
 .generate_trip_div button:hover {
-    background-color: rgb(45, 240, 240);
+    background-color: #06304d;
     cursor: pointer;
     transform: scale(1.005);
     text-decoration: underline;
