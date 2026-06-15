@@ -101,104 +101,94 @@
             </p>
         </div>
         <div class="ilhas-grid">
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="santoantao.php">
                 <img src="./resources/aboutCV/image ilhas/SantoAntao.jpg" alt="Santo Antão" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Santo Antão</h3>
                     <span>Barlavento · 779 km²</span>
                 </div>
-                <div class="arrow"></div>
             </a>
 
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="saovicente.php">
                 <img src="./resources/aboutCV/image ilhas/Soncent.jpg" alt="São Vicente" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>São Vicente</h3>
                     <span>Barlavento · 227 km²</span>
                 </div>
-                <div class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
             </a>
 
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="santaluzia.php">
                 <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80" alt="Santa Luzia" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Santa Luzia</h3>
                     <span>Barlavento · Desabitada · 35 km²</span>
                 </div>
-                <div class="arrow"></svg></div>
             </a>
 
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="saonicolau.php">
                 <img src="./resources/aboutCV/image ilhas/SaoNiclau.jpg" alt="São Nicolau" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>São Nicolau</h3>
                     <span>Barlavento · 388 km²</span>
                 </div>
-                <div class="arrow"></div>
             </a>
 
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="sal.php">
                 <img src="./resources/aboutCV/image ilhas/Sal.jpg" alt="Sal" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Sal</h3>
                     <span>Barlavento · 216 km²</span>
                 </div>
-                <div class="arrow"></div>
             </a>
 
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="boavista.php">
                 <img src="./resources/aboutCV/image ilhas/Bubista.jpg" alt="Boa Vista" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Boa Vista</h3>
                     <span>Barlavento · 620 km²</span>
                 </div>
-                <div class="arrow"></div>
             </a>
 
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="maio.php">
                 <img src="./resources/aboutCV/image ilhas/Maio.jpg" alt="Maio" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Maio</h3>
                     <span>Sotavento · 269 km²</span>
                 </div>
-                <div class="arrow"></div>
             </a>
 
-            <a class="ilha-card" href="santiago.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="santiago.php">
                 <img src="./resources/aboutCV/image ilhas/Santiago.jpg" alt="Santiago" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Santiago</h3>
                     <span>Sotavento · 991 km² · Capital</span>
                 </div>
-                <div class="arrow"></div>
             </a>
 
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="fogo.php">
                 <img src="./resources/aboutCV/image ilhas/fogo.jpg" alt="Fogo" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Fogo</h3>
                     <span>Sotavento · 476 km² · Vulcânica</span>
                 </div>
-                <div class="arrow"></div>
             </a>
 
-            <a class="ilha-card" href="ilhas.php" target="_blank" rel="noopener">
+            <a class="ilha-card" href="brava.php">
                 <img src="./resources/aboutCV/image ilhas/Brava.jpg" alt="Brava" />
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Brava</h3>
                     <span>Sotavento · 64 km² · A mais pequena</span>
                 </div>
-                <div class="arrow"></div>
             </a>
         </div>
     </section>
@@ -212,29 +202,42 @@
         <div class="cultura-grid">
             <div class="cultura-item">
                 <img src="./resources/aboutCV/cultura/dança.jpg" alt="Dança tradicional" />
-                <div class="cap">Dance & Tradition</div>
+                <div class="cap">Dance & Tradition
+                    <a href="./moreinfo/info_cultura&dance.php">See More</a>
+                </div>
+                
             </div>
             <div class="cultura-item">
                 <img src="https://i.pinimg.com/736x/11/0f/1d/110f1d368541893b284d0cb0d277cea8.jpg" alt="Dança tradicional" />
-                <div class="cap">History</div>
+                <div class="cap">History 
+                    <a href="./moreinfo/info_cultura&dance.php">See More</a>
+                </div>
             </div>
             <div class="cultura-item">
                 <img src="./resources/aboutCV/cultura/download (2).jpg" alt="Artesanato cabo-verdiano" />
-                <div class="cap">Craftsmanship</div>
+                <div class="cap">Craftsmanship
+                    <a href="./moreinfo/info_artesanato.php">See More</a>
+                </div>
             </div>
         </div>
         <div class="cultura-grid">
             <div class="cultura-item">
                 <img src="./resources/aboutCV/cultura/catxupa.jpg" alt="Gastronomia" />
-                <div class="cap">Gastronomy</div>
+                <div class="cap">Gastronomy
+                    <a href="./moreinfo/info_gastronomy.php">See More</a>
+                </div>
             </div>
             <div class="cultura-item">
                 <img src="./resources/aboutCV/cultura/cidadevelha.jpg" alt="Arquitetura colonial" />
-                <div class="cap">Colonial architecture</div>
+                <div class="cap">Colonial architecture
+                    <a href="./moreinfo/info_architecture.php">See More</a>
+                </div>
             </div>
             <div class="cultura-item">
                 <img src="./resources/aboutCV/cultura/carnavrau.jpg" alt="Festivais e carnaval" />
-                <div class="cap">Mindelo Carnival</div>
+                <div class="cap">Mindelo Carnival
+                    <a href="./moreinfo/info_mindelocarnaval.php">See More</a>
+                </div>
             </div>
         </div>
 

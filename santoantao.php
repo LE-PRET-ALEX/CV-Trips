@@ -52,9 +52,9 @@
 
             <div class="s1-grid">
                 <div class="s1-text">
-                    <h2 class="section-title">Santiago Island</h2>
+                    <h2 class="section-title">Santo Antão Island</h2>
                 <div class="divider"></div>
-                    <p>Discover Santiago Island, the vibrant heart of Cape Verde where rich history meets stunning natural beauty. As the archipelago's largest island, it offers an unforgettable contrast of dramatic mountain peaks, fertile green valleys, and pristine beaches like the famous white sands of Tarrafal. Whether you are exploring the cobblestone streets of Cidade Velha—a UNESCO World Heritage site—or immersing yourself in the lively rhythms and flavors of the capital city, Praia, Santiago promises an authentic and diverse island experience.</p>
+                    <p>Santo Antão is a paradise for hikers and nature lovers, famous for its jaw-dropping landscapes. This majestic island is defined by towering volcanic peaks, deep green valleys, and dramatic cliffs that plunge into the ocean. Walking through its terraced plantations and traditional villages offers one of the most breathtaking and authentic eco-tourism experiences in the world.</p>
                 </div>
                 <div class="s1-img">
                     <img src="https://i.pinimg.com/1200x/af/65/ea/af65ea54ced72a1ceff04bfa6d6eaf9c.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
@@ -347,7 +347,8 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7HzH4HCZ6E?si=h96eIHiNAsIFjqIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
             </div>
         </section>
-     
+
+         
         <section class="s5-grid">
             <div class="coment_info">
                 <h1>Comments</h1>

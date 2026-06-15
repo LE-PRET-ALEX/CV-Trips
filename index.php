@@ -22,7 +22,7 @@ include 'header-home.php';
                     </li>
                     <li class="utility">
                         <i class="fa-solid fa-bed"></i>
-                        <a href="/accomodation.php">Accommodations</a>
+                        <a href="/acomodation.php">Acommodations</a>
                     </li>
                     <li class="utility">
                         <i class="fa-solid fa-utensils"></i>

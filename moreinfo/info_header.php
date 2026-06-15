@@ -11,7 +11,7 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>CV-TRIPS</title>
+    <title>CV-TRIPS | Moreinfo</title>
 </head>
 
 
@@ -152,8 +152,8 @@ header {
     <header>
             <nav class="nav_bar">
                 <div class="header_logo">
-                    <a href="index.php"><img src="./resources/logos/newlogonobg.png" alt="Logo CV Trips"></a>
-                    <span>CV TRIPS</span>
+                    <a href="index.php"><img src="./src/newlogonobg.png" alt="Logo CV Trips"></a>
+                    <span>CV TRIP</span>
                 </div>
 
                 <div class="menu">

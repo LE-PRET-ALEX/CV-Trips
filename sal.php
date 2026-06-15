@@ -12,13 +12,13 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>CV-TRIP | Santiago </title>
+    <title>CV-TRIP | Sal </title>
 </head>
 <body>
     <main id="main">
         <section class="top-section">
             <video autoplay muted loop playsinline class="background-video">
-                <source src="./resources/videos/santiago2.mp4" type="video/mp4">
+                <source src="./resources/videos/sal.mp4" type="video/mp4">
             </video>
             <header>
                 <nav class="nav_bar">
@@ -52,12 +52,12 @@
 
             <div class="s1-grid">
                 <div class="s1-text">
-                    <h2 class="section-title">Santiago Island</h2>
+                    <h2 class="section-title">Sal Island</h2>
                 <div class="divider"></div>
-                    <p>Discover Santiago Island, the vibrant heart of Cape Verde where rich history meets stunning natural beauty. As the archipelago's largest island, it offers an unforgettable contrast of dramatic mountain peaks, fertile green valleys, and pristine beaches like the famous white sands of Tarrafal. Whether you are exploring the cobblestone streets of Cidade Velha—a UNESCO World Heritage site—or immersing yourself in the lively rhythms and flavors of the capital city, Praia, Santiago promises an authentic and diverse island experience.</p>
+                <p>Sal is Cape Verde’s ultimate sun and beach destination, famous for its endless golden sands and turquoise waters. As a world-class hotspot for kitesurfing, diving, and relaxing, the island offers a vibrant resort atmosphere in Santa Maria and a unique chance to float in the ancient salt craters of Pedra de Lume.</p>
                 </div>
                 <div class="s1-img">
-                    <img src="https://i.pinimg.com/1200x/af/65/ea/af65ea54ced72a1ceff04bfa6d6eaf9c.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
+                    <img src="https://i.pinimg.com/736x/c6/93/03/c693035b200deb9afa70a09246aa6acc.jpg" alt="ilha do sal" />
                 </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     <div class="carrosel_deslizar" id="carrosel_deslizar_gastronomia">
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/03/6a/d7/036ad7480a116b2a2a3a935f79a3d4e0.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/05/66/d2/0566d2c5364b1823e085257ca72f0575.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/f0/fd/8f/f0fd8f0cb6bfafbfcab1535a8a460407.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/af/4f/2b/af4f2b42a4f553dcaa587a0067e796a7.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -92,7 +92,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/f4/6d/a4/f46da4738cf0bc545dc0d570f4e32523.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/51/bb/45/51bb450b3718396f932d17b592f2355a.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/58/d7/8c/58d78c368d2af2552f9a179ce9356ca0.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/f0/7b/17/f07b179d0fe04add33767ca93c0f1779.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -108,7 +108,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/dd/b0/95/ddb0952236d4fe5349401350fe920f80.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/84/bf/dc/84bfdc5ff40abaea943c789fe42c7433.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -116,7 +116,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/17/5d/49/175d499a8cd864cf05c679d11fe682e1.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/57/6a/4f/576a4f2bbaca2e8846308341ed396d49.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/31/cc/d0/31ccd0cafe8abfdffd4888f63ba8b411.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/bd/b5/2f/bdb52f4caece0ca6e4ddce70c43f726f.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/bf/02/43/bf02431c760658f4a19b460a1af5960c.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/45/eb/10/45eb10ff4ed573d52a1b9d9c208dbfe5.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -140,7 +140,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/00/50/6d/00506dbc8ec9dd3357b62287a633b703.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/38/d2/56/38d2565a4dca257a2f9cee44e9ceca07.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -148,7 +148,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/3f/ea/28/3fea2864af734187414b17a6fbe181d5.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/77/83/7a/77837a6eb8ccfdd5f352251a2c8f1fb7.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -156,7 +156,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/2a/98/ee/2a98eefb37cec3dd59647dec05bec2ca.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/be/6a/6b/be6a6b532359785ea3e17d63e778641b.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -164,7 +164,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/28/79/39/287939f56a3c9c0e889e071e992e2676.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/eb/a5/c3/eba5c30510ed2ebd4e9b9a4ea2553954.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -172,7 +172,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/ae/71/e6/ae71e67fca03e8c32b7a556fa4173389.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/06/52/ee/0652eec2decd453eff98aa55e995a338.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -180,7 +180,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/e8/46/52/e84652a1af107054b952d4ce29c90cff.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/b2/91/a0/b291a0da85586213927b8aa0424f6b11.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -188,7 +188,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="" alt="">
+                                <img src="https://i.pinimg.com/1200x/4c/ee/d2/4ceed2e8b3f943e9503643c1b80f2004.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -196,7 +196,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="" alt="">
+                                <img src="https://i.pinimg.com/736x/c7/1a/71/c71a71757ec267a5f01d868618b3c1cf.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -216,24 +216,22 @@
         <section id="pontos_turisticos">
             <div class="s3-grid">
                 <div class="s3-header">
-                    <h2>Atrações em Santiago</h2>
+                    <h2>Attractions on Sal Island</h2>
                     <div class="divider"></div>
-                    <p>Descubra os locais mais visitados da ilha</p>
+                    <p>Discover the most visited places on the island</p>
                 </div>
 
                 <div class="linha">
                     
-                    <a href="./moreinfo/tarrafalbeach.php">
+                    <a href="./moreinfo/pedralume   .php">
                         <div class="conteudo">
                             <div class="imagem">
-                                <img src="https://i.pinimg.com/1200x/a2/59/94/a259940820bf6ba9a6dfa991c482170d.jpg" alt="Tarrafal Beach">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEOUM7f7GgQVpmQhTIosidimSot1cJPWUb9Zf5i-BtY8YPiklt3yz319wlUSUJsnsdSAcE8CuqYWQYPjv7dLCC5eSTlsRI4MkeqBJWBS5iQRU1c-GSqBKK1QGunWpCLyb6bwl0G=w1333-h1000-k-no" >
                             </div>
                             <div class="informacao">
-                                <span class="categoria">Praias</span>
-                                <h3>Tarrafal Beach</h3>
+                                <h3>Salinas Pedra de Lume</h3>
                                 <p class="descricao">
-                                    A vila foi nomeada Tarrafal em homenagem a uma planta chamada tarrafal cabo-verdiano. 
-                                    A vila do Tarrafal tem poucas ruas mas muita hospitalidade.
+                                    Shows the famous salt pans located inside an inactive volcanic crater. The text mentions the hospitality of the village and references the plant that gave Tarrafal its name.
                                 </p>
                                 
                             </div>
@@ -241,36 +239,32 @@
                     </a>
 
                     
-                    <a href="./moreinfo/serramalagueta.php">
+                    <a href="./moreinfo/buracona.php">
                         <div class="conteudo">
                             <div class="imagem">
-                                <img src="https://i.pinimg.com/1200x/29/7c/b7/297cb761f98d38dc807decdbf8184914.jpg" alt="Serra de Malagueta">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAG5dFHkEKl2EoCUvnEbW_2wgVEtmNhVCReXHiE5inGsyQQfKc0L_vZXNDumpg3lVW4wTF99Kld4Xexx0b5jbPlWtkbjmLrpudBmM5PiuOTRfJZ5CUkv65tYpjUEAzwo1Okafjw=w1333-h1000-k-no" >
                             </div>
                             <div class="informacao">
-                                <span class="categoria">Montanhas</span>
-                                <h3>Serra de Malagueta</h3>
+                                <h3>Buracona - Blue Eye Cave</h3>
                             
                                 <p class="descricao">
-                                    O Parque Natural da Serra Malagueta faz parte da rede nacional de áreas protegidas 
-                                    e é considerado o "pulmão" da ilha de Santiago.
+                                    Features a natural rocky pool with turquoise waters. The description emphasizes the national network of protected areas and highlights Serra Malagueta as the "lung" of Santiago Island.
                                 </p>
                                 
                             </div>
                         </div>
                     </a>
 
-                    <a href="./moreinfo/mercadosucupira.php">
+                    <a href="./moreinfo/baiadostubaroes.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/30/57/d8/3057d81b38811a67c8650f7ae3f5dffd.jpg" alt="Mercado de Sucupira">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHM81Tq9GEzVxejRAjkldO3B9bd_BWpL2Cwibswb2_8as3tdsPFGaQsss5mOV984p0bAUWwz39rbkCeK2s3V_NTyGTVb2NthKZ-nu3MQkxjrQE19Ok5UIXnigy4DVKIiVDmu5w=w1000-h1333-k-no" >
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Mercados</span>
-                            <h3>Mercado de Sucupira</h3>
+                            <h3>Baía dos Tubarões</h3>
                             
                             <p class="descricao">
-                                Um passeio imperdível e cheio de maravilhosos produtos de África. 
-                                Tecidos lindos, artesanato, porco, galinha e muito mais.
+                                Captures a beautiful beach landscape during sunset. The caption notes its historical significance as the first European city in the tropics and a UNESCO World Heritage site.
                             </p>
                             
                         </div>
@@ -279,51 +273,48 @@
                 </div>
 
                 <div class="linha">
-                    <a href="./moreinfo/cidadevelha.php">
+                    <a href="./moreinfo/santamaria.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/00/fa/d5/00fad52e62d5746f27bd1e8b4fcc11d4.jpg" alt="Cidade Velha">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0ObVYLBRHYH5GUrSig1fH3fWDPpjyF47EpKQOZRa9Qg_wAg94rkdKIAEMZ5_21W4J8RDQiDStqzFKbFggWj2BjJaJi0dfLGrtNKlqfD2PF7EuvUbL4CKoXl5FYtUXspVrRLzDvrXOurRV=w1000-h1333-k-no" >
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Património</span>
-                            <h3>Cidade Velha</h3>
+                            <h3>Santa Maria Beach</h3>
                             
                             <p class="descricao">
-                                Primeira cidade europeia nos trópicos e Património Mundial da UNESCO. 
+                                Captures a beautiful beach landscape during sunset. The caption notes its historical significance as the first European city in the tropics and a UNESCO World Heritage site.
                             </p>
                             
                         </div>
                     </div>
                     </a>
 
-                    <a href="./moreinfo/assomada.php">
+                    <a href="./moreinfo/palmeira.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/2d/a1/d7/2da1d7faa9349c859c4fc6627c938bc8.jpg" alt="Praia de Kebra Canela">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFEcI6HO0jjgg8vHZHwp-hjYsiqb0Rj1UpMbNHdv1HIMDp2kil8LIN9rqIP5jC9kwLdmnZ2JaxZ7_Ktk3VarOHuPo9PQ_TKXrNXCKWgfCP0AgCyZ9Xs7GdKTIoMTJLt5IR6ogEh=w1333-h1000-k-no" >
                         </div>
                         <div class="informacao">
-                            <span class="categoria">local</span>
-                            <h3>Assomada</h3>
+                            <h3>Palmeira</h3>
                             
                             <p class="descricao">
-                                Águas cristalinas e areia branca. Perfeita para relaxar e praticar desportos náuticos.
+                                Portrays an open-air urban and commercial area. It is described as having crystal-clear waters and white sand, perfect for relaxing and practicing water sports.
                             </p>
                             
                         </div>
                     </div>
                     </a>
 
-                    <a href="./moreinfo/fortesaofilipe.php">
+                    <a href="./moreinfo/kitebeach.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/16/93/30/16933083b3ffe37fe7361c67008d0739.jpg" alt="Ilhéu de Santa Maria">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlJyxupY33MEKW_wl-KqUyjNM_lf4FRkMn9tzAufJzZr2squ3-t4meFdAZU7WxlDRYArhNJaV-YuQ5hhzYO88aJhVBp4UDXiZHiE98FdH7xecq3-6TIOjxWcde7Emugdutxz4l=w1000-h1333-k-no" >
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Património</span>
-                            <h3>Fortaleza Real de São Filipe</h3>
+                            <h3>Kite Beach</h3>
                             
                             <p class="descricao">
-                                Pequeno ilhéu ao largo da costa, perfeito para mergulho e observação de aves marinhas.
+                                Shows a beach with kitesurfers coloring the sky. The text focuses on a small islet off the coast, which is ideal for diving and marine bird watching.
                             </p>
                             
                         </div>
@@ -333,7 +324,7 @@
             </div>
         </section>
         <section class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246508.5266128102!2d-23.769982411000605!3d15.120089210863648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9358f30eece22a5%3A0x743707b96ac18f4e!2sSantiago!5e0!3m2!1spt-PT!2scv!4v1781471208352!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122276.17343863245!2d-23.015629841424037!3d16.720343173439613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca0969d2d0897%3A0x8acd1f48627d87ea!2sSal!5e0!3m2!1spt-PT!2scv!4v1781475329501!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
 
@@ -342,12 +333,13 @@
                 <h1>View island content</h1>
             </div>
             <div class="s4-content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3fqx2Ugsn_w?si=HiphSTI7GxaGEpSX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z7gngJMsFSI?si=Fm1LcAzaTA_stzmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/V7HzH4HCZ6E?si=h96eIHiNAsIFjqIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QMGhqt8sZwk?si=QhvuK_7P-QsZji4j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Og2M5vJbmOQ?si=IJ3V0AzHqYM63zRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/F6VeANa9bpA?si=qNm5gZOMqAmBAyun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
-     
+
+         
         <section class="s5-grid">
             <div class="coment_info">
                 <h1>Comments</h1>

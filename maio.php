@@ -52,9 +52,9 @@
 
             <div class="s1-grid">
                 <div class="s1-text">
-                    <h2 class="section-title">Santiago Island</h2>
+                    <h2 class="section-title">Maio Island</h2>
                 <div class="divider"></div>
-                    <p>Discover Santiago Island, the vibrant heart of Cape Verde where rich history meets stunning natural beauty. As the archipelago's largest island, it offers an unforgettable contrast of dramatic mountain peaks, fertile green valleys, and pristine beaches like the famous white sands of Tarrafal. Whether you are exploring the cobblestone streets of Cidade Velha—a UNESCO World Heritage site—or immersing yourself in the lively rhythms and flavors of the capital city, Praia, Santiago promises an authentic and diverse island experience.</p>
+                    <p>Maio is a peaceful sanctuary of golden beaches, calm turquoise waters, and vast sand dunes. Known for its tranquil atmosphere and friendly locals, this untamed island feels like a beautifully preserved secret, making it ideal for those who want to escape the crowds, relax in total serenity, and enjoy fresh seafood by the sea.</p>
                 </div>
                 <div class="s1-img">
                     <img src="https://i.pinimg.com/1200x/af/65/ea/af65ea54ced72a1ceff04bfa6d6eaf9c.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
@@ -75,7 +75,7 @@
                     <div class="carrosel_deslizar" id="carrosel_deslizar_gastronomia">
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/03/6a/d7/036ad7480a116b2a2a3a935f79a3d4e0.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/0f/c8/bb/0fc8bb5fd43f7d2b54d8a0d181eee78d.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/f0/fd/8f/f0fd8f0cb6bfafbfcab1535a8a460407.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/42/15/1f/42151f386cc33adcbd6157043a5a0b3d.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -92,7 +92,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/f4/6d/a4/f46da4738cf0bc545dc0d570f4e32523.jpg" alt="">
+                                <img src="" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -333,7 +333,7 @@
             </div>
         </section>
         <section class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246508.5266128102!2d-23.769982411000605!3d15.120089210863648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9358f30eece22a5%3A0x743707b96ac18f4e!2sSantiago!5e0!3m2!1spt-PT!2scv!4v1781471208352!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123191.70146123266!2d-23.24326752074766!3d15.227351783420914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93562e3e64e422b%3A0x5c90b66f8ebbcc91!2sMaio!5e0!3m2!1spt-PT!2scv!4v1781477681184!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
 
@@ -347,7 +347,8 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7HzH4HCZ6E?si=h96eIHiNAsIFjqIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
             </div>
         </section>
-     
+
+         
         <section class="s5-grid">
             <div class="coment_info">
                 <h1>Comments</h1>

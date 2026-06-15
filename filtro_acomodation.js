@@ -228,7 +228,7 @@ function filtroResultado(resultados){
         return;
     }
 
-    let html = `<h2>Resultados encontrados: ${resultados.length} acomodação(ões)</h2>`;
+    let html = `<h2>Resultados encontrados: ${resultados.length} acomodações)</h2>`;
     html += '<div class="resultados-lista">';
 
     resultados.forEach(acomodacao => {

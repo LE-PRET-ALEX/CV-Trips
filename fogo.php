@@ -12,13 +12,13 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>CV-TRIP | Santiago </title>
+    <title>CV-TRIP | Fogo </title>
 </head>
 <body>
     <main id="main">
         <section class="top-section">
             <video autoplay muted loop playsinline class="background-video">
-                <source src="./resources/videos/santiago2.mp4" type="video/mp4">
+                <source src="https://www.capeverde.com/wp-content/uploads/2023/07/fogo-island-cape-verde.mp4" type="video/mp4">
             </video>
             <header>
                 <nav class="nav_bar">
@@ -52,12 +52,12 @@
 
             <div class="s1-grid">
                 <div class="s1-text">
-                    <h2 class="section-title">Santiago Island</h2>
+                    <h2 class="section-title">Fogo Island</h2>
                 <div class="divider"></div>
-                    <p>Discover Santiago Island, the vibrant heart of Cape Verde where rich history meets stunning natural beauty. As the archipelago's largest island, it offers an unforgettable contrast of dramatic mountain peaks, fertile green valleys, and pristine beaches like the famous white sands of Tarrafal. Whether you are exploring the cobblestone streets of Cidade Velha—a UNESCO World Heritage site—or immersing yourself in the lively rhythms and flavors of the capital city, Praia, Santiago promises an authentic and diverse island experience.</p>
+                <p>Fogo is a dramatic and unforgettable island dominated by a massive, active volcano that rises straight from the Atlantic Ocean. The unique landscape of dark volcanic soil contrasts with fertile vineyards that produce the famous local Fogo wine. Staying inside the volcanic crater (Chã das Caldeiras) offers a surreal, once-in-a-lifetime adventure.</p>
                 </div>
                 <div class="s1-img">
-                    <img src="https://i.pinimg.com/1200x/af/65/ea/af65ea54ced72a1ceff04bfa6d6eaf9c.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
+                    <img src="https://i.pinimg.com/736x/30/c0/e7/30c0e7bb8fbd51317ad1b810474e1aa0.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
                 </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     <div class="carrosel_deslizar" id="carrosel_deslizar_gastronomia">
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/03/6a/d7/036ad7480a116b2a2a3a935f79a3d4e0.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/3c/dd/60/3cdd60d71f8e15b0a1e40652c22ee095.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/f0/fd/8f/f0fd8f0cb6bfafbfcab1535a8a460407.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/2a/ee/b9/2aeeb91e3b1a9e237b2cbd90166f70b3.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -92,7 +92,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/f4/6d/a4/f46da4738cf0bc545dc0d570f4e32523.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/25/4e/a2/254ea2becac5339ff205fd3433546d5e.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/58/d7/8c/58d78c368d2af2552f9a179ce9356ca0.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/f5/3d/a2/f53da2bbaf3f351e02a301b15c30dff7.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -108,7 +108,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/dd/b0/95/ddb0952236d4fe5349401350fe920f80.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/e2/68/af/e268afde9b4cd37ebb5074dcf6b3cc3b.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -116,7 +116,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/17/5d/49/175d499a8cd864cf05c679d11fe682e1.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/e1/70/2d/e1702d8dc165bc544c7634f9ecb3750c.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/31/cc/d0/31ccd0cafe8abfdffd4888f63ba8b411.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/38/65/72/386572ddf1ec148bf4caa2d53746c9aa.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/bf/02/43/bf02431c760658f4a19b460a1af5960c.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/90/34/8c/90348ce2cf464bb07b97b61138acc23a.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -140,7 +140,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/00/50/6d/00506dbc8ec9dd3357b62287a633b703.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/16/c6/68/16c6686bd41a7ef3f718bb660e5759f3.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -148,7 +148,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/3f/ea/28/3fea2864af734187414b17a6fbe181d5.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/12/bc/37/12bc374a127004d05edf5d120a2d9e80.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -156,7 +156,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/2a/98/ee/2a98eefb37cec3dd59647dec05bec2ca.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/e7/11/66/e711660bb25098c934dbc2ee6f8e2d16.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -164,7 +164,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/28/79/39/287939f56a3c9c0e889e071e992e2676.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/77/07/62/770762dc222b56067b596085b02dd551.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -172,7 +172,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/ae/71/e6/ae71e67fca03e8c32b7a556fa4173389.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/a5/61/58/a5615834b2431707c7ca1eb5c64df470.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -180,7 +180,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/e8/46/52/e84652a1af107054b952d4ce29c90cff.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/6d/15/78/6d1578323a99c963c552a6761aec73bc.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -188,7 +188,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="" alt="">
+                                <img src="https://i.pinimg.com/736x/93/1e/0d/931e0ddc0435eb5742e268b3da03650e.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -196,7 +196,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="" alt="">
+                                <img src="https://i.pinimg.com/1200x/56/cd/f8/56cdf8122bed777a76adb738f171ab91.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -216,9 +216,9 @@
         <section id="pontos_turisticos">
             <div class="s3-grid">
                 <div class="s3-header">
-                    <h2>Atrações em Santiago</h2>
+                    <h2>Attractions on Fogo Island</h2>
                     <div class="divider"></div>
-                    <p>Descubra os locais mais visitados da ilha</p>
+                    <p>Discover the most visited places on the island</p>
                 </div>
 
                 <div class="linha">
@@ -226,14 +226,12 @@
                     <a href="./moreinfo/tarrafalbeach.php">
                         <div class="conteudo">
                             <div class="imagem">
-                                <img src="https://i.pinimg.com/1200x/a2/59/94/a259940820bf6ba9a6dfa991c482170d.jpg" alt="Tarrafal Beach">
+                                <img src="https://i.pinimg.com/1200x/eb/ec/3a/ebec3a0e14d4a305dd82f1bde116cfd8.jpg" alt="Tarrafal Beach">
                             </div>
                             <div class="informacao">
-                                <span class="categoria">Praias</span>
-                                <h3>Tarrafal Beach</h3>
+                                <h3>Chã das Caldeiras</h3>
                                 <p class="descricao">
-                                    A vila foi nomeada Tarrafal em homenagem a uma planta chamada tarrafal cabo-verdiano. 
-                                    A vila do Tarrafal tem poucas ruas mas muita hospitalidade.
+                                    A unique community living literally inside the volcano's crater. It is famous for its houses rebuilt with lava stone and the resilience of its people, who live in harmony with the forces of nature.
                                 </p>
                                 
                             </div>
@@ -247,12 +245,10 @@
                                 <img src="https://i.pinimg.com/1200x/29/7c/b7/297cb761f98d38dc807decdbf8184914.jpg" alt="Serra de Malagueta">
                             </div>
                             <div class="informacao">
-                                <span class="categoria">Montanhas</span>
-                                <h3>Serra de Malagueta</h3>
+                                <h3>Pico do Fogo</h3>
                             
                                 <p class="descricao">
-                                    O Parque Natural da Serra Malagueta faz parte da rede nacional de áreas protegidas 
-                                    e é considerado o "pulmão" da ilha de Santiago.
+                                    The highest point in Cape Verde, standing at 2,829 meters. Hiking up this active volcano offers an unforgettable 360-degree panoramic view, followed by a thrilling descent down the volcanic ash.
                                 </p>
                                 
                             </div>
@@ -265,12 +261,10 @@
                             <img src="https://i.pinimg.com/1200x/30/57/d8/3057d81b38811a67c8650f7ae3f5dffd.jpg" alt="Mercado de Sucupira">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Mercados</span>
-                            <h3>Mercado de Sucupira</h3>
+                            <h3>São Filipe</h3>
                             
                             <p class="descricao">
-                                Um passeio imperdível e cheio de maravilhosos produtos de África. 
-                                Tecidos lindos, artesanato, porco, galinha e muito mais.
+                                The island's main city, known for its charming cobblestone streets and famous "sobrados"—imposing, colorful colonial mansions that are beautifully preserved and showcase the island's rich heritage.
                             </p>
                             
                         </div>
@@ -285,12 +279,10 @@
                             <img src="https://i.pinimg.com/1200x/00/fa/d5/00fad52e62d5746f27bd1e8b4fcc11d4.jpg" alt="Cidade Velha">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Património</span>
-                            <h3>Cidade Velha</h3>
+                            <h3>Salinas de São Jorge</h3>
                             
                             <p class="descricao">
-                                Primeira cidade europeia nos trópicos e Património Mundial da UNESCO. 
-                            </p>
+A natural monument sculpted by the ocean and the erosion of volcanic rock. When the tide is calm, beautiful natural pools are formed right next to a striking black sand beach, making it ideal for a relaxing swim.                            </p>
                             
                         </div>
                     </div>
@@ -302,11 +294,10 @@
                             <img src="https://i.pinimg.com/1200x/2d/a1/d7/2da1d7faa9349c859c4fc6627c938bc8.jpg" alt="Praia de Kebra Canela">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">local</span>
-                            <h3>Assomada</h3>
+                            <h3>Mosteiros and Coffee Plantations</h3>
                             
                             <p class="descricao">
-                                Águas cristalinas e areia branca. Perfeita para relaxar e praticar desportos náuticos.
+                                Located in a more humid and fertile microclimate, this region stands out for its high-quality coffee plantations (considered one of the most exclusive coffees in the world), surrounded by lush green landscapes that contrast beautifully with the dark lava.
                             </p>
                             
                         </div>
@@ -319,11 +310,10 @@
                             <img src="https://i.pinimg.com/1200x/16/93/30/16933083b3ffe37fe7361c67008d0739.jpg" alt="Ilhéu de Santa Maria">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Património</span>
-                            <h3>Fortaleza Real de São Filipe</h3>
+                            <h3>Vineyards and Wineries of Chã</h3>
                             
                             <p class="descricao">
-                                Pequeno ilhéu ao largo da costa, perfeito para mergulho e observação de aves marinhas.
+                                Grapes grown directly in volcanic soil produce the famous local "Manecom" wine. Visiting the local cooperatives for a wine tasting paired with traditional goat cheese is a must-do culinary experience.
                             </p>
                             
                         </div>
@@ -333,7 +323,7 @@
             </div>
         </section>
         <section class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246508.5266128102!2d-23.769982411000605!3d15.120089210863648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9358f30eece22a5%3A0x743707b96ac18f4e!2sSantiago!5e0!3m2!1spt-PT!2scv!4v1781471208352!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123362.86227427027!2d-24.473710026230773!3d14.932109247416799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93610f2fd289967%3A0x1367bcb2370a2000!2sIlha%20do%20Fogo!5e0!3m2!1spt-PT!2scv!4v1781477493387!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
 
@@ -347,7 +337,11 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7HzH4HCZ6E?si=h96eIHiNAsIFjqIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
             </div>
         </section>
-     
+        <section class="outras_ilhas">
+
+        </section>
+
+         
         <section class="s5-grid">
             <div class="coment_info">
                 <h1>Comments</h1>
