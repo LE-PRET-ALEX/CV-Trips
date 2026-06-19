@@ -158,9 +158,9 @@ header {
 
                 <div class="menu">
                     <ul>
-                        <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a>
+                        <li class="link-holder"><a href="./destinations.php"><i class="fa-solid fa-location-dot"></i> destinations</a>
                         </li>
-                        <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
+                        <li class="link-holder"><a href="./map.php"><i class="fa-solid fa-map"></i> map</a></li>
                         <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan
                                 trip</a></li>
                     </ul>

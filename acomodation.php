@@ -158,7 +158,7 @@
                 <div class="tit">
                     <h1>Filtro de Acomodacoes</h1>
                 </div>
-                <div class="gg">
+                <div class="gg-row">
                     <div class="ggh">  
                         <div class="linha-titulo"><h2>Ilhas</h2></div>   
                         <div class="linha-corpo">
@@ -175,7 +175,7 @@
                             </select>
                         </div>   
                     </div>  
-                    <div class="ggh">  
+                    <div class="ggh-row">  
                         <div class="linha-titulo"><h2>Tipo de Alojamento</h2></div>          
                         <div class="linha-corpo">
                             <select name="alojamento" id="alojamento">
@@ -188,7 +188,7 @@
                         </div>   
                     </div>   
                 </div>
-                <div class="gg">      
+                <div class="gg-row">      
                      <div class="ggh">    
                         <div class="linha-titulo"><h2>Preço por Noite</h2></div>      
                         <div class="linha-corpo_preco">              
@@ -215,8 +215,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="gg">
-                    <div class="gghl">
+                <div class="gg-row">
+                    <div class="ggh">
                         <div class="linha-titulo"><h2>Regime Alimentar</h2></div>
                         <div class="linha-corpo">
                            <select id="regime" class="select-filtro">
@@ -241,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="gg">
+                <div class="ggg">
                     <div class="gghl">
                         <div class="linha-titulo"><h2>Comodidades</h2></div>
                         <div class="linha-corpo">                        

@@ -106,7 +106,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Santo Antão</h3>
-                    <span>Barlavento · 779 km²</span>
                 </div>
             </a>
 
@@ -115,7 +114,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>São Vicente</h3>
-                    <span>Barlavento · 227 km²</span>
                 </div>
             </a>
 
@@ -124,7 +122,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Santa Luzia</h3>
-                    <span>Barlavento · Desabitada · 35 km²</span>
                 </div>
             </a>
 
@@ -133,7 +130,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>São Nicolau</h3>
-                    <span>Barlavento · 388 km²</span>
                 </div>
             </a>
 
@@ -142,7 +138,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Sal</h3>
-                    <span>Barlavento · 216 km²</span>
                 </div>
             </a>
 
@@ -151,7 +146,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Boa Vista</h3>
-                    <span>Barlavento · 620 km²</span>
                 </div>
             </a>
 
@@ -160,7 +154,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Maio</h3>
-                    <span>Sotavento · 269 km²</span>
                 </div>
             </a>
 
@@ -169,7 +162,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Santiago</h3>
-                    <span>Sotavento · 991 km² · Capital</span>
                 </div>
             </a>
 
@@ -178,7 +170,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Fogo</h3>
-                    <span>Sotavento · 476 km² · Vulcânica</span>
                 </div>
             </a>
 
@@ -187,7 +178,6 @@
                 <div class="overlay"></div>
                 <div class="card-content">
                     <h3>Brava</h3>
-                    <span>Sotavento · 64 km² · A mais pequena</span>
                 </div>
             </a>
         </div>

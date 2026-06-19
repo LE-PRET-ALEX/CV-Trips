@@ -320,97 +320,109 @@ header {
     color: #e2edf5;
 }
 
-/* ========================= */
-/* CARROSSEL */
-/* ========================= */
-
-.restaurants {
-    padding: 30px 40px 10px 40px;
-}
-
-.restaurants h1 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #104c74;
-}
-
-
-.acomodation {
+.section2 {
     width: 100%;
     height: 80vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    overflow: hidden;
+}
+ 
+.titulo {
+    width: 90%;
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+ 
+.titulo h1 {
+    font-size: 3.4rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #0a3d5f;
+    text-align: center;
+}
+
+.acomodation {
+    width: 100%;
+    height: 80%;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    padding: 0 1.5rem;
-    flex-shrink: 0;
+    gap: 2rem;
+    background-color: #fff;
 }
-
-#select-ilha {
-    width: 100%;
-    padding: 0.5rem 0.75rem;
-    border: 1.5px solid #c9d6df;
-    border-radius: 10px;
-    font-size: 0.85rem;
-    color: #1a1a2e;
-    background-color: #f0f4f8;
-    outline: none;
-}
-
+ 
+/* Botao esquerda / direita */
 .botao {
-    flex-shrink: 0;
     display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    gap: 20px;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
+    transition: transform 2.2s ease;
 }
 
 .btn-nav {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #1a1a2e;
-    background: transparent;
-    cursor: pointer;
     display: flex;
+    padding: 10px;
+    height: 10%;
+    align-items: center;
+    cursor: pointer;
+    border: 2px #333;
+} 
+
+button {
+    width: 100px;
+    border-radius: 15px;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem;
-    color: #1a1a2e;
-    transition: background 0.2s, color 0.2s, transform 0.15s;
-    line-height: 1;
 }
 
-.btn-nav i {
-    color: #f5e6c8;
+.botao button:hover {
+    transform: scale(1.1);
+    color: #c9d6df;
 }
-
-.btn-nav:hover {
-    background: #1a1a2e;
-    color: #fff;
-    transform: scale(1.08);
-}
-
-.carousel-viewport {
-    flex: 1;
-    height: 75%;
-    overflow: hidden;
+ 
+/* Viewport — esconde os cards fora do campo */
+.carrosel-viewport {
+    width: 100%;
+    height: 100%;
     display: flex;
+    border-radius: 15px;
     align-items: center;
-}
+    background-color: #fff;
+    overflow: hidden;
 
-.carousel-track {
+}
+ 
+/* Faixa deslizante */
+.carrosel_deslizar {
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
-    height: 100%;
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    will-change: transform;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    height: 97%;
+    max-width: max-content;
+    background-color: #fff;
+    padding: 0 20px; 
 }
-
+ 
+/* Card individual */
 .item-acomodation {
-    flex-shrink: 0;
-    width: 260px;
+    height: 100%;
+    flex: 0 0 300px;
     background: #fff;
     border-radius: 14px;
     overflow: hidden;
@@ -418,43 +430,68 @@ header {
     transition: transform 0.25s, box-shadow 0.25s;
     display: flex;
     flex-direction: column;
-}
-
-.imagem img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
+/*Formatacao da imagem*/
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
 .item-acomodation:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 36px rgba(0,0,0,0.18);
 }
-
-.item-acomodation > div:first-child,
-.item-acomodation .imagem {
+ 
+.imagem {
+    height: 60%;
+    width: 100%;
     background: #c9d6df;
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #556;
     font-size: 0.85rem;
 }
-
-.item-acomodation > div:last-child,
-.item-acomodation .info {
+ 
+.info {
     height: 40%;
     width: 100%;
-    padding: 1rem 1.2rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    padding: 15px;
     background: #fff;
 }
 
-.item-acomodation h1 { font-size: 0.80rem; font-weight: 500; color: #333; }
-.item-acomodation h3 { font-size: 0.75rem; font-weight: 400; color: #666; }
+.info a {
+    align-items: center;
+    color: #0a3d5f;
+}
+
+.fa-star {
+    color: yellow;
+}
+ 
+.item-acomodation h1 { 
+    font-size: 1.1rem; 
+    color: #333; 
+}
+
+.item-acomodation h2 {
+    font-size: 1.2rem;
+}
+
+.item-acomodation h3 { 
+    font-size: 0.75rem; 
+    font-weight: 400; 
+    color: #666; 
+}
+
+
+
 /* ====================================
    FOOTER
    ==================================== */

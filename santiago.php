@@ -216,9 +216,9 @@
         <section id="pontos_turisticos">
             <div class="s3-grid">
                 <div class="s3-header">
-                    <h2>Atrações em Santiago</h2>
+                    <h2>Attractions in Santiago</h2>
                     <div class="divider"></div>
-                    <p>Descubra os locais mais visitados da ilha</p>
+                    <p>Discover the most visited places on the island.</p>
                 </div>
 
                 <div class="linha">
@@ -345,6 +345,97 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/3fqx2Ugsn_w?si=HiphSTI7GxaGEpSX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z7gngJMsFSI?si=Fm1LcAzaTA_stzmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7HzH4HCZ6E?si=h96eIHiNAsIFjqIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
+            </div>
+        </section>
+        <section id="ilhas">
+            <div class="ilhas-header">
+                <h2 class="section-title">See other islands of Cape Verde
+</h2>
+                <div class="divider"></div>
+                <p class="ilhas-subtitle">
+                    Which island owns a world inside, click to discover.
+                </p>
+            </div>
+            <div class="ilhas-grid">
+                <a class="ilha-card" href="santoantao.php">
+                    <img src="./resources/aboutCV/image ilhas/SantoAntao.jpg" alt="Santo Antão" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santo Antão</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="saovicente.php">
+                    <img src="./resources/aboutCV/image ilhas/Soncent.jpg" alt="São Vicente" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>São Vicente</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="santaluzia.php">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80" alt="Santa Luzia" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santa Luzia</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="saonicolau.php">
+                    <img src="./resources/aboutCV/image ilhas/SaoNiclau.jpg" alt="São Nicolau" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>São Nicolau</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="sal.php">
+                    <img src="./resources/aboutCV/image ilhas/Sal.jpg" alt="Sal" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Sal</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="boavista.php">
+                    <img src="./resources/aboutCV/image ilhas/Bubista.jpg" alt="Boa Vista" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Boa Vista</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="maio.php">
+                    <img src="./resources/aboutCV/image ilhas/Maio.jpg" alt="Maio" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Maio</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="santiago.php">
+                    <img src="./resources/aboutCV/image ilhas/Santiago.jpg" alt="Santiago" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santiago</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="fogo.php">
+                    <img src="./resources/aboutCV/image ilhas/fogo.jpg" alt="Fogo" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Fogo</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="brava.php">
+                    <img src="./resources/aboutCV/image ilhas/Brava.jpg" alt="Brava" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Brava</h3>
+                    </div>
+                </a>
             </div>
         </section>
      
