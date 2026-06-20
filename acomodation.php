@@ -29,7 +29,7 @@
                                 <h1>Name: Hotel VIP-PRAIA </h1>
                                 <h1>Ilha: Santiago </h1>
                                 <h2>Category:  Hotel </h2>
-                                <h2 class="av"><span>Avaliation: 5 </span> <i class="fa-solid fa-star"></i></h2>
+                                <h2 class="av"><span>Avaliation: 4 </span> <i class="fa-solid fa-star"></i></h2>
                                 <a href="https://www.booking.com/hotel/cv/vip-praia.pt-pt.html?aid=311098&label=vip-praia-qnGWzJIG3JjZwMe6Zi_CwQS266377209259%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18772735944%3Alp9230695%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0l-9IW33KjYg&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=0_0_2_1_0&checkin=2026-06-20&checkout=2026-06-21&dest_id=-1313468&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=0_0_2_1_0&hpos=1&matching_block_id=0_0_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=0_0_2_1_0__1586650&srepoch=1781919139&srpvid=95ff0acfab0c017d&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
@@ -164,71 +164,71 @@
                 </div>
         </section>
 
-        <!-- <section id="section3">
+        <section id="section3">
             <div class="esq">
                 <div class="tit">
-                    <h1>Filtro de Acomodacoes</h1>
+                    <h1>Accommodation Filter</h1>
                 </div>
                 <div class="gg-row">
                     <div class="ggh">  
-                        <div class="linha-titulo"><h2>Ilhas</h2></div>   
+                        <div class="linha-titulo"><h2>Island</h2></div>   
                         <div class="linha-corpo">
                             <select name="ilha" id="ilha">
-                                <option value="ilha">S.Antão</option>
-                                <option value="ilha">S.Vicente</option>
-                                <option value="ilha">S. Nicolau</option>
-                                <option value="ilha">Sal</option>
-                                <option value="ilha">Boa Vista</option>
-                                <option value="ilha">Maio</option>
-                                <option value="ilha">Santiago</option>
-                                <option value="ilha">Fogo</option>
-                                <option value="ilha">Brava</option>
+                                <option value="Santo Antão ">S.Antão</option>
+                                <option value="São Vicente">S.Vicente</option>
+                                <option value="São Nicolau">S. Nicolau</option>
+                                <option value="Sal">Sal</option>
+                                <option value="Boa Vista">Boa Vista</option>
+                                <option value="Maio">Maio</option>
+                                <option value="Santiago">Santiago</option>
+                                <option value="Fogo">Fogo</option>
+                                <option value="Brava">Brava</option>
                             </select>
                         </div>   
                     </div>  
                     <div class="ggh-row">  
-                        <div class="linha-titulo"><h2>Tipo de Alojamento</h2></div>          
+                        <div class="linha-titulo"><h2>Type of Accommodation</h2></div>          
                         <div class="linha-corpo">
                             <select name="alojamento" id="alojamento">
-                                <option value="alojamento1">Resort</option>
-                                <option value="alojamento2">Hotel</option>
-                                <option value="alojamento3">Pensão / Pousada</option>
-                                <option value="alojamento4">Casa de férias</option>
-                                <option value="alojamento5">Apartamento</option>
+                                <option value="Resort">Resort</option>
+                                <option value="Hotel">Hotel</option>
+                                <option value="Pensão">Pensão / Pousada</option>
+                                <option value="Casa de Férias">Casa de férias</option>
+                                <option value="Apartamento">Apartamento</option>
                             </select>
                         </div>   
                     </div>   
                 </div>
                 <div class="gg-row">      
                      <div class="ggh">    
-                        <div class="linha-titulo"><h2>Preço por Noite</h2></div>      
+                        <div class="linha-titulo"><h2>Price per Night</h2></div>      
                         <div class="linha-corpo_preco">              
                             <div class="preco">
-                                <label for="">Preço Minimo</label>
+                                <label for="">Minimum Price</label>
                                 <input type="number" id="preco_min">       
                             </div>                  
                             <div class="preco">
-                                <label for="">Preço Máximo</label>
+                                <label for="">Maximum Price</label>
                                 <input type="number" id="preco_max">
                             </div>       
                         </div>   
                     </div>  
                     <div class="ggh">
-                        <div class="linha-titulo"><h2>Categoria</h2></div>                      
+                        <div class="linha-titulo"><h2>Category</h2></div>                      
                         <div class="linha-corpo">
                             <select id="categoria">
-                                <option value="1" class="estrela">1 Estrela</option>
-                                <option value="2" class="estrela">2 Estrelas</option>
-                                <option value="3" class="estrela">3 Estrelas</option>
-                                <option value="4" class="estrela">4 Estrelas</option>
-                                <option value="5" class="estrela">5 Estrelas</option>
+                                <option value="1" class="estrela">1 Star</option>
+                                <option value="2" class="estrela">2 Stars</option>
+                                <option value="3" class="estrela">3 Stars</option>
+                                <option value="4" class="estrela">4 Stars</option>
+                                <option value="5" class="estrela">5 Stars</option>
                             </select>
                         </div>
                     </div>
                 </div>
                 <div class="gg-row">
                     <div class="ggh">
-                        <div class="linha-titulo"><h2>Regime Alimentar</h2></div>
+                        <div class="linha-titulo"><h2>Regimen</h2></div>
                         <div class="linha-corpo">
                            <select id="regime" class="select-filtro">
                                 <option value="">Qualquer regime</option>
@@ -236,11 +236,11 @@
                                 <option value="mp">Meia-pensão</option>
                                 <option value="pc">Pensão completa</option>
                                 <option value="ai">All-inclusive</option>
-                            </select>
+                            </select>   
                         </div>
                     </div>                        
                     <div class="ggh">    
-                        <div class="linha-titulo"><h2>Ordenar Por</h2></div>
+                        <div class="linha-titulo"><h2>Sort By</h2></div>
                         <div class="linha-corpo">
                             <select id="ordenar" class="select-filtro">
                                 <option value="rec">Recomendados</option>
@@ -254,24 +254,24 @@
                 </div>
                 <div class="ggg">
                     <div class="gghl">
-                        <div class="linha-titulo"><h2>Comodidades</h2></div>
+                        <div class="linha-titulo"><h2>Amenities</h2></div>
                         <div class="linha-corpo">                        
                             <div class="separar">
-                                <label id="comodidade"><input type="checkbox" /> Piscina</label>
-                                <label id="comodidade"><input type="checkbox" checked /> WiFi gratuito</label>
-                                <label id="comodidade"><input type="checkbox" /> Praia privada</label>
+                                <label id="comodidade"><input type="checkbox" name="comodidade" value="piscina" /> Piscina</label>
+                                <label id="comodidade"><input type="checkbox" checked" name="comodidade" value="wifi" /> WiFi gratuito</label>
+                                <label id="comodidade"><input type="checkbox" name="comodidade" value="praia-privada"/> Praia privada</label>
                             
                             </div>
                             <div class="separar">
-                                <label id="comodidade"><input type="checkbox" /> Pequeno-almoço</label>
-                                <label id="comodidade"><input type="checkbox" /> Estacionamento</label>                                
-                                <label id="comodidade"><input type="checkbox" /> Vista mar</label>
+                                <label id="comodidade"><input type="checkbox" name="comodidade" value="pequeno-almoço"/> Pequeno-almoço</label>
+                                <label id="comodidade"><input type="checkbox" name="comodidade" value="estacionamanto"/> Estacionamento</label>                                
+                                <label id="comodidade"><input type="checkbox" name="comodidade" value="vista-mar"/> Vista mar</label>
                             
                             </div>
                             <div class="separar">
-                                <label id="comodidade"><input type="checkbox" /> Ginásio</label>
-                                <label id="comodidade"><input type="checkbox" /> Restaurante</label>
-                                <label id="comodidade"><input type="checkbox" /> Transfer aeroporto</label>       
+                                <label id="comodidade"><input type="checkbox" name="comodidade" value="ginásio"/> Ginásio</label>
+                                <label id="comodidade"><input type="checkbox" name="comodidade" value="restaurante"/> Restaurante</label>
+                                <label id="comodidade"><input type="checkbox" name="comodidade" value="transfer-aeroporto"/> Transfer aeroporto</label>       
                             </div>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1346419.2681288025!2d-23.973741187082798!3d15.98131883760907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2scv!4v1778071295658!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </section> -->
+        </section>
     </main>
 </body>
 
@@ -349,6 +349,7 @@
     btn_dir.addEventListener('click', moverdireita);
     btn_esq.addEventListener('click', moveresquerda);
     </script>
+    <script src="./filtro_acomodation.js"></script>
 
 <?php
     include 'footer.php';

@@ -1,295 +1,300 @@
-const acomodacoes = [
-    {
-        id: 1,
-        nome: "Hotel VIP-PRAIA",
-        ilha: "Santiago",
-        zona: "Palmarejo",
-        tipo: "Hotel",
-        estrelas: 4,
-        preco: 150,
-        comodidades: ["piscina", "wifi", "restaurante"],
-        latitude: 15.0833,
-        longitude: -23.6417
+// Lista de acomodacoes 
+var acomodacoes = [
+    { id: 1, nome: "Hotel VIP-PRAIA", 
+        ilha: "Santiago", 
+        zona: "Palmarejo", 
+        tipo: "Hotel", 
+        estrelas: 4, 
+        preco: 150, 
+        regime: "mp", 
+        comodidades: ["piscina", "wifi", "restaurante"] 
     },
-    {
-        id: 2,
-        nome: "Oasis PraiaMar",
-        ilha: "Santiago",
-        zona: "Prainha",
-        tipo: "Hotel",
-        estrelas: 4.4,
-        preco: 180,
-        comodidades: ["wifi", "praia-privada", "vista-mar"],
-        latitude: 15.0850,
-        longitude: -23.6350
+    { 
+        id: 2, nome: "Oasis PraiaMar", 
+        ilha: "Santiago", 
+        zona: "Prainha", 
+        tipo: "Hotel", 
+        estrelas: 4, 
+        preco: 180, 
+        regime: "pc", 
+        comodidades: ["wifi", "praia-privada", "vista-mar"] 
     },
-    {
-        id: 3,
-        nome: "Barceló Praia Cape Verde",
-        ilha: "Santiago",
-        zona: "Prainha",
-        tipo: "Hotel",
-        estrelas: 5,
-        preco: 250,
-        comodidades: ["piscina", "wifi", "restaurante", "praia-privada", "transfer-aeroporto"],
-        latitude: 15.0860,
-        longitude: -23.6340
+    { 
+        id: 3, nome: "Barcelo Praia Cape Verde", 
+        ilha: "Santiago", 
+        zona: "Prainha", 
+        tipo: "Hotel", 
+        estrelas: 5, 
+        preco: 250, 
+        regime: "ai", 
+        comodidades: ["piscina", "wifi", "restaurante", "praia-privada", "transfer-aeroporto"] 
     },
-    {
-        id: 4,
-        nome: "Ouril Hotel Mindelo",
-        ilha: "São Vicente",
-        zona: "Rua Marginal",
-        tipo: "Hotel",
-        estrelas: 4,
-        preco: 120,
-        comodidades: ["wifi", "restaurante"],
-        latitude: 16.8897,
-        longitude: -24.9729
+    { 
+        id: 4, 
+        nome: "Ouril Hotel Mindelo", 
+        ilha: "São Vicente", 
+        zona: "Rua Marginal", 
+        tipo: "Hotel", 
+        estrelas: 4, 
+        preco: 120, 
+        regime: "so", 
+        comodidades: ["wifi", "restaurante"] 
     },
-    {
-        id: 5,
-        nome: "FOUR POINTS",
-        ilha: "São Vicente",
-        zona: "Laginha",
-        tipo: "Hotel",
-        estrelas: 4,
-        preco: 140,
-        comodidades: ["piscina", "wifi", "restaurante", "estacionamento"],
-        latitude: 16.8920,
-        longitude: -24.9700
+    { 
+        id: 5, 
+        nome: "FOUR POINTS", 
+        ilha: "São Vicente", 
+        zona: "Laginha", 
+        tipo: "Hotel", 
+        estrelas: 4, 
+        preco: 140, 
+        regime: "mp", 
+        comodidades: ["piscina", "wifi", "restaurante", "estacionamento"] 
     },
-    {
-        id: 6,
-        nome: "Rui Palace Santa Maria",
-        ilha: "Sal",
-        zona: "Santa Maria",
-        tipo: "Hotel",
-        estrelas: 5,
-        preco: 200,
-        comodidades: ["piscina", "wifi", "restaurante", "praia-privada", "ginásio"],
-        latitude: 16.7412,
-        longitude: -22.9458
+    { 
+        id: 6, 
+        nome: "Rui Palace Santa Maria", 
+        ilha: "Sal", zona: "Santa Maria", 
+        tipo: "Hotel", 
+        estrelas: 5, 
+        preco: 200, 
+        regime: "ai", 
+        comodidades: ["piscina", "wifi", "restaurante", "praia-privada", "ginásio"] 
     },
-    {
-        id: 7,
-        nome: "Hotel Odjo d'água",
-        ilha: "Sal",
-        zona: "Santa Maria",
-        tipo: "Hotel",
-        estrelas: 4,
-        preco: 160,
-        comodidades: ["wifi", "vista-mar"],
-        latitude: 16.7430,
-        longitude: -22.9440
+    { 
+        id: 7, 
+        nome: "Hotel Odjo d'água", 
+        ilha: "Sal", 
+        zona: "Santa Maria", 
+        tipo: "Hotel", 
+        estrelas: 4, 
+        preco: 160, 
+        regime: "so", 
+        comodidades: ["wifi", "vista-mar"] 
     },
-    {
-        id: 8,
-        nome: "Hotel Morabeza",
-        ilha: "Sal",
-        zona: "Santa Maria",
-        tipo: "Hotel",
-        estrelas: 4,
-        preco: 170,
-        comodidades: ["piscina", "wifi", "restaurante"],
-        latitude: 16.7450,
-        longitude: -22.9420
+    { 
+        id: 8, 
+        nome: "Hotel Morabeza", 
+        ilha: "Sal", 
+        zona: "Santa Maria", 
+        tipo: "Hotel", 
+        estrelas: 4, 
+        preco: 170, 
+        regime: "mp", 
+        comodidades: ["piscina", "wifi", "restaurante"] 
     },
-    {
-        id: 9,
-        nome: "Melia Dunas Beach Resort & Spa",
-        ilha: "Sal",
-        zona: "Santa Maria",
-        tipo: "Hotel",
-        estrelas: 5,
-        preco: 280,
-        comodidades: ["piscina", "wifi", "restaurante", "spa", "praia-privada"],
-        latitude: 16.7470,
-        longitude: -22.9400
+    { 
+        id: 9, 
+        nome: "Melia Dunas Beach Resort & Spa", 
+        ilha: "Sal", 
+        zona: "Santa Maria", 
+        tipo: "Hotel", 
+        estrelas: 5, 
+        preco: 280, 
+        regime: "ai", 
+        comodidades: ["piscina", "wifi", "restaurante", "spa", "praia-privada"] 
     },
-    {
-        id: 10,
-        nome: "Hotel Riu Karamboa",
-        ilha: "Boa Vista",
-        zona: "Rabil",
-        tipo: "Hotel",
-        estrelas: 5,
-        preco: 220,
-        comodidades: ["piscina", "wifi", "restaurante", "praia-privada"],
-        latitude: 16.1092,
-        longitude: -22.8356
+    { 
+        id: 10, 
+        nome: "Hotel Riu Karamboa", 
+        ilha: "Boa Vista", zona: "Rabil", 
+        tipo: "Hotel", 
+        estrelas: 5, 
+        preco: 220, 
+        regime: "ai", 
+        comodidades: ["piscina", "wifi", "restaurante", "praia-privada"] 
     },
-    {
-        id: 11,
-        nome: "Barceló Marine Boa Vista",
-        ilha: "Boa Vista",
-        zona: "Sal Rei",
-        tipo: "Hotel",
-        estrelas: 5,
-        preco: 240,
-        comodidades: ["piscina", "wifi", "restaurante", "praia-privada", "transfer-aeroporto"],
-        latitude: 16.1650,
-        longitude: -22.8900
+    { 
+        id: 11, 
+        nome: "Barcelo Marine Boa Vista", 
+        ilha: "Boa Vista", 
+        zona: "Sal Rei", 
+        tipo: "Hotel", 
+        estrelas: 5, 
+        preco: 240, 
+        regime: "ai", 
+        comodidades: ["piscina", "wifi", "restaurante", "praia-privada", "transfer-aeroporto"] 
     }
 ];
 
-//Atributos
-function filtrarAcomodacoes(){
-    //Pegar dados
-    const ilha = document.getElementById('ilha').value;
-    const alojamento = document.getElementById('alojamento').value;
-    const preco_min = document.getElementById('preco_min').value;
-    const preco_max = document.getElementById('preco_max').value;
-    const categoria = document.getElementById('categoria').value;
-    const regime = document.getElementById('regime').value;
-    const ordenar = document.getElementById('ordenar').value;
-    const comodidade = document.getElementById('comodidade').value;
-    const resultado = document.getElementById('result').value;
-    const btn_filtrar = document.getElementById('enviar_filtro');
-    const btn_limpar = document.getElementById('limpar_filtro');
-
-    
-
-    console.log("Atributo selecionados:", {
-        ilha, alojamento, categoria, regime, ordenar, comodidade
-    })
-
-    const resultados = acomodacoes.filter(acomodacao => {
-        if(ilha && acomodacao.ilha !== alojamento){
-            return false;
+ 
+// Quando a pagina terminar de carregar ligar os botoes
+window.onload = function() {
+    var botaoFiltrar = document.getElementById("enviar_filtro");
+    var botaoLimpar = document.getElementById("limpar_filtro");
+ 
+    botaoFiltrar.onclick = filtrarAcomodacoes;
+    botaoLimpar.onclick = limparFiltro;
+ 
+    document.getElementById("result").innerHTML = "<p>Select the attributes and click on \"Filter\"</p>";
+};
+ 
+// Vai buscar o valor de cada checkbox de comodidade que estiver marcada
+function obterComodidadesSelecionadas() {
+    var checkboxes = document.querySelectorAll("input[name='comodidade']");
+    var selecionadas = [];
+ 
+    for (var i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i].checked === true) {
+            selecionadas.push(checkboxes[i].value);
         }
-
-        if(alojamento && acomodacao.tipo !== alojamento){
-            return false;
+    }
+ 
+    return selecionadas;
+}
+ 
+// Funcao principal que faz o filtro
+function filtrarAcomodacoes() {
+    var ilha = document.getElementById("ilha").value;
+    var alojamento = document.getElementById("alojamento").value;
+    var precoMin = document.getElementById("preco_min").value;
+    var precoMax = document.getElementById("preco_max").value;
+    var categoria = document.getElementById("categoria").value;
+    var regime = document.getElementById("regime").value;
+    var ordenar = document.getElementById("ordenar").value;
+    var comodidadesSelecionadas = obterComodidadesSelecionadas();
+ 
+    var resultados = [];
+ 
+    // Percorrer a lista toda e ver quais acomodacoes passam nos filtros
+    for (var i = 0; i < acomodacoes.length; i++) {
+        var item = acomodacoes[i];
+        var passou = true;
+ 
+        if (ilha !== "" && item.ilha !== ilha) {
+            passou = false;
         }
-
-        const preco = acomodacao.preco;
-        if(preco_min && preco < parseInt(preco_min)){
-            return false;
+ 
+        if (alojamento !== "" && item.tipo !== alojamento) {
+            passou = false;
         }
-
-        if(preco_max && preco > parseInt(preco_max)){
-            return false;
+ 
+        if (precoMin !== "" && item.preco < parseInt(precoMin)) {
+            passou = false;
         }
-
-        //Verificar se as comodidades selecionadas existem numa acomodacao
-        if(comodidade.length > 0){
-            const temtodascomodidades = comodidade.every(comodidade =>
-                acomodacao.comodidades.includes(comodidade)
-            );
-            if(!temtodascomodidades){
-                return false;
+ 
+        if (precoMax !== "" && item.preco > parseInt(precoMax)) {
+            passou = false;
+        }
+ 
+        if (categoria !== "" && Math.floor(item.estrelas) !== parseInt(categoria)) {
+            passou = false;
+        }
+ 
+        if (regime !== "" && item.regime !== regime) {
+            passou = false;
+        }
+ 
+        // Ver se a acomodacao tem todas as comodidades escolhidas
+        for (var j = 0; j < comodidadesSelecionadas.length; j++) {
+            if (item.comodidades.indexOf(comodidadesSelecionadas[j]) === -1) {
+                passou = false;
             }
         }
-
-        return true
-
-    });
-
-    mostar_resultado(resultados);
-
-    if(resultados.length > 0){
-        mostar_resultado(resultados);
+ 
+        if (passou === true) {
+            resultados.push(item);
+        }
     }
-
-
-    btn_filtrar.addEventListener('click', filtroResultado());
-    btn_limpar.addEventListener('click', limparFiltro())
-
+ 
+    resultados = ordenarResultados(resultados, ordenar);
+ 
+    mostrarResultado(resultados);
 }
-
-
-function obterComodidadeSelecionadas(){
-    const checkboxs = document.querySelectorAll('input[name=comodidade]:checked');
-    const comodidades = [];
-
-    checkboxs.forEach(chekbox => {
-        comodidades.push(chekbox.value);
-    });
-
-    return comodidades;
+ 
+// Ordena a lista de resultados de acordo com a opcao escolhida
+function ordenarResultados(lista, ordenar) {
+ 
+    if (ordenar === "preco-asc") {
+        lista.sort(function(a, b) {
+            return a.preco - b.preco;
+        });
+    }
+ 
+    if (ordenar === "preco-desc") {
+        lista.sort(function(a, b) {
+            return b.preco - a.preco;
+        });
+    }
+ 
+    if (ordenar === "stars") {
+        lista.sort(function(a, b) {
+            return b.estrelas - a.estrelas;
+        });
+    }
+ 
+    if (ordenar === "novo") {
+        lista.sort(function(a, b) {
+            return b.id - a.id;
+        });
+    }
+ 
+    // Se for "rec" (recomendados) nao faz nada, mantem a ordem original
+    return lista;
 }
-
-
-
-// MOSTRAR RESULTADOS
-
-function filtroResultado(resultados){
-    const areaResultado = document.getElementById("resultado");
-
-    if(resultados.length ===  0){
-        areaResultado.innerHTML = `
-            <div class="sem-resultados">
-                <h2>Sem resultados...</h2>
-                <p>Nenhuma acomodação encontrada com esses critérios.</p>
-                <p>Tente mudar os filtros!</p>
-            </div>
-        `;
+ 
+// Monta o HTML dos resultados e coloca dentro da div "result"
+function mostrarResultado(resultados) {
+    var areaResultado = document.getElementById("result");
+ 
+    if (resultados.length === 0) {
+        areaResultado.innerHTML = "<div class='sem-resultados'><h2>Sem resultados...</h2><p>Nenhuma acomodacao encontrada com esses criterios.</p><p>Tente mudar os filtros!</p></div>";
         return;
     }
-
-    let html = `<h2>Resultados encontrados: ${resultados.length} acomodações)</h2>`;
-    html += '<div class="resultados-lista">';
-
-    resultados.forEach(acomodacao => {
-        const estrelas = ''.repeat(Math.floor(acomodacao.estrelas));
-        const comodidadesHTML = acomodacao.comodidades
-            .map(com => `<span class="comodidade-badge">${com.replace(/-/g, ' ')}</span>`)
-            .join('');
-        
-        html += `
-            <div class="resultado-item">
-                <h3>${acomodacao.nome}</h3>
-                <div class="info-item">
-                    <strong>Localização:</strong> ${acomodacao.zona}, ${acomodacao.ilha}
-                </div>
-                <div class="info-item">
-                    <strong>Tipo:</strong> ${acomodacao.tipo}
-                </div>
-                <div class="info-item">
-                    <strong>Avaliação:</strong> ${estrelas} (${acomodacao.estrelas} estrelas)
-                </div>
-                <div class="info-item">
-                    <strong>Preço por noite:</strong> €${acomodacao.preco}
-                </div>
-                <div class="info-item">
-                    <strong>Comodidades:</strong>
-                    <div class="comodidades">${comodidadesHTML}</div>
-                </div>
-                <button class="btn-reservar" onclick="reservar('${acomodacao.nome}')">
-                    Reservar Agora
-                </button>
-            </div>
-        `;
-
-        html += '</div>';
-        areaResultado.innerHTML = html;
-    });
+ 
+    var html = "<h2>Results found: " + resultados.length + " Acomodation</h2>";
+    html = html + "<div class='resultados-lista'>";
+ 
+    for (var i = 0; i < resultados.length; i++) {
+        var item = resultados[i];
+ 
+        // Montar as estrelinhas
+        var estrelas = "";
+        for (var e = 0; e < Math.floor(item.estrelas); e++) {
+            estrelas = estrelas + "★";
+        }
+ 
+        // Montar as etiquetas das comodidades
+        var comodidadesHTML = "";
+        for (var c = 0; c < item.comodidades.length; c++) {
+            var nomeComodidade = item.comodidades[c].replace("-", " ");
+            comodidadesHTML = comodidadesHTML + "<span class='comodidade-badge'>" + nomeComodidade + "</span>";
+        }
+ 
+        html = html + "<div class='resultado-item'>";
+        html = html + "<h3>" + item.nome + "</h3>";
+        html = html + "<div class='info-item'><strong>Location:</strong> " + item.zona + ", " + item.ilha + "</div>";
+        html = html + "<div class='info-item'><strong>Type:</strong> " + item.tipo + "</div>";
+        html = html + "<div class='info-item'><strong>Avaliation:</strong> " + estrelas + " (" + item.estrelas + " stars)</div>";
+        html = html + "<div class='info-item'><strong>Price per night:</strong> €" + item.preco + "</div>";
+        html = html + "<div class='info-item'><strong>Amenities:</strong><div class='comodidades'>" + comodidadesHTML + "</div></div>";
+        html = html + "</div>";
+    }
+ 
+    html = html + "</div>";
+ 
+    areaResultado.innerHTML = html;
 }
-
-
-
+ 
+// Limpa todos os campos do filtro e os resultados
 function limparFiltro() {
-    //limpar tudo
-    document.getElementById('ilha').value = "";
-    document.getElementById('alojamento').value = "Resort";
-    document.getElementById('preco_min').value = "";
-    document.getElementById('preco_max').value = ""; 
-    document.getElementById('categoria').value = "";
-    document.getElementById('regime').value = "";
-    document.getElementById('ordenar') = "";
-    document.getElementById('comodidade').value = "";
-    document.getElementById('result').value = "";
-    document.getElementById('enviar_filtro').value = "";
-
-    //Desmarcar todos os checkbox
-    const checkboxs = document.querySelectorAll('input[name="comodidade"]');
-    checkboxs.forEach(chekbox => {
-        chekbox.cheked = false;
-    });
-
-    //limpar resultado
-    document.getElementById("resultado").innerHTML = '<p>Selecione os atributos e clique em "filtrar"</p>';
-
-    
+    document.getElementById("ilha").value = "";
+    document.getElementById("alojamento").value = "";
+    document.getElementById("preco_min").value = "";
+    document.getElementById("preco_max").value = "";
+    document.getElementById("categoria").value = "";
+    document.getElementById("regime").value = "";
+    document.getElementById("ordenar").value = "rec";
+ 
+    var checkboxes = document.querySelectorAll("input[name='comodidade']");
+    for (var i = 0; i < checkboxes.length; i++) {
+        checkboxes[i].checked = false;
+    }
+ 
+    document.getElementById("result").innerHTML = "<p>Select the attributes and click on\"Filter\"</p>";
+}
+ 
+// So um alerta simples quando clica em "Reservar Agora"
+function reservar(nome) {
+    alert("Reservation started for: " + nome);
 }

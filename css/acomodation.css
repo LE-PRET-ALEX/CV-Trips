@@ -746,6 +746,58 @@ input:hover {
 }
 
 
+.resultados-lista { 
+    display:flex; 
+    flex-direction: row;
+    gap:15px; 
+}
+    
+.resultado-item { 
+    background-color: #fff;
+    border:1px solid #e2e2e2; 
+    border-radius:15px; 
+    padding:15px; 
+}
+    
+.resultado-item h3 { 
+    margin-top:0; 
+}
+    
+.info-item { 
+    font-size:.9rem; 
+    margin-bottom:4px; 
+}
+    
+.comodidades { 
+    margin-top:4px; 
+}
+    
+.comodidade-badge { 
+    display:inline-block; 
+    background:#eef3fc; color:#1a73e8; 
+    font-size:.75rem; 
+    padding:2px 8px; 
+    border-radius:10px; 
+    margin:2px; 
+}
+    
+.btn-reservar { 
+    margin-top:10px; 
+    width: 100%;
+    background:#1a73e8; 
+    color:#fff; 
+    border:none; 
+    padding:8px 12px; 
+    border-radius:4px; 
+    cursor:pointer; 
+}
+    
+.sem-resultados { 
+    text-align:center; 
+    color:#888; 
+}
+    
+
 /* ====================================
    FOOTER
    ==================================== */
