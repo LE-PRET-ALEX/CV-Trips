@@ -28,9 +28,9 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                            <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
+                            <li class="link-holder"><a href="./destinations.php"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
+                            <li class="link-holder"><a href="./map.php"><i class="fa-solid fa-map"></i> map</a></li>
+                            <li class="link-holder"><a href="./plan_trip.php"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
                         </ul>
                     </div>
                     <div class="settings_bar">
@@ -223,7 +223,7 @@
 
                 <div class="linha">
                     
-                    <a href="./moreinfo/tarrafalbeach.php">
+                    <a href="./moreinfo/chadascaldeiras.php">
                         <div class="conteudo">
                             <div class="imagem">
                                 <img src="https://i.pinimg.com/1200x/eb/ec/3a/ebec3a0e14d4a305dd82f1bde116cfd8.jpg" alt="Tarrafal Beach">
@@ -239,10 +239,10 @@
                     </a>
 
                     
-                    <a href="./moreinfo/serramalagueta.php">
+                    <a href="./moreinfo/picodofogo.php">
                         <div class="conteudo">
                             <div class="imagem">
-                                <img src="https://i.pinimg.com/1200x/29/7c/b7/297cb761f98d38dc807decdbf8184914.jpg" alt="Serra de Malagueta">
+                                <img src="https://i.pinimg.com/1200x/30/2e/1e/302e1e8047412079869c28a9ce05d531.jpg" alt="">
                             </div>
                             <div class="informacao">
                                 <h3>Pico do Fogo</h3>
@@ -255,10 +255,10 @@
                         </div>
                     </a>
 
-                    <a href="./moreinfo/mercadosucupira.php">
+                    <a href="./moreinfo/saofilipe.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/30/57/d8/3057d81b38811a67c8650f7ae3f5dffd.jpg" alt="Mercado de Sucupira">
+                            <img src="https://i.pinimg.com/1200x/02/55/c5/0255c509f1e7b26c98b4799376e9ad9f.jpg" alt="">
                         </div>
                         <div class="informacao">
                             <h3>São Filipe</h3>
@@ -273,10 +273,10 @@
                 </div>
 
                 <div class="linha">
-                    <a href="./moreinfo/cidadevelha.php">
+                    <a href="./moreinfo/salinassaojorge.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/00/fa/d5/00fad52e62d5746f27bd1e8b4fcc11d4.jpg" alt="Cidade Velha">
+                            <img src="https://www.fogo.cv/images/speasyimagegallery/albums/23/images/salina01_thumb.jpg" alt="">
                         </div>
                         <div class="informacao">
                             <h3>Salinas de São Jorge</h3>
@@ -288,10 +288,10 @@ A natural monument sculpted by the ocean and the erosion of volcanic rock. When 
                     </div>
                     </a>
 
-                    <a href="./moreinfo/assomada.php">
+                    <a href="./moreinfo/mosteiros.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/2d/a1/d7/2da1d7faa9349c859c4fc6627c938bc8.jpg" alt="Praia de Kebra Canela">
+                            <img src="https://i.pinimg.com/736x/8c/94/46/8c94464d60ca06ddd260f88abd625952.jpg" alt="">
                         </div>
                         <div class="informacao">
                             <h3>Mosteiros and Coffee Plantations</h3>
@@ -304,10 +304,10 @@ A natural monument sculpted by the ocean and the erosion of volcanic rock. When 
                     </div>
                     </a>
 
-                    <a href="./moreinfo/fortesaofilipe.php">
+                    <a href="./moreinfo/wineriesofcha.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/16/93/30/16933083b3ffe37fe7361c67008d0739.jpg" alt="Ilhéu de Santa Maria">
+                            <img src="https://www.cmmost.cv/tim.php?src=https://www.cmmost.cv/themes/cmm/img/sabores/sodade.jpg&w=400&h=200" alt="Ilhéu de Santa Maria">
                         </div>
                         <div class="informacao">
                             <h3>Vineyards and Wineries of Chã</h3>
@@ -338,7 +338,7 @@ A natural monument sculpted by the ocean and the erosion of volcanic rock. When 
             </div>
         </section>
         <section class="outras_ilhas">
-
+                    
         </section>
 
          

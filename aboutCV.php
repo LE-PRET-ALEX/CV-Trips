@@ -200,7 +200,7 @@
             <div class="cultura-item">
                 <img src="https://i.pinimg.com/736x/11/0f/1d/110f1d368541893b284d0cb0d277cea8.jpg" alt="Dança tradicional" />
                 <div class="cap">History 
-                    <a href="./moreinfo/info_cultura&dance.php">See More</a>
+                    <a href="./moreinfo/history.php">See More</a>
                 </div>
             </div>
             <div class="cultura-item">

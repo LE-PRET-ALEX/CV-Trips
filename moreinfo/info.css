@@ -31,6 +31,12 @@ body {
     color: #0a3d5f;
 }
 
+.information_location a {
+    align-items: center;
+    color: #0a3d5f;
+    
+}
+
 .information_text p {
     font-family: "Montserrat", Arial, sans-serif;
     text-align: justify;
@@ -67,6 +73,142 @@ body {
     height: 450px;
     border-radius: 15px;
     border: none;
+}
+
+.section2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #3a2b18;
+    overflow: hidden;
+}
+ 
+.title-s2 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2b18;
+}
+ 
+.title-s2 h2 {
+    font-size: 3.4rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #fff;
+    text-align: center;
+}
+
+.gastronomia {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #3a2b18;
+}
+ 
+/* Botao esquerda / direita */
+.butoes {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2b18;
+    transition: transform 2.2s ease;
+}
+
+.btn {
+    display: flex;
+    padding: 10px;
+    height: 10%;
+    align-items: center;
+    cursor: pointer;
+    border: 2px #333;
+} 
+
+button {
+    width: 100px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.butoes button:hover {
+    transform: scale(1.1);
+    color: #c9d6df;
+}
+ 
+/* Viewport — esconde os cards fora do campo */
+.carrosel-viewport {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #3a2b18;
+    overflow: hidden;
+
+}
+ 
+/* Faixa deslizante */
+.carrosel_deslizar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    height: 97%;
+    max-width: max-content;
+    background-color: #3a2b18;
+    padding: 0 20px; 
+}
+ 
+/* Card individual */
+.item-gastronomia {
+    height: 100%;
+    flex: 0 0 300px;
+    background: #3a2b18;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+    transition: transform 0.25s, box-shadow 0.25s;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
+
+/*Formatacao da imagem*/
+.imagem-gastronomia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.item-gastronomia:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+}
+ 
+.imagem-gastronomia {
+    height: 100%;
+    width: 100%;
+    background: #c9d6df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #556;
+    font-size: 0.85rem;
+    object-fit: cover;
 }
 
 /* RESPONSIVIDADE MOBILE */

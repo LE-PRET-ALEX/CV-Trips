@@ -12,13 +12,13 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/4d5733abbf.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>CV-TRIP | Santiago </title>
+    <title>CV-TRIP | Boa Vista </title>
 </head>
 <body>
     <main id="main">
         <section class="top-section">
             <video autoplay muted loop playsinline class="background-video">
-                <source src="./resources/videos/santiago2.mp4" type="video/mp4">
+                <source src="https://www.capeverde.com/wp-content/uploads/2023/07/boa-vista-island-cape-verde.mp4" type="video/mp4">
             </video>
             <header>
                 <nav class="nav_bar">
@@ -28,9 +28,9 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                            <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
+                            <li class="link-holder"><a href="./destinations.php"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
+                            <li class="link-holder"><a href="./map.php"><i class="fa-solid fa-map"></i> map</a></li>
+                            <li class="link-holder"><a href="./plan_trip.php"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
                         </ul>
                     </div>
                     <div class="settings_bar">
@@ -57,7 +57,7 @@
                     <p>Boa Vista is the island of dunes and endless beaches, offering some of the most stunning coastal landscapes in the archipelago. Known for its laid-back vibe, it is a haven for wildlife lovers, where you can watch loggerhead turtles nesting or spot humpback whales. It’s the perfect place to disconnect and enjoy kilometers of untouched white sand.</p>
                 </div>
                 <div class="s1-img">
-                    <img src="https://i.pinimg.com/1200x/af/65/ea/af65ea54ced72a1ceff04bfa6d6eaf9c.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
+                    <img src="https://i.pinimg.com/1200x/1a/8e/0d/1a8e0d40140abb6a1a4052f505df5e4b.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
                 </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     <div class="carrosel_deslizar" id="carrosel_deslizar_gastronomia">
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/03/6a/d7/036ad7480a116b2a2a3a935f79a3d4e0.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/36/04/6f/36046f08ddf5db9a8222c032ff17d439.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/f0/fd/8f/f0fd8f0cb6bfafbfcab1535a8a460407.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/d6/29/28/d629281a700b90737c9cdb42743df482.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -92,7 +92,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/f4/6d/a4/f46da4738cf0bc545dc0d570f4e32523.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/5e/e1/85/5ee18514fb682073f48fda216de8ccdc.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/58/d7/8c/58d78c368d2af2552f9a179ce9356ca0.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/58/22/78/58227808de93fe96ccbd196615e98a11.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -108,7 +108,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/dd/b0/95/ddb0952236d4fe5349401350fe920f80.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/d4/46/25/d446250eb5dc1ecb2a602d6bd7958424.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -116,7 +116,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/17/5d/49/175d499a8cd864cf05c679d11fe682e1.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/51/92/25/519225acf6c0c2c3b0b0f014e53293ef.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/31/cc/d0/31ccd0cafe8abfdffd4888f63ba8b411.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/4f/7f/63/4f7f63de88e792c33ae6fa824567acf8.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/bf/02/43/bf02431c760658f4a19b460a1af5960c.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/0d/f8/f6/0df8f6da8da000e8a060b06bed315739.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -140,7 +140,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/00/50/6d/00506dbc8ec9dd3357b62287a633b703.jpg" alt="">
+                                <img src="https://i.pinimg.com/736x/f8/8c/14/f88c145697f6398d37f91bf1b8ef3a0b.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -148,60 +148,13 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/3f/ea/28/3fea2864af734187414b17a6fbe181d5.jpg" alt="">
+                                <img src="https://i.pinimg.com/1200x/f4/5a/ba/f45abab6c321b9708764118fca691d6d.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
                             </div>
                         </div>
-                        <div class="item-gastronomia">
-                            <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/2a/98/ee/2a98eefb37cec3dd59647dec05bec2ca.jpg" alt="">
-                            </div>
-                            <div class="infoo-gastronomia">
-                                <p></P>
-                            </div>
-                        </div>
-                        <div class="item-gastronomia">
-                            <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/28/79/39/287939f56a3c9c0e889e071e992e2676.jpg" alt="">
-                            </div>
-                            <div class="infoo-gastronomia">
-                                <p></P>
-                            </div>
-                        </div>
-                        <div class="item-gastronomia">
-                            <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/1200x/ae/71/e6/ae71e67fca03e8c32b7a556fa4173389.jpg" alt="">
-                            </div>
-                            <div class="infoo-gastronomia">
-                                <p></P>
-                            </div>
-                        </div>
-                        <div class="item-gastronomia">
-                            <div class="imagem-gastronomia">
-                                <img src="https://i.pinimg.com/736x/e8/46/52/e84652a1af107054b952d4ce29c90cff.jpg" alt="">
-                            </div>
-                            <div class="infoo-gastronomia">
-                                <p></P>
-                            </div>
-                        </div>
-                        <div class="item-gastronomia">
-                            <div class="imagem-gastronomia">
-                                <img src="" alt="">
-                            </div>
-                            <div class="infoo-gastronomia">
-                                <p></P>
-                            </div>
-                        </div>
-                        <div class="item-gastronomia">
-                            <div class="imagem-gastronomia">
-                                <img src="" alt="">
-                            </div>
-                            <div class="infoo-gastronomia">
-                                <p></P>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -216,9 +169,9 @@
         <section id="pontos_turisticos">
             <div class="s3-grid">
                 <div class="s3-header">
-                    <h2>Atrações em Santiago</h2>
+                    <h2>Attractions on Boa Vista Island</h2>
                     <div class="divider"></div>
-                    <p>Descubra os locais mais visitados da ilha</p>
+                    <p>Discover the most visited places on the island</p>
                 </div>
 
                 <div class="linha">
@@ -226,14 +179,12 @@
                     <a href="./moreinfo/tarrafalbeach.php">
                         <div class="conteudo">
                             <div class="imagem">
-                                <img src="https://i.pinimg.com/1200x/a2/59/94/a259940820bf6ba9a6dfa991c482170d.jpg" alt="Tarrafal Beach">
+                                <img src="https://i.pinimg.com/736x/c2/e3/d9/c2e3d9b224c08cd28077caa7a37f3547.jpg" alt="">
                             </div>
                             <div class="informacao">
-                                <span class="categoria">Praias</span>
-                                <h3>Tarrafal Beach</h3>
+                                <h3>Deserto de Viana</h3>
                                 <p class="descricao">
-                                    A vila foi nomeada Tarrafal em homenagem a uma planta chamada tarrafal cabo-verdiano. 
-                                    A vila do Tarrafal tem poucas ruas mas muita hospitalidade.
+                                    It is one of the most stunning landscapes in Cape Verde, formed by fine sands brought directly from the Sahara Desert by the trade winds. This mystical scenery stretches for kilometers with white and golden dunes dotted with isolated acacias and date palms.
                                 </p>
                                 
                             </div>
@@ -244,15 +195,13 @@
                     <a href="./moreinfo/serramalagueta.php">
                         <div class="conteudo">
                             <div class="imagem">
-                                <img src="https://i.pinimg.com/1200x/29/7c/b7/297cb761f98d38dc807decdbf8184914.jpg" alt="Serra de Malagueta">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHHizJbymk9-VPFDcvK4YwyJV6EHI9e44e0W3Kyzp4DSIl1wwdc3qRLsv4S9EKxA8vFwHal-YAKQ6HJCQnoA6fFYR95vLTIPwWgwVHZVTCqqnamZ5eIlBHsZ4SUXHv6hlfsLl2n=w1333-h1000-k-no" alt="">
                             </div>
                             <div class="informacao">
-                                <span class="categoria">Montanhas</span>
-                                <h3>Serra de Malagueta</h3>
+                                <h3>Beach of Chaves</h3>
                             
                                 <p class="descricao">
-                                    O Parque Natural da Serra Malagueta faz parte da rede nacional de áreas protegidas 
-                                    e é considerado o "pulmão" da ilha de Santiago.
+                                    It is a stunning and immense stretch of sand that combines the comfort of world-class resorts at one end with completely wild and untouched natural beauty at the other. Its giant dunes seem to plunge directly into the clear waters of the Atlantic.
                                 </p>
                                 
                             </div>
@@ -262,15 +211,13 @@
                     <a href="./moreinfo/mercadosucupira.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/30/57/d8/3057d81b38811a67c8650f7ae3f5dffd.jpg" alt="Mercado de Sucupira">
+                            <img src="https://i.pinimg.com/1200x/fa/ee/fd/faeefd8cb0e1b3464ab1a39e3b42d315.jpg" alt="">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Mercados</span>
-                            <h3>Mercado de Sucupira</h3>
+                            <h3>Beach of Santa Mónica</h3>
                             
                             <p class="descricao">
-                                Um passeio imperdível e cheio de maravilhosos produtos de África. 
-                                Tecidos lindos, artesanato, porco, galinha e muito mais.
+                                It is widely considered the most spectacular beach in Cape Verde, stretching for over 22 kilometers of fine white sand, completely deserted. Its isolation preserves a paradisiacal and majestic atmosphere, ideal for those seeking to disconnect from the world.
                             </p>
                             
                         </div>
@@ -282,14 +229,13 @@
                     <a href="./moreinfo/cidadevelha.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/00/fa/d5/00fad52e62d5746f27bd1e8b4fcc11d4.jpg" alt="Cidade Velha">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLAT1NFGXYoFzNH7WPa9HVm6mxuMsyW8C9UNL12veQZEKWhHwo2SqdAZMcpieI5dLBJZJNdiTXYpf8A7f1CRY9wsBiZjROHJVqtirdmuxpIHO_g7uuR7dZCMICvL_lOyP7m8ZQ9A=w1333-h1000-k-no" alt="">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Património</span>
-                            <h3>Cidade Velha</h3>
+                            <h3>Beach of Atalanta</h3>
                             
                             <p class="descricao">
-                                Primeira cidade europeia nos trópicos e Património Mundial da UNESCO. 
+                                It is world-famous for being home to the iconic shipwreck of the Spanish cargo ship Cabo Santa Maria, which ran aground in 1968. The ship's rusty skeleton, battered by constant waves, creates a dramatic and photogenic scene that attracts travelers from all over the world.
                             </p>
                             
                         </div>
@@ -299,15 +245,13 @@
                     <a href="./moreinfo/assomada.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/2d/a1/d7/2da1d7faa9349c859c4fc6627c938bc8.jpg" alt="Praia de Kebra Canela">
+                            <img src="https://i.pinimg.com/1200x/ef/f3/58/eff35874777d9d42c8217d26a1fb39f8.jpg" alt="">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">local</span>
-                            <h3>Assomada</h3>
+                            <h3>Sal Rei</h3>
                             
                             <p class="descricao">
-                                Águas cristalinas e areia branca. Perfeita para relaxar e praticar desportos náuticos.
-                            </p>
+                                    It is the tranquil and colorful capital of Boa Vista, concentrating the social, commercial, and cultural life of the island. Maintaining a typically relaxed pace of life ("No Stress"), the city welcomes visitors with its flower-filled squares, colonial-style buildings, and local markets.                            </p>
                             
                         </div>
                     </div>
@@ -316,14 +260,13 @@
                     <a href="./moreinfo/fortesaofilipe.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/16/93/30/16933083b3ffe37fe7361c67008d0739.jpg" alt="Ilhéu de Santa Maria">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFimlOO9aoc9cXY0Ljq7dANCq53pwV0SBWwiH9bz2DktPIZh-MS1EO4tO-oMoQ0wafkn6JHa7LnuUnHCQTH_poRBX4NoY7HqWjK6EXait8SzdIFjhA30IHQj-PpWYSTOnLL98SasA=w1333-h1000-k-no" alt="">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Património</span>
-                            <h3>Fortaleza Real de São Filipe</h3>
+                            <h3>Beach of Varandinha</h3>
                             
                             <p class="descricao">
-                                Pequeno ilhéu ao largo da costa, perfeito para mergulho e observação de aves marinhas.
+                                It stands out from the other beaches on the island due to its impressive rock formations and limestone cliffs that conceal natural caves sculpted by sea and wind erosion. It is a wild haven offering sheltered spots and breathtaking panoramic views of the ocean.
                             </p>
                             
                         </div>
@@ -333,7 +276,7 @@
             </div>
         </section>
         <section class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246508.5266128102!2d-23.769982411000605!3d15.120089210863648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9358f30eece22a5%3A0x743707b96ac18f4e!2sSantiago!5e0!3m2!1spt-PT!2scv!4v1781471208352!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245334.3343987091!2d-23.127260213089727!3d16.099238552848576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b25fe6e90c16f%3A0x2d7a17a397e16ab3!2sBoa%20Vista!5e0!3m2!1spt-PT!2scv!4v1781910752753!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
 
@@ -342,9 +285,102 @@
                 <h1>View island content</h1>
             </div>
             <div class="s4-content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3fqx2Ugsn_w?si=HiphSTI7GxaGEpSX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z7gngJMsFSI?si=Fm1LcAzaTA_stzmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/V7HzH4HCZ6E?si=h96eIHiNAsIFjqIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YdlcduPjqY0?si=TEKIrZoZMwmittFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FhY_s0d-D7k?si=ret-zo5DuFPb8MXG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/m9GP4t1g61I?si=TbqAZdxcRVmW_k9N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="ilhas">
+            <div class="ilhas-header">
+                <h2 class="section-title">See other islands of Cape Verde</h2>
+                <div class="divider"></div>
+                <p class="ilhas-subtitle">
+                    Which island owns a world inside, click to discover.
+                </p>
+            </div>
+            <div class="ilhas-grid">
+                <a class="ilha-card" href="santoantao.php">
+                    <img src="./resources/aboutCV/image ilhas/SantoAntao.jpg" alt="Santo Antão" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santo Antão</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="saovicente.php">
+                    <img src="./resources/aboutCV/image ilhas/Soncent.jpg" alt="São Vicente" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>São Vicente</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="santaluzia.php">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80" alt="Santa Luzia" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santa Luzia</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="saonicolau.php">
+                    <img src="./resources/aboutCV/image ilhas/SaoNiclau.jpg" alt="São Nicolau" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>São Nicolau</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="sal.php">
+                    <img src="./resources/aboutCV/image ilhas/Sal.jpg" alt="Sal" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Sal</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="boavista.php">
+                    <img src="./resources/aboutCV/image ilhas/Bubista.jpg" alt="Boa Vista" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Boa Vista</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="maio.php">
+                    <img src="./resources/aboutCV/image ilhas/Maio.jpg" alt="Maio" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Maio</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="santiago.php">
+                    <img src="./resources/aboutCV/image ilhas/Santiago.jpg" alt="Santiago" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santiago</h3>
+                    </div>
+                </a>
+
+                
+
+                <a class="ilha-card" href="fogo.php">
+                    <img src="./resources/aboutCV/image ilhas/fogo.jpg" alt="Fogo" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Fogo</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="brava.php">
+                    <img src="./resources/aboutCV/image ilhas/Brava.jpg" alt="Brava" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Brava</h3>
+                    </div>
+                </a>
             </div>
         </section>
 

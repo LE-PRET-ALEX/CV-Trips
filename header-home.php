@@ -161,7 +161,7 @@
                 <ul>
                     <li class="link-holder"><a href="destinations.php"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
                     <li class="link-holder"><a href="map.php"><i class="fa-solid fa-map"></i> map</a></li>
-                    <li class="link-holder"><a href="plan_trip.html"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
+                    <li class="link-holder"><a href="plan_trip.php"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
                 </ul>
             </div>
             <div class="settings_bar">

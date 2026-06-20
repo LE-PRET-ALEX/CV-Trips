@@ -1,4 +1,5 @@
 <?php
+    include 'header.php'
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,36 +17,7 @@
 </head>
 <body>
     <main id="main">
-        <section class="top-section">
-            <video autoplay muted loop playsinline class="background-video">
-                <source src="./resources/videos/santiago2.mp4" type="video/mp4">
-            </video>
-            <header>
-                <nav class="nav_bar">
-                    <div class="header_logo">
-                        <a href="index.php"><img src="./resources/logos/newlogonobg.png" alt="Logo CV Trips"></a>
-                        <span>CV TRIPS</span>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                            <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
-                        </ul>
-                    </div>
-                    <div class="settings_bar">
-                        <div class="lang_picker">
-                            <img src="./resources/logos/flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
-                        </div>
-                        <div class="account_search_submenu">
-                            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
-                            <input type="text" id="search_bar" placeholder=" Type search here ...">
-                            <i class="fa-solid fa-user" id="account_icon"></i>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-        </section>
+        
 
         
         <section id="section1">
@@ -57,7 +29,7 @@
                     <p>Maio is a peaceful sanctuary of golden beaches, calm turquoise waters, and vast sand dunes. Known for its tranquil atmosphere and friendly locals, this untamed island feels like a beautifully preserved secret, making it ideal for those who want to escape the crowds, relax in total serenity, and enjoy fresh seafood by the sea.</p>
                 </div>
                 <div class="s1-img">
-                    <img src="https://i.pinimg.com/1200x/af/65/ea/af65ea54ced72a1ceff04bfa6d6eaf9c.jpg" alt="Arquipélago de Cabo Verde vista aérea" />
+                    <img src="https://i.pinimg.com/736x/0f/c8/bb/0fc8bb5fd43f7d2b54d8a0d181eee78d.jpg" alt="">
                 </div>
                 </div>
             </div>
@@ -92,7 +64,7 @@
                         </div>
                         <div class="item-gastronomia">
                             <div class="imagem-gastronomia">
-                                <img src="" alt="">
+                                <img src="https://i.pinimg.com/736x/c9/a7/bf/c9a7bf69cf2abd483557fc31bca1a214.jpg" alt="">
                             </div>
                             <div class="infoo-gastronomia">
                                 <p></P>
@@ -213,7 +185,7 @@
                 </div>
         </section>
 
-        <section id="pontos_turisticos">
+        <!-- <section id="pontos_turisticos">
             <div class="s3-grid">
                 <div class="s3-header">
                     <h2>Atrações em Santiago</h2>
@@ -226,14 +198,12 @@
                     <a href="./moreinfo/tarrafalbeach.php">
                         <div class="conteudo">
                             <div class="imagem">
-                                <img src="https://i.pinimg.com/1200x/a2/59/94/a259940820bf6ba9a6dfa991c482170d.jpg" alt="Tarrafal Beach">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxkI4SM_kdiT1kuco1Ttnymi1OxSMsIux9YFcLyWT0kftWGg1ml42_Nr88&s=10" alt="">
                             </div>
                             <div class="informacao">
-                                <span class="categoria">Praias</span>
-                                <h3>Tarrafal Beach</h3>
+                                <h3>Porto Inglês</h3>
                                 <p class="descricao">
-                                    A vila foi nomeada Tarrafal em homenagem a uma planta chamada tarrafal cabo-verdiano. 
-                                    A vila do Tarrafal tem poucas ruas mas muita hospitalidade.
+                                    The island's peaceful capital, featuring colorful colonial houses, a historic 18th-century fortress, and a massive, pristine white-sand beach right on its doorstep.
                                 </p>
                                 
                             </div>
@@ -244,15 +214,13 @@
                     <a href="./moreinfo/serramalagueta.php">
                         <div class="conteudo">
                             <div class="imagem">
-                                <img src="https://i.pinimg.com/1200x/29/7c/b7/297cb761f98d38dc807decdbf8184914.jpg" alt="Serra de Malagueta">
+                                <img src="https://admin.visit-caboverde.com/uploads/ilha_do_maio_cabo_verde_3_b8d8719900.jpg" alt="">
                             </div>
                             <div class="informacao">
-                                <span class="categoria">Montanhas</span>
-                                <h3>Serra de Malagueta</h3>
+                                <h3>Salinas da Praia Preta</h3>
                             
                                 <p class="descricao">
-                                    O Parque Natural da Serra Malagueta faz parte da rede nacional de áreas protegidas 
-                                    e é considerado o "pulmão" da ilha de Santiago.
+                                   Vast historic salt pans located just outside the main town, offering a striking reflective landscape that is excellent for birdwatching and watching the sunset.
                                 </p>
                                 
                             </div>
@@ -262,15 +230,13 @@
                     <a href="./moreinfo/mercadosucupira.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/30/57/d8/3057d81b38811a67c8650f7ae3f5dffd.jpg" alt="Mercado de Sucupira">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAR8Z2u-2riAcTrbGSQUpqPu30O_1UfukEyZbS5DCznQ&s" alt="">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Mercados</span>
-                            <h3>Mercado de Sucupira</h3>
+                            <h3>Praia de Bitxe Rotcha</h3>
                             
                             <p class="descricao">
-                                Um passeio imperdível e cheio de maravilhosos produtos de África. 
-                                Tecidos lindos, artesanato, porco, galinha e muito mais.
+                                A gorgeous, sheltered beach near the capital known for its calm, crystal-clear turquoise waters, making it ideal for swimming and relaxing.
                             </p>
                             
                         </div>
@@ -282,14 +248,13 @@
                     <a href="./moreinfo/cidadevelha.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/00/fa/d5/00fad52e62d5746f27bd1e8b4fcc11d4.jpg" alt="Cidade Velha">
+                            <img src="https://admin.visit-caboverde.com/uploads/ilha_do_maio_cabo_verde_3_b8d8719900.jpg" alt="">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Património</span>
-                            <h3>Cidade Velha</h3>
+                            <h3>Morro Village and Beach</h3>
                             
                             <p class="descricao">
-                                Primeira cidade europeia nos trópicos e Património Mundial da UNESCO. 
+                                A quaint, traditional fishing village surrounded by a beautiful golden-sand beach and coconut palms, famous as a major nesting site for loggerhead sea turtles.
                             </p>
                             
                         </div>
@@ -299,14 +264,13 @@
                     <a href="./moreinfo/assomada.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/2d/a1/d7/2da1d7faa9349c859c4fc6627c938bc8.jpg" alt="Praia de Kebra Canela">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAR8Z2u-2riAcTrbGSQUpqPu30O_1UfukEyZbS5DCznQ&s" alt="">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">local</span>
-                            <h3>Assomada</h3>
+                            <h3>The Terras Salgadas</h3>
                             
                             <p class="descricao">
-                                Águas cristalinas e areia branca. Perfeita para relaxar e praticar desportos náuticos.
+                                A massive, wild, and desert-like landscape in the north of the island, featuring extensive salt flats and untouched coastal scenery.
                             </p>
                             
                         </div>
@@ -316,14 +280,13 @@
                     <a href="./moreinfo/fortesaofilipe.php">
                         <div class="conteudo">
                         <div class="imagem">
-                            <img src="https://i.pinimg.com/1200x/16/93/30/16933083b3ffe37fe7361c67008d0739.jpg" alt="Ilhéu de Santa Maria">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSjQMfBDWRWXGwHnnaU2-RU2DDzevntmL-A_NGNnOHTA&s=10" alt="">
                         </div>
                         <div class="informacao">
-                            <span class="categoria">Património</span>
-                            <h3>Fortaleza Real de São Filipe</h3>
+                            <h3>Calheta</h3>
                             
                             <p class="descricao">
-                                Pequeno ilhéu ao largo da costa, perfeito para mergulho e observação de aves marinhas.
+                                A charming fishing community on the west coast, known for its traditional lifestyle, colorful boats, and nearby forest plantation—one of the largest man-made woodland areas in Cape Verde.
                             </p>
                             
                         </div>
@@ -334,7 +297,7 @@
         </section>
         <section class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123191.70146123266!2d-23.24326752074766!3d15.227351783420914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93562e3e64e422b%3A0x5c90b66f8ebbcc91!2sMaio!5e0!3m2!1spt-PT!2scv!4v1781477681184!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+        </section> -->
 
 
         <section class="s4-grid">
@@ -342,9 +305,101 @@
                 <h1>View island content</h1>
             </div>
             <div class="s4-content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3fqx2Ugsn_w?si=HiphSTI7GxaGEpSX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z7gngJMsFSI?si=Fm1LcAzaTA_stzmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/V7HzH4HCZ6E?si=h96eIHiNAsIFjqIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ESqaA0w4jIo?si=Sc2g-3KAF0atTv2q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JdSG4P4wJ6U?si=d991Q2ixR5qHEFFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="ilhas">
+            <div class="ilhas-header">
+                <h2 class="section-title">See other islands of Cape Verde</h2>
+                <div class="divider"></div>
+                <p class="ilhas-subtitle">
+                    Which island owns a world inside, click to discover.
+                </p>
+            </div>
+            <div class="ilhas-grid">
+                <a class="ilha-card" href="santoantao.php">
+                    <img src="./resources/aboutCV/image ilhas/SantoAntao.jpg" alt="Santo Antão" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santo Antão</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="saovicente.php">
+                    <img src="./resources/aboutCV/image ilhas/Soncent.jpg" alt="São Vicente" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>São Vicente</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="santaluzia.php">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80" alt="Santa Luzia" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santa Luzia</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="saonicolau.php">
+                    <img src="./resources/aboutCV/image ilhas/SaoNiclau.jpg" alt="São Nicolau" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>São Nicolau</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="sal.php">
+                    <img src="./resources/aboutCV/image ilhas/Sal.jpg" alt="Sal" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Sal</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="boavista.php">
+                    <img src="./resources/aboutCV/image ilhas/Bubista.jpg" alt="Boa Vista" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Boa Vista</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="maio.php">
+                    <img src="./resources/aboutCV/image ilhas/Maio.jpg" alt="Maio" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Maio</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="santiago.php">
+                    <img src="./resources/aboutCV/image ilhas/Santiago.jpg" alt="Santiago" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santiago</h3>
+                    </div>
+                </a>
+
+                
+
+                <a class="ilha-card" href="fogo.php">
+                    <img src="./resources/aboutCV/image ilhas/fogo.jpg" alt="Fogo" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Fogo</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="brava.php">
+                    <img src="./resources/aboutCV/image ilhas/Brava.jpg" alt="Brava" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Brava</h3>
+                    </div>
+                </a>
             </div>
         </section>
 

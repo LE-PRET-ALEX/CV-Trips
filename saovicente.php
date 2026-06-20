@@ -28,9 +28,9 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                            <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
+                            <li class="link-holder"><a href="./destinations.php"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
+                            <li class="link-holder"><a href="./map.php"><i class="fa-solid fa-map"></i> map</a></li>
+                            <li class="link-holder"><a href="./plan_trip.php"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
                         </ul>
                     </div>
                     <div class="settings_bar">
@@ -223,7 +223,7 @@
 
                 <div class="linha">
                     
-                    <a href="./moreinfo/tarrafalbeach.php">
+                    <a href="./moreinfo/baiadasgatas.php">
                         <div class="conteudo">
                             <div class="imagem">
                                 <img src="https://i.pinimg.com/736x/98/38/e2/9838e2320818a0f0abc80adabbf7e2bb.jpg" alt="Tarrafal Beach">
@@ -239,7 +239,7 @@
                     </a>
 
                     
-                    <a href="./moreinfo/serramalagueta.php">
+                    <a href="./moreinfo/praiagrande.php">
                         <div class="conteudo">
                             <div class="imagem">
                                 <img src="https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=400,height=265,dpr=2/tour_img/acec4794c5213a904a8999e6b782cf5a2a06d34d67df55cd3b941decffbd51f0.jpeg" alt="Serra de Malagueta">
@@ -255,7 +255,7 @@
                         </div>
                     </a>
 
-                    <a href="./moreinfo/mercadosucupira.php">
+                    <a href="./moreinfo/calhau.php">
                         <div class="conteudo">
                         <div class="imagem">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/1996.12.00._Calhau%2C_S%C3%A3o_Vicente%2C_Cabo_Verde._1.jpg/330px-1996.12.00._Calhau%2C_S%C3%A3o_Vicente%2C_Cabo_Verde._1.jpg" alt="Mercado de Sucupira">
@@ -273,7 +273,7 @@
                 </div>
 
                 <div class="linha">
-                    <a href="./moreinfo/cidadevelha.php">
+                    <a href="./moreinfo/monteverde.php">
                         <div class="conteudo">
                         <div class="imagem">
                             <img src="https://i.pinimg.com/236x/09/00/af/0900afd397753b240887cac8beb624f8.jpg" alt="Cidade Velha">
@@ -289,7 +289,7 @@
                     </div>
                     </a>
 
-                    <a href="./moreinfo/assomada.php">
+                    <a href="./moreinfo/saopedro.php">
                         <div class="conteudo">
                         <div class="imagem">
                             <img src="https://i.pinimg.com/1200x/5b/ec/02/5bec022914474d34048d49ef374ac0d5.jpg" alt="Praia de Kebra Canela">
@@ -305,7 +305,7 @@
                     </div>
                     </a>
 
-                    <a href="./moreinfo/fortesaofilipe.php">
+                    <a href="./moreinfo/mindelo.php">
                         <div class="conteudo">
                         <div class="imagem">
                             <img src="https://i.pinimg.com/1200x/92/83/55/92835540ad6973e75e8b1bcb82b4743d.jpg" alt="Ilhéu de Santa Maria">
@@ -336,6 +336,99 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/KMH_2H--wpI?si=f03HJMeoLZwNMpZ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/h2pJUT87b7c?si=xr_GwMTfKzNt8LQR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/mdeDIsdenE0?si=34RaRWpV4zYsJHnp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="ilhas">
+            <div class="ilhas-header">
+                <h2 class="section-title">See other islands of Cape Verde</h2>
+                <div class="divider"></div>
+                <p class="ilhas-subtitle">
+                    Which island owns a world inside, click to discover.
+                </p>
+            </div>
+            <div class="ilhas-grid">
+                <a class="ilha-card" href="santoantao.php">
+                    <img src="./resources/aboutCV/image ilhas/SantoAntao.jpg" alt="Santo Antão" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santo Antão</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="saovicente.php">
+                    <img src="./resources/aboutCV/image ilhas/Soncent.jpg" alt="São Vicente" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>São Vicente</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="santaluzia.php">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80" alt="Santa Luzia" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santa Luzia</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="saonicolau.php">
+                    <img src="./resources/aboutCV/image ilhas/SaoNiclau.jpg" alt="São Nicolau" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>São Nicolau</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="sal.php">
+                    <img src="./resources/aboutCV/image ilhas/Sal.jpg" alt="Sal" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Sal</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="boavista.php">
+                    <img src="./resources/aboutCV/image ilhas/Bubista.jpg" alt="Boa Vista" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Boa Vista</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="maio.php">
+                    <img src="./resources/aboutCV/image ilhas/Maio.jpg" alt="Maio" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Maio</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="santiago.php">
+                    <img src="./resources/aboutCV/image ilhas/Santiago.jpg" alt="Santiago" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Santiago</h3>
+                    </div>
+                </a>
+
+                
+
+                <a class="ilha-card" href="fogo.php">
+                    <img src="./resources/aboutCV/image ilhas/fogo.jpg" alt="Fogo" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Fogo</h3>
+                    </div>
+                </a>
+
+                <a class="ilha-card" href="brava.php">
+                    <img src="./resources/aboutCV/image ilhas/Brava.jpg" alt="Brava" />
+                    <div class="overlay"></div>
+                    <div class="card-content">
+                        <h3>Brava</h3>
+                    </div>
+                </a>
             </div>
         </section>
 

@@ -28,8 +28,8 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
-                            <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
+                            <li class="link-holder"><a href="./destinations.php"><i class="fa-solid fa-location-dot"></i> destinations</a></li>
+                            <li class="link-holder"><a href="./map.php"><i class="fa-solid fa-map"></i> map</a></li>
                             <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan trip</a></li>
                         </ul>
                     </div>
@@ -347,10 +347,10 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7HzH4HCZ6E?si=h96eIHiNAsIFjqIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
             </div>
         </section>
+        
         <section id="ilhas">
             <div class="ilhas-header">
-                <h2 class="section-title">See other islands of Cape Verde
-</h2>
+                <h2 class="section-title">See other islands of Cape Verde</h2>
                 <div class="divider"></div>
                 <p class="ilhas-subtitle">
                     Which island owns a world inside, click to discover.
@@ -420,6 +420,8 @@
                         <h3>Santiago</h3>
                     </div>
                 </a>
+
+                
 
                 <a class="ilha-card" href="fogo.php">
                     <img src="./resources/aboutCV/image ilhas/fogo.jpg" alt="Fogo" />

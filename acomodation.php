@@ -26,10 +26,11 @@
                                 <img src="./resources/acomodation/hoteis/Santiago/vip-praia.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Hotel VIP-PRAIA </h1>
+                                <h1>Name: Hotel VIP-PRAIA </h1>
                                 <h1>Ilha: Santiago </h1>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação   </span>: 4 Estrelas </h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 5 </span> <i class="fa-solid fa-star"></i></h2>
+                                <a href="https://www.booking.com/hotel/cv/vip-praia.pt-pt.html?aid=311098&label=vip-praia-qnGWzJIG3JjZwMe6Zi_CwQS266377209259%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18772735944%3Alp9230695%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0l-9IW33KjYg&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=0_0_2_1_0&checkin=2026-06-20&checkout=2026-06-21&dest_id=-1313468&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=0_0_2_1_0&hpos=1&matching_block_id=0_0_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=0_0_2_1_0__1586650&srepoch=1781919139&srpvid=95ff0acfab0c017d&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -37,10 +38,11 @@
                                 <img src="./resources/acomodation/hoteis/Santiago/oasis-praia.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Oasis PraiaMar </h1>
+                                <h1>Name: Oasis PraiaMar </h1>
                                 <h2>Ilha: Santiago </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av" class="av"><span>Avaliação: 4</span>,4 Estrelas </h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av" class="av"><span>Avaliation: 4</span><i class="fa-solid fa-star"></i></h2>
+                                <a href="https://www.booking.com/hotel/cv/oasis-praiamar.pt-pt.html?aid=311098&label=vip-praia-qnGWzJIG3JjZwMe6Zi_CwQS266377209259%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18772735944%3Alp9230695%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0l-9IW33KjYg&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=82194201_285358685_2_1_0&checkin=2026-06-20&checkout=2026-06-21&dest_id=821942&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=82194201_285358685_2_1_0&hpos=1&matching_block_id=82194201_285358685_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=82194201_285358685_2_1_0__1499570&srepoch=1781919271&srpvid=c6110b1058870220&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -48,10 +50,11 @@
                                 <img src="./resources/acomodation/hoteis/Santiago/834474037.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Barceló Praia Cape Verde </h1>
+                                <h1>Name: Barceló Praia Cape Verde </h1>
                                 <h2>Ilha: Santiago </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 5</span> Estrelas</h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 5</span> <i class="fa-solid fa-star"></i></h2>
+                                <a href="https://www.booking.com/hotel/cv/barcelo-praia-cape-verde.pt-pt.html?aid=311098&label=vip-praia-qnGWzJIG3JjZwMe6Zi_CwQS266377209259%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18772735944%3Alp9230695%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0l-9IW33KjYg&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=1170561001_410858655_2_0_0&checkin=2026-06-20&checkout=2026-06-21&dest_id=11705610&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1170561001_410858655_2_0_0&hpos=1&matching_block_id=1170561001_410858655_2_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1170561001_410858655_2_0_0__1863479&srepoch=1781919327&srpvid=7d570b2d3aa100ea&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -59,10 +62,11 @@
                                 <img src="./resources/acomodation/hoteis/Soncent/ouril.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Ouril Hotel Mindelo </h1>
+                                <h1>Name: Ouril Hotel Mindelo </h1>
                                 <h2>Ilha: São  Vicente </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 4</span></h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 4</span><i class="fa-solid fa-star"></i></h2>
+                                <a href="https://www.booking.com/hotel/cv/ouril-mindelo.pt-pt.html?aid=356980&label=gog235jc-10CAsoNkINb3VyaWwtbWluZGVsb0gfWANoNogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgChNnX0QbAAgHSAiRmZDhkZWJiMy0yNWI0LTQ1ODItODJlZS0yMmM5YzUxN2I2ZjPYAgHgAgE&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=1072561801_408329843_2_1_0&checkin=2026-06-20&checkout=2026-06-21&dest_id=-1313339&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1072561801_408329843_2_1_0&hpos=1&matching_block_id=1072561801_408329843_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1072561801_408329843_2_1_0__1101464&srepoch=1781918860&srpvid=ec810a42c5690054&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -70,10 +74,11 @@
                                 <img src="./resources/acomodation/hoteis/Soncent/4points.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: FOUR POINTS </h1>
+                                <h1>Name: FOUR POINTS </h1>
                                 <h2>Ilha: São  Vicente </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 5</span></h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 5</span><i class="fa-solid fa-star"></i></h2>
+                                <a href="https://www.booking.com/hotel/cv/four-points-by-sheraton-sao-vicente-resort.pt-pt.html?aid=311098&label=vip-praia-qnGWzJIG3JjZwMe6Zi_CwQS266377209259%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18772735944%3Alp9230695%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0l-9IW33KjYg&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=1570339504_428120859_0_2_0&checkin=2026-06-20&checkout=2026-06-21&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1570339504_428120859_0_2_0&hpos=1&matching_block_id=1570339504_428120859_0_2_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=distance_from_search&sr_pri_blocks=1570339504_428120859_0_2_0__1764300&srepoch=1781919359&srpvid=f4600b3cd1a200dd&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -81,10 +86,11 @@
                                 <img src="./resources/acomodation/hoteis/Sal/Rui palace.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Rui Palace Santa Maria </h1>
+                                <h1>Name: Rui Palace Santa Maria </h1>
                                 <h2>Ilha: Sal </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 5</span> </h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 5</span><i class="fa-solid fa-star"></i> </h2>
+                                <a href="https://www.booking.com/hotel/cv/riu-palace-santa-maria-santa-maria-isla-de-sal.pt-pt.html?aid=311098&label=vip-praia-qnGWzJIG3JjZwMe6Zi_CwQS266377209259%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18772735944%3Alp9230695%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0l-9IW33KjYg&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=1301428502_403033909_2_85_0_859351&checkin=2026-06-20&checkout=2026-06-21&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1301428502_403033909_2_85_0_859351&hpos=1&matching_block_id=1301428502_403033909_2_85_0_859351&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=distance_from_search&sr_pri_blocks=1301428502_403033909_2_85_0_859351_3012555&srepoch=1781919386&srpvid=26dd0b4a685b0563&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -92,10 +98,11 @@
                                 <img src="./resources/acomodation/hoteis/Sal/d'agua.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Hotel Odjo d'água </h1>
+                                <h1>Name: Hotel Odjo d'água </h1>
                                 <h2>Ilha: Sal </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 4</span> </h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 4</span> <i class="fa-solid fa-star"></i></h2>
+                                <a href="https://www.booking.com/hotel/cv/odjo-d-39-agua-santa-maria.pt-pt.html?aid=311098&label=vip-praia-qnGWzJIG3JjZwMe6Zi_CwQS266377209259%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18772735944%3Alp9230695%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0l-9IW33KjYg&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=497295201_338965665_0_1_0&checkin=2026-06-20&checkout=2026-06-21&dist=0&group_adults=2&group_children=0&hapos=4&highlighted_blocks=497295201_338965665_0_1_0&hpos=4&matching_block_id=497295201_338965665_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=distance_from_search&sr_pri_blocks=497295201_338965665_0_1_0__1463700&srepoch=1781919423&srpvid=99360b5ad256011c&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -103,10 +110,11 @@
                                 <img src="./resources/acomodation/hoteis/Sal/morabeza.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Hotel Morabeza </h1>
+                                <h1>Name: Hotel Morabeza </h1>
                                 <h2>Ilha: Sal </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 4</span> </h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 4</span><i class="fa-solid fa-star"></i> </h2>
+                                <a href="https://www.booking.com/hotel/cv/morabeza.pt-pt.html?aid=356980&label=gog235jc-10CAsoNkINb3VyaWwtbWluZGVsb0gfWANoNogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgChNnX0QbAAgHSAiRmZDhkZWJiMy0yNWI0LTQ1ODItODJlZS0yMmM5YzUxN2I2ZjPYAgHgAgE&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=357846813_245839983_2_1_0&checkin=2026-06-20&checkout=2026-06-21&dest_id=3578468&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=357846813_245839983_2_1_0&hpos=1&matching_block_id=357846813_245839983_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=357846813_245839983_2_1_0__2787741&srepoch=1781919464&srpvid=3ce30b72f4b700f8&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -114,10 +122,11 @@
                                 <img src="./resources/acomodation/hoteis/Sal/melia.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Melia Dunas Beach Resort & Spa </h1>
+                                <h1>Name: Melia Dunas Beach Resort & Spa </h1>
                                 <h2>Ilha: Sal </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 5</span>Estrelas</h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 5</span>Estr<i class="fa-solid fa-star"></i>elas</h2>
+                                <a href="https://www.booking.com/hotel/cv/melia-dunas-beach-resort-amp-spa.pt-pt.html?aid=356980&label=gog235jc-10CAsoNkIgbWVsaWEtZHVuYXMtYmVhY2gtcmVzb3J0LWFtcC1zcGFIH1gDaDaIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AoTe19EGwAIB0gIkMDRhZWQ3ZDUtOTU2Ni00OTE5LWIxODgtMzU3N2Q1NDQxM2Ex2AIB4AIB&sid=24d09f48573bfe7f8c67b6d6e7753b41&checkin=2026-06-20&checkout=2026-06-21&dest_id=-1313583&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&soh=1&sr_order=popularity&srepoch=1781919497&srpvid=bd400b820df0008a&type=total&ucfs=1&#no_availability_msg">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -125,10 +134,11 @@
                                 <img src="./resources/acomodation/hoteis/Boa Vista/riu.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Hotel Riu Karamboa </h1>
+                                <h1>Name: Hotel Riu Karamboa </h1>
                                 <h2>Ilha: Boa Vista </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 5</span> Estrelas</h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 5</span> <i class="fa-solid fa-star"></i></h2>
+                                <a href="https://www.booking.com/searchresults.pt-pt.html?ss=Hotel+Riu+Karamboa&ssne=Santa+Maria&ssne_untouched=Santa+Maria&highlighted_hotels=7394387&label=gog235jc-10CAsoNkIgbWVsaWEtZHVuYXMtYmVhY2gtcmVzb3J0LWFtcC1zcGFIH1gDaDaIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AoTe19EGwAIB0gIkMDRhZWQ3ZDUtOTU2Ni00OTE5LWIxODgtMzU3N2Q1NDQxM2Ex2AIB4AIB&sid=24d09f48573bfe7f8c67b6d6e7753b41&aid=356980&lang=pt-pt&sb=1&src_elem=sb&src=hotel&dest_id=13014403&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=pt&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=52520b8413ab0019&ac_meta=GhA1MjUyMGI4NDEzYWIwMDE5IAAoATICcHQ6EkhvdGVsIFJpdSBLYXJhbWJvYQ%3D%3D&checkin=2026-06-20&checkout=2026-06-21&group_adults=2&no_rooms=1&group_children=0">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                         <div class="item-acomodation">
@@ -136,10 +146,11 @@
                                 <img src="./resources/acomodation/hoteis/Boa Vista/ouril.jpg" alt="">
                             </div>
                             <div class="info">
-                                <h1>Nome: Barceló Marine Boa Vista </h1>
+                                <h1>Name: Barceló Marine Boa Vista </h1>
                                 <h2>Ilha: Boa Vista </h2>
-                                <h2>Categória:  Hotel </h2>
-                                <h2 class="av"><span>Avaliação: 5</span></h2>
+                                <h2>Category:  Hotel </h2>
+                                <h2 class="av"><span>Avaliation: 5</span><i class="fa-solid fa-star"></i></h2>
+                                <a href="https://www.booking.com/hotel/cv/barcelo-marine-boa-vista-adults-only.pt-pt.html?aid=356980&label=gog235jc-10CAsoNkIgbWVsaWEtZHVuYXMtYmVhY2gtcmVzb3J0LWFtcC1zcGFIH1gDaDaIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AoTe19EGwAIB0gIkMDRhZWQ3ZDUtOTU2Ni00OTE5LWIxODgtMzU3N2Q1NDQxM2Ex2AIB4AIB&sid=24d09f48573bfe7f8c67b6d6e7753b41&all_sr_blocks=1338845010_434368271_2_85_0&checkin=2026-06-20&checkout=2026-06-21&dest_id=13388450&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1338845010_434368271_2_85_0&hpos=1&matching_block_id=1338845010_434368271_2_85_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1338845010_434368271_2_85_0__2271459&srepoch=1781919554&srpvid=58bf0b9d21940162&type=total&ucfs=1&">Learn more<i class="fa-solid fa-location-dot"></i></a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +164,7 @@
                 </div>
         </section>
 
-        <section id="section3">
+        <!-- <section id="section3">
             <div class="esq">
                 <div class="tit">
                     <h1>Filtro de Acomodacoes</h1>
@@ -235,7 +246,7 @@
                                 <option value="rec">Recomendados</option>
                                 <option value="preco-asc">Preço: menor</option>
                                 <option value="preco-desc">Preço: maior</option>
-                                <option value="stars">Melhor avaliação</option>
+                                <option value="stars">Melhor Avaliation</option>
                                 <option value="novo">Mais recentes</option>
                             </select>
                         </div>
@@ -279,7 +290,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1346419.2681288025!2d-23.973741187082798!3d15.98131883760907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2scv!4v1778071295658!5m2!1spt-PT!2scv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
 </body>
 

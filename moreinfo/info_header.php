@@ -152,23 +152,23 @@ header {
     <header>
             <nav class="nav_bar">
                 <div class="header_logo">
-                    <a href="index.php"><img src="./src/newlogonobg.png" alt="Logo CV Trips"></a>
+                    <a href="../index.php"><img src="./src/newlogonobg.png" alt="Logo CV Trips"></a>
                     <span>CV TRIP</span>
                 </div>
 
                 <div class="menu">
                     <ul>
-                        <li class="link-holder"><a href="#"><i class="fa-solid fa-location-dot"></i> destinations</a>
+                        <li class="link-holder"><a href="../destinations.php"><i class="fa-solid fa-location-dot"></i> destinations</a>
                         </li>
-                        <li class="link-holder"><a href="#"><i class="fa-solid fa-map"></i> map</a></li>
-                        <li class="link-holder"><a href="#"><i id="plan_trip" class="fa-solid fa-plane"></i> plan
+                        <li class="link-holder"><a href="../map.php"><i class="fa-solid fa-map"></i> map</a></li>
+                        <li class="link-holder"><a href="../plan_trip.php"><i id="plan_trip" class="fa-solid fa-plane"></i> plan
                                 trip</a></li>
                     </ul>
                 </div>
 
                 <div class="settings_bar">
                     <div class="lang_picker">
-                        <img src="resources/logos/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
+                        <img src="src/Flag_of_the_United_States.svg" alt="US Flag" id="flag_US">
                     </div>
                     <div class="account_search_submenu">
                         <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>

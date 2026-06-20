@@ -28,9 +28,7 @@ section {
     color: #0a3d5f;
 }
 
-.divider {
-    border-bottom: solid #c4622d;
-}
+
 
 /*==============================================================================================*/
 /*---------------------------------------SECTION DESCRICAO--------------------------------------*/
@@ -68,7 +66,7 @@ section {
     height: 480px;
     object-fit: cover;
     border-radius: 2px;
-    box-shadow: 20px 20px 0 #faf8f3; /*aa*/
+    box-shadow: 20px 20px 0 #faf8f3; 
     display: block;
 }
     
@@ -209,6 +207,7 @@ section {
 }
     
 .ilha-card {
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -307,6 +306,7 @@ section {
     position: relative;
     overflow: hidden;
     border-radius: 2px;
+    border-radius: 15px;
 }
     
 .cultura-item:first-child {
@@ -441,6 +441,7 @@ section {
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 2px;
+    border-radius: 15px;
     overflow: hidden;
     transition: border-color 0.3s, transform 0.3s;
 }
